@@ -38,7 +38,7 @@ const interaction = req.body;
 const signature = req.get('X-Signature-Ed25519');
 const timestamp = req.get('X-Signature-Timestamp');
 const isValidSignature = verifySignature(signature, timestamp, req.rawBody, PUBLIC_KEY);
-console.log(req.rawBody)
+console.log({signature, timestamp})
 if (!isValidSignature) {
   return res.status(401).end();
 }
