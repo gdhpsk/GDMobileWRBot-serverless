@@ -10,8 +10,12 @@ function verifySignature(signature, timestamp, rawBody, publicKey) {
     const message = timestamp + rawBody;
     const key = naclUtil.decodeBase64(publicKey);
     const sig = naclUtil.decodeBase64(signature);
+    try {
     const verified = nacl.sign.detached.verify(naclUtil.decodeUTF8(message), sig, key);
     return verified;
+    } catch(_) {
+        return false
+    }
   }
 
 function rawBodySaver(req, res, buf, encoding) {
@@ -54,7 +58,7 @@ switch (interaction.type) {
 
 })
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("Running on port 5000.");
 });
 // Export the Express API
