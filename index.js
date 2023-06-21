@@ -18,8 +18,14 @@ function verifySignature(signature, timestamp, rawBody, publicKey) {
   }
 }
 
+function rawBodySaver(req, res, buf, encoding) {
+    if (buf && buf.length) {
+      req.rawBody = buf.toString(encoding || 'utf8');
+    }
+  }
+
 app.use(express.urlencoded({ extended: true }))
-app.use(express.json())
+app.use(express.json({verify: rawBodySaver}))
 app.use(cors())
 
 app.post("/interactions", async (req, res) => {
