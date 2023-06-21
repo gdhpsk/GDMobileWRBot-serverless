@@ -2,30 +2,11 @@ const express = require("express");
 const app = express();
 const cors = require("cors")
 const nacl = require('tweetnacl');
-const naclUtil = require('tweetnacl-util');
 
 // Verify the interaction signature
 const PUBLIC_KEY = '1fe8e3e4ed23a6426ecdc9bfb16d24714b54460e5fdaf338d507ed2d5b6d181d';
-function verifySignature(signature, timestamp, rawBody, publicKey) {
-    const message = timestamp + rawBody;
-    const key = naclUtil.decodeBase64(publicKey);
-    const sig = naclUtil.decodeBase64(signature);
-    try {
-    const verified = nacl.sign.detached.verify(naclUtil.decodeUTF8(message), sig, key);
-    return verified;
-    } catch(_) {
-        return false
-    }
-  }
-
-function rawBodySaver(req, res, buf, encoding) {
-    if (buf && buf.length) {
-      req.rawBody = buf.toString(encoding || 'utf8');
-    }
-  }
-
 app.use(express.urlencoded({ extended: true }))
-app.use(express.json({verify: rawBodySaver}))
+app.use(express.json())
 app.use(cors())
 
 app.post("/interactions", async (req, res) => {
@@ -37,11 +18,21 @@ const interaction = req.body;
 // Verify the interaction's signature
 const signature = req.get('X-Signature-Ed25519');
 const timestamp = req.get('X-Signature-Timestamp');
-const isValidSignature = verifySignature(signature, timestamp, req.rawBody, PUBLIC_KEY);
-console.log({signature, timestamp})
-if (!isValidSignature) {
-  return res.status(401).end();
+  var buf = '';
+req.setEncoding('utf8');
+req.on('data', function(chunk){ buf += chunk });
+req.on('end', function() {
+  req.rawBody = buf;
+  const isVerified = nacl.sign.detached.verify(
+  Buffer.from(timestamp + req.rawBody),
+  Buffer.from(signature, 'hex'),
+  Buffer.from(PUBLIC_KEY, 'hex')
+);
+if (!isVerified) {
+  return res.status(401).end('invalid request signature');
 }
+  
+});
 
 switch (interaction.type) {
     case 1: // Ping
