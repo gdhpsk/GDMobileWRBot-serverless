@@ -1,3 +1,4 @@
+const { verifyKey } = require("discord-interactions");
 const express = require("express");
 const app = express();
 
