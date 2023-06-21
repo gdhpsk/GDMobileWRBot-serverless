@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/interactions", (req, res) => {
+app.post("/interactions", (req, res) => {
     const nacl = require('tweetnacl');
 
 // Your public key can be found on your application in the Developer Portal
