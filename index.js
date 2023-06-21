@@ -24,7 +24,7 @@ req.on('data', function(chunk){ buf += chunk });
 req.on('end', function() {
   req.rawBody = buf;
   const isVerified = nacl.sign.detached.verify(
-  Buffer.from(timestamp + req.rawBody),
+  Buffer.from(timestamp + req.body),
   Buffer.from(signature, 'hex'),
   Buffer.from(PUBLIC_KEY, 'hex')
 );
