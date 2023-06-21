@@ -1,22 +1,18 @@
 const express = require("express");
 const app = express();
 const cors = require("cors")
-const tweetnacl = require('tweetnacl');
+const nacl = require('tweetnacl');
 const naclUtil = require('tweetnacl-util');
 
 // Verify the interaction signature
 const PUBLIC_KEY = '1fe8e3e4ed23a6426ecdc9bfb16d24714b54460e5fdaf338d507ed2d5b6d181d';
 function verifySignature(signature, timestamp, rawBody, publicKey) {
-  const message = naclUtil.decodeUTF8(timestamp + rawBody);
-  const publicKeyUint8 = naclUtil.decodeBase64(publicKey);
-  const signatureUint8 = naclUtil.decodeBase64(signature);
-
-  try {
-    return tweetnacl.sign.detached.verify(message, signatureUint8, publicKeyUint8);
-  } catch (error) {
-    return false;
+    const message = timestamp + rawBody;
+    const key = naclUtil.decodeBase64(publicKey);
+    const sig = naclUtil.decodeBase64(signature);
+    const verified = nacl.sign.detached.verify(naclUtil.decodeUTF8(message), sig, key);
+    return verified;
   }
-}
 
 function rawBodySaver(req, res, buf, encoding) {
     if (buf && buf.length) {
