@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-
+const cors = require("cors")
 const tweetnacl = require('tweetnacl');
 const naclUtil = require('tweetnacl-util');
 
@@ -17,6 +17,10 @@ function verifySignature(signature, timestamp, rawBody, publicKey) {
     return false;
   }
 }
+
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
+app.use(cors())
 
 app.post("/interactions", async (req, res) => {
 
