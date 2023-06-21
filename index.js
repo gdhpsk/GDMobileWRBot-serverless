@@ -20,6 +20,14 @@ const isVerified = nacl.sign.detached.verify(
 if (!isVerified) {
   return res.status(401).end('invalid request signature');
 }
+
+if(req.body.type == 1) {
+    res.status(200).send(
+        JSON.stringify({
+          type: 1
+        })
+      )
+}
 })
 
 app.listen(5000, () => {
