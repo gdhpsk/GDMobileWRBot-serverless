@@ -36,7 +36,7 @@ if (!isVerified) {
 
 switch (interaction.type) {
     case 1: // Ping
-    res.status(200).send(
+    res.status(201).send(
         JSON.stringify({
           type: 1
         })
