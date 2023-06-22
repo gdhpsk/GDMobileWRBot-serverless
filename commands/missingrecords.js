@@ -13,7 +13,8 @@ module.exports = {
         }
       ]
   },
-  async execute(interaction, rest, Routes, events) {
+  async execute(interaction, rest, Routes) {
+    console.log(interaction)
     let screenshotonly = interaction.data.options[0].value
         let txt = []
     if(screenshotonly) {

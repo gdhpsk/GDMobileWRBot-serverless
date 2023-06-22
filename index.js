@@ -9,7 +9,8 @@ if(!process.env.token) {
 }
 
 const {REST} = require("@discordjs/rest")
-const {Routes} = require("discord-api-types/v10")
+const {Routes} = require("discord-api-types/v10");
+const { default: mongoose } = require("mongoose");
 let rest = new REST({version: "10"}).setToken(process.env.token)
 
 // Verify the interaction signature
@@ -60,6 +61,7 @@ switch (interaction.type) {
       res.json({ type: 1 });
       break;
     default: 
+    mongoose.connect(process.env.MONGODB_URI);
     req.body.member = {
         user: req.body.member?.user ?? req.body.user
     }
