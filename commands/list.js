@@ -96,7 +96,7 @@ module.exports = {
 
         if(level) {
             let embed = {
-                title: `${num}${level.name} by ${level.host} and verified by ${level.verifier}`,
+                title: `${level.position > 150 ? "" : `#${level.position} - `}${level.name} by ${level.host} and verified by ${level.verifier}`,
                 color: random_hex_color_code(),
                 url: `https://www.youtube.com/watch?v=${level.ytcode}`,
                 image: {url: `https://i.ytimg.com/vi/${level.ytcode.split("?v=")[0]}/mqdefault.jpg`},
