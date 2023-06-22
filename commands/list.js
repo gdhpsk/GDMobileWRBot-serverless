@@ -94,7 +94,7 @@ module.exports = {
         }
         }
         if(level) {
-            getLevel(name)
+            getLevel(level)
         }
   }
 }
