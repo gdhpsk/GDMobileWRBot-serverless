@@ -90,7 +90,7 @@ module.exports = {
                     }
                 ]
             }
-            console.log(components)
+            console.log(components.components)
         }
         }
         if(level) {
