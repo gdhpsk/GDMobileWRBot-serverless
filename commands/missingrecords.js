@@ -1,4 +1,5 @@
 let {levelsSchema} = require("../mongodb")
+let cache = new Map()
 module.exports = {
     data: {
       "name": "missingrecords",
@@ -14,7 +15,7 @@ module.exports = {
       ]
   },
   async execute(interaction, rest, Routes) {
-    console.log(interaction)
+    if(interaction.data.type == 1) {
     let screenshotonly = interaction.data.options[0].value
         let txt = []
     if(screenshotonly) {
@@ -84,8 +85,7 @@ module.exports = {
     } else {
         buttons = []
     }
-
-if(interaction.data.type == 1) {
+    cache.set(interaction.id, {expr: Date.now()+86400000, embeds})
     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
     body: {
       type: 4,
@@ -96,8 +96,12 @@ if(interaction.data.type == 1) {
     }
   })
 }
-    if(interaction.data.type == 2) {
+    if(interaction.data.component_type == 2) {
         let whyudo = parseInt(interaction.data.embeds[0].footer.text)
+        let {embeds, expr} = cache.get(interaction.message.interaction.id)
+        if(Date.now() > expr) {
+            cache.delete(interaction.message.interaction.id)
+        }
         switch (interaction.data.custom_id) {
             case "back":
                 whyudo = whyudo > 0 ? --whyudo : embeds.length - 1;
