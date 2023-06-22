@@ -85,7 +85,7 @@ module.exports = {
         buttons = []
     }
 
-if(interaction.data.component_type == 1) {
+if(interaction.data.type == 1) {
     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
     body: {
       type: 4,
@@ -96,7 +96,7 @@ if(interaction.data.component_type == 1) {
     }
   })
 }
-    if(interaction.data.component_type == 2) {
+    if(interaction.data.type == 2) {
         let whyudo = parseInt(interaction.data.embeds[0].footer.text)
         switch (interaction.data.custom_id) {
             case "back":
