@@ -41,7 +41,7 @@ module.exports = {
         let level = interaction.data?.options?.find(e => e.name == "level")?.value
         async function getLevel(name) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name}$`, "i")
-            let levelPosition = parseInt(name) || ""
+            let levelPosition = parseInt(name) > 150 ? "" : parseInt(name)
             let level = (await levelsSchema.aggregate([
                 {$match: {$or: [{name: levelName}, {position: levelPosition}]}},
                 {$sample: {size: 1}},
@@ -71,8 +71,10 @@ module.exports = {
                                   })
                                   return
             }
+            let components = []
             if(duplicates) {
-            let components = {
+                level = await levelsSchema.find({name: duplicates["function replacements"][0].name})
+            components.push({
                 type: 1,
                 components: [
                     {
@@ -89,9 +91,29 @@ module.exports = {
                         }))
                     }
                 ]
-            }
-            console.log(components.components[0].options)
+            })
         }
+
+        if(level) {
+            let embed = {
+                title: `${num}${level.name} by ${level.host} and verified by ${level.verifier}`,
+                color: random_hex_color_code(),
+                url: `https://www.youtube.com/watch?v=${level.ytcode}`,
+                image: {url: `https://i.ytimg.com/vi/${level.ytcode.split("?v=")[0]}/mqdefault.jpg`},
+                description: level.list.map(e => {
+                    return `${e.name} ${e.verification ? "verified" : `got ${e.percent[0]}% ${e.percent[1] ? `(${e.percent[1]}% with screenshot) on` : "on"}`} ${level.name} on ${e.hertz}hz. This record${level.position < 76 && e.listpercent ? " is list% and" : ""} ${e.screenshot ? "is a screenshot" : "is not a screenshot"}. ${e.deleted ? "(deleted)" : ""}`
+                }).join("\n\n"),
+                author: {name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`,  icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024`},
+                footer: name == generated ? {text: "This level was generated!"} : ""
+            }
+            await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
+                body: {
+                    embeds: [embed],
+                    components
+                }
+              })
+        }
+
         }
         if(level) {
             getLevel(level)
