@@ -60,7 +60,7 @@ switch (interaction.type) {
       res.json({ type: 1 });
       break;
     default: 
-    let exec = await cmdobject[req.body.data.name ?? req.body.message.interaction.name].execute(req.body)
+    let exec = await cmdobject[req.body.data.name ?? req.body.message.interaction.name].execute(req.body, rest, Routes)
     res.status(200).send(exec);
       break;
   }
