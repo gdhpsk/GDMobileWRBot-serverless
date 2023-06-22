@@ -34,7 +34,6 @@ module.exports = {
             let user = await rest.get(Routes.user(interaction.data.options.find(e => e.name == "user").value))
           await important(user)
         } else {
-            console.log(interaction)
            await  important(interaction.user ?? interaction.member.user)
         }
     }
