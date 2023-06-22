@@ -38,6 +38,7 @@ module.exports = {
             }
           })
         }
+        let level = interaction.data?.options?.find(e => e.name == "level")?.value
         async function getLevel(name) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name}$`, "i")
             let levelPosition = parseInt(name) || ""
@@ -70,6 +71,7 @@ module.exports = {
                                   })
                                   return
             }
+            if(duplicates) {
             let components = {
                 type: 1,
                 components: [
@@ -89,6 +91,10 @@ module.exports = {
                 ]
             }
             console.log(components)
+        }
+        }
+        if(level) {
+            getLevel(name)
         }
   }
 }
