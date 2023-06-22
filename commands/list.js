@@ -52,7 +52,27 @@ module.exports = {
                 let gay = 0
     let num = ""
     let generated = false
-        if(interaction.data.component_type == 2) {
+    var ok = interaction.data?.options?.find(e => e.name == "level")?.value
+    if(ok != null || ok != undefined) {
+        ok = interaction.data?.options?.find(e => e.name == "level")?.value.toLowerCase()
+    }
+    const embed = {}
+    const but = {
+        type: 1,
+        components: [
+            {
+                type: 2,
+                custom_id: "true",
+                style: 1
+            },
+            {
+                type: 2,
+                custom_id: "false",
+                style: 1
+            }
+        ]
+    }
+    if(interaction.data.component_type == 2) {
         let {expr, name1, name2, name3, name4, name5, token} = cache.get(interaction.message.interaction.id)
         if(Date.now() > expr) {
             cache.delete(interaction.message.interaction.id)
@@ -80,27 +100,8 @@ module.exports = {
                     important("LMFAOA")
                 }
                 cache.delete(interaction.message.interaction.id)
+                return;
         }
-    var ok = interaction.data?.options?.find(e => e.name == "level")?.value
-    if(ok != null || ok != undefined) {
-        ok = interaction.data?.options?.find(e => e.name == "level")?.value.toLowerCase()
-    }
-    const embed = {}
-    const but = {
-        type: 1,
-        components: [
-            {
-                type: 2,
-                custom_id: "true",
-                style: 1
-            },
-            {
-                type: 2,
-                custom_id: "false",
-                style: 1
-            }
-        ]
-    }
 async function important(pjgf) {
         let level = Object.values(rawdata)[gay]
                     let txt = []
