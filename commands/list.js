@@ -49,6 +49,9 @@ module.exports = {
                 acc[alldatalead[i].name] = cur;
                   return acc;
                 }, {})
+                let gay = 0
+    let num = ""
+    let generated = false
         if(interaction.data.component_type == 2) {
         let {expr, name1, name2, name3, name4, name5, token} = cache.get(interaction.message.interaction.id)
         if(Date.now() > expr) {
@@ -98,11 +101,6 @@ module.exports = {
             }
         ]
     }
-    
-    
-    let gay = 0
-    let num = ""
-    let generated = false
 async function important(pjgf) {
         let level = Object.values(rawdata)[gay]
                     let txt = []
