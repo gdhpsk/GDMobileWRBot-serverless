@@ -35,7 +35,7 @@ module.exports = {
           await important(user)
         } else {
             console.log(interaction)
-           await  important(interaction.user)
+           await  important(interaction.user ?? interaction.member.user)
         }
     }
 }
