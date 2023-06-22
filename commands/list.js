@@ -95,6 +95,7 @@ module.exports = {
         }
 
         if(level) {
+            console.log(level)
             let embed = {
                 title: `${level.position > 150 ? "" : `#${level.position} - `}${level.name} by ${level.host} and verified by ${level.verifier}`,
                 color: random_hex_color_code(),
