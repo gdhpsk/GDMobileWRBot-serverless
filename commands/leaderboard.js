@@ -31,6 +31,8 @@ module.exports = {
     },
     cooldown: require("../cooldowns.json").leaderboard,
     async execute(interaction, rest, Routes) {
+        let moreargs = interaction.data?.options?.find(e => e.name == "profile")?.value
+        if(interaction.data.type == 1 && moreargs) {
         await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
             body: {
                 type: 5
@@ -61,7 +63,6 @@ module.exports = {
         let array2 = []
         let array3 = []
         let array4 = []
-        var array10 = []
         let leaderboardrank = 0
         let points = 0
         let recordcount = 0
@@ -344,7 +345,6 @@ module.exports = {
                 }
             })
         }
-        let moreargs = interaction.data?.options?.find(e => e.name == "profile")?.value
         if (moreargs) {
             moreargs = interaction.data?.options.find(e => e.name == "profile")?.value?.toLowerCase()
             if (moreargs == "generate") {
@@ -393,7 +393,10 @@ module.exports = {
                     })
                 }
             }
-        } else if (!moreargs) {
+        }
+        }
+         if (!moreargs) {
+            let array10 = []
             const emoji = ["Back", "Next", "Skip Forward", "Skip Back", "🔗", "🛑"]
             var bu = {
                 type: 1,
@@ -434,8 +437,15 @@ module.exports = {
                     }
                 }
             }
-            console.log(interaction)
             if(interaction.data.type == 1) {
+                let alldatalead = await leaderboardSchema.find()
+        let leaderboard = alldatalead.reduce(function (acc, cur, i) {
+            acc[alldatalead[i].name] = cur;
+            return acc;
+        }, {})
+
+        let rank = require("../leaderboard_command_placements.js")(leaderboard, interaction.data?.options?.find(e => e.name == "bywrs")?.value)
+
             var fr = ""
             let page = 10
             for (let i = 0; i < Math.floor((Object.keys(leaderboard).length / page)); i++) {
@@ -477,95 +487,95 @@ module.exports = {
                 }
             })
         }
-                if(interaction.data.component_type == 2) {
-                    let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])
-                    if(!cache.has(interaction.message.interaction.id)) return;
-        let {array10, expr} = cache.get(interaction.message.interaction.id)
-        if(Date.now() > expr) {
-            cache.delete(interaction.message.interaction.id)
-            return
-        }
-                switch (interaction.data.custom_id) {
-                    case "0":
-                        whyudo = whyudo > 0 ? --whyudo : array10.length - 1;
-                        why(whyudo)
-                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                            body: {
-                                type: 7,
-                                data: {
-                                    embeds: [
-                                        array10[whyudo]
-                                    ],
-                                    components: [bu, bu2]
-                                }
-                            }
-                        })
-                        break;
-                    case "1":
-                        whyudo = whyudo + 1 < array10.length ? ++whyudo : 0;
-                        why(whyudo)
-                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                            body: {
-                                type: 7,
-                                data: {
-                                    embeds: [
-                                        array10[whyudo]
-                                    ],
-                                    components: [bu, bu2]
-                                }
-                            }
-                        })
-                        break;
-                    case "2":
-                        whyudo = array10.length - 1
-                        why(whyudo)
-                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                            body: {
-                                type: 7,
-                                data: {
-                                    embeds: [
-                                        array10[whyudo]
-                                    ],
-                                    components: [bu, bu2]
-                                }
-                            }
-                        })
-                        break;
-                    case "3":
-                        whyudo = 0
-                        why(whyudo)
-                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                            body: {
-                                type: 7,
-                                data: {
-                                    embeds: [
-                                        array10[whyudo]
-                                    ],
-                                    components: [bu, bu2]
-                                }
-                            }
-                        })
-                        break;
-                    case "4":
-                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                            body: {
-                                type: 7,
-                                data: {
-                                embeds: [
-                                        {
-                                            description: "Link to the website leaderboard is [here!](https://www.gdmobilewrlist.cf/leaderboard.html)"
-                                        }
-                                    ], 
-                                    components: []
-                            }
+        if(interaction.data.component_type == 2) {
+            let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])
+            if(!cache.has(interaction.message.interaction.id)) return;
+let {array10, expr} = cache.get(interaction.message.interaction.id)
+if(Date.now() > expr) {
+    cache.delete(interaction.message.interaction.id)
+    return
+}
+        switch (interaction.data.custom_id) {
+            case "0":
+                whyudo = whyudo > 0 ? --whyudo : array10.length - 1;
+                why(whyudo)
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                        type: 7,
+                        data: {
+                            embeds: [
+                                array10[whyudo]
+                            ],
+                            components: [bu, bu2]
                         }
-                        })
-                        break;
-                    case "5":
-                        await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
-                        break
+                    }
+                })
+                break;
+            case "1":
+                whyudo = whyudo + 1 < array10.length ? ++whyudo : 0;
+                why(whyudo)
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                        type: 7,
+                        data: {
+                            embeds: [
+                                array10[whyudo]
+                            ],
+                            components: [bu, bu2]
+                        }
+                    }
+                })
+                break;
+            case "2":
+                whyudo = array10.length - 1
+                why(whyudo)
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                        type: 7,
+                        data: {
+                            embeds: [
+                                array10[whyudo]
+                            ],
+                            components: [bu, bu2]
+                        }
+                    }
+                })
+                break;
+            case "3":
+                whyudo = 0
+                why(whyudo)
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                        type: 7,
+                        data: {
+                            embeds: [
+                                array10[whyudo]
+                            ],
+                            components: [bu, bu2]
+                        }
+                    }
+                })
+                break;
+            case "4":
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                        type: 7,
+                        data: {
+                        embeds: [
+                                {
+                                    description: "Link to the website leaderboard is [here!](https://www.gdmobilewrlist.cf/leaderboard.html)"
+                                }
+                            ], 
+                            components: []
+                    }
                 }
-            }
+                })
+                break;
+            case "5":
+                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
+                break
         }
+    }
+    }
     }
 }
