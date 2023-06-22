@@ -482,7 +482,7 @@ module.exports = {
                 })
                 //array10.push(new EmbedBuilder().setDescription(fr).setTitle("Mobile World Records List Leaderboard").setFooter({text: `Page ${Math.floor((Object.keys(leaderboard).length / page))+1} / ${Math.floor((Object.keys(leaderboard).length / page))+1}`}))
             }
-            cache.set(interaction.id, {expr: Date.now()+86400000, array10})
+            cache.set(interaction.id, {expr: Date.now()+86400000, array10, token: interaction.token})
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
                         embeds: [
@@ -495,7 +495,7 @@ module.exports = {
         if(interaction.data.component_type == 2) {
             let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])-1
             if(!cache.has(interaction.message.interaction.id)) return;
-let {array10, expr} = cache.get(interaction.message.interaction.id)
+let {array10, expr, token} = cache.get(interaction.message.interaction.id)
 if(Date.now() > expr) {
     cache.delete(interaction.message.interaction.id)
     return
@@ -579,8 +579,7 @@ if(Date.now() > expr) {
                 break;
             case "5":
                 cache.delete(interaction.message.interaction.id)
-                console.log(interaction)
-                // await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
+                await rest.delete(Routes.webhookMessage(interaction.application_id, token))
                 break
         }
     }
