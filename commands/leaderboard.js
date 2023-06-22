@@ -434,7 +434,8 @@ module.exports = {
                     }
                 }
             }
-            if(interaction.data.type == 1 && interaction.data.component_type != 2) {
+            console.log(interaction)
+            if(interaction.data.type == 1) {
             var fr = ""
             let page = 10
             for (let i = 0; i < Math.floor((Object.keys(leaderboard).length / page)); i++) {
@@ -482,6 +483,7 @@ module.exports = {
         let {array10, expr} = cache.get(interaction.message.interaction.id)
         if(Date.now() > expr) {
             cache.delete(interaction.message.interaction.id)
+            return
         }
                 switch (interaction.data.custom_id) {
                     case "0":

@@ -103,6 +103,7 @@ module.exports = {
         let buttons = interaction.message.components
         if(Date.now() > expr) {
             cache.delete(interaction.message.interaction.id)
+            return
         }
         switch (interaction.data.custom_id) {
             case "back":
