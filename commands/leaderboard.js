@@ -437,8 +437,12 @@ module.exports = {
                     }
                 }
             }
-            console.log(interaction)
             if(interaction.data.type == 1) {
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                        type: 5
+                    }
+                })
                 let alldatalead = await leaderboardSchema.find()
         let leaderboard = alldatalead.reduce(function (acc, cur, i) {
             acc[alldatalead[i].name] = cur;
