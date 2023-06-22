@@ -37,13 +37,14 @@ module.exports = {
         }
       })
     }
-    console.log(interaction)
-    if(interaction.data?.options?.find(e => e.name == "level")?.value) {
+    if(interaction.data?.options?.find(e => e?.name == "level")?.value || cache.get(interaction?.message?.interaction?.id)?.choose) {
 
         if(interaction.data.component_type == 2) {
-            if(!cache.has(interaction.message.interaction.id)) return;
         let {expr, name1, name2, name3, name4, name5, token} = cache.get(interaction.message.interaction.id)
-        if(Date.now() > expr) return;
+        if(Date.now() > expr) {
+            cache.delete(interaction.message.interaction.id)
+            return;
+        }
                 if(interaction.data.custom_id == "true") {
                     gay = Object.keys(rawdata).indexOf(`${name1.actual}`)
                     await rest.delete(Routes.webhookMessage(interaction.application_id, token))
@@ -65,8 +66,9 @@ module.exports = {
                     await rest.delete(Routes.webhookMessage(interaction.application_id, token))
                     important("LMFAOA")
                 }
+                cache.delete(interaction.message.interaction.id)
         }
-
+        if(interaction.data.type == 1) {
     var alldata = await levelsSchema.find()
     alldata.sort((a, b) => a.position - b.position)
     var alldatalead = await leaderboardSchema.find()
@@ -245,7 +247,7 @@ return Object.values(rawdata)[Object.keys(rawdata).indexOf(`${val.actual}`)].hos
                 label: `${e} by ${gh(name5)}`
             })
         }
-        cache.set(interaction.id, {expr: Date.now() + 86400000, name1, name2, name3, name4, name5, token: interaction.token})
+        cache.set(interaction.id, {expr: Date.now() + 86400000, name1, name2, name3, name4, name5, token: interaction.token, choose: true})
         await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
             body: {
                 content: `Which ${name1.name}?`, 
@@ -327,6 +329,7 @@ LL.push(jajajaja[j].name)
                     important()
                 }
                 }
+            }
             }
                 if(!interaction.data?.options?.find(e => e.name == "level")?.value) {
                     let hy = []
