@@ -30,7 +30,7 @@ module.exports = {
         ]
     },
     cooldown: require("../cooldowns.json").leaderboard,
-    async execute(interaction, rest, Routes, events) {
+    async execute(interaction, rest, Routes) {
         await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
             body: {
                 type: 5
@@ -434,7 +434,7 @@ module.exports = {
                     }
                 }
             }
-            if(interaction.data.type == 1) {
+            if(interaction.data.type == 1 && interaction.data.component_type != 2) {
             var fr = ""
             let page = 10
             for (let i = 0; i < Math.floor((Object.keys(leaderboard).length / page)); i++) {
