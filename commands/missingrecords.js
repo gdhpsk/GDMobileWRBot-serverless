@@ -24,7 +24,7 @@ module.exports = {
             txt.push({pos: everything[i].position, text: `[#${everything[i].position}: ${everything[i].name} by ${everything[i].host} and verified by ${everything[i].verifier}.](https://youtube.com/watch?v=${everything[i].ytcode})\n`})
         }
     } else {
-        let everything2 = await levelsSchema.find({"list.screenshot": {$ne: true}});
+        let everything2 = await levelsSchema.find({list: {$not: {$elemMatch: {screenshot: false}}}, "list.name": {$ne: ""}});
         let everything = []
         for(let i = 0; i < everything2.length; i++) {
                 everything.push(everything2[i])
@@ -32,7 +32,7 @@ module.exports = {
         for(let i = 0; i < everything.length; i++) {
             txt.push({pos: everything[i].position, text: `[#${everything[i].position}: ${everything[i].name} by ${everything[i].host} and verified by ${everything[i].verifier}.](https://youtube.com/watch?v=${everything[i].ytcode})\n`})
         }
-        everything = await levelsSchema.find({"list.name": "", "list.screenshot": false});
+        everything = await levelsSchema.find({"list.name": ""});
         for(let i = 0; i < everything.length; i++) {
             txt.push({pos: everything[i].position, text: `[#${everything[i].position}: ${everything[i].name} by ${everything[i].host} and verified by ${everything[i].verifier}.](https://youtube.com/watch?v=${everything[i].ytcode})\n`})
         }
