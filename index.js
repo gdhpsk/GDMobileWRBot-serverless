@@ -5,11 +5,26 @@ const nacl = require('tweetnacl');
 
 // Verify the interaction signature
 const PUBLIC_KEY = '1fe8e3e4ed23a6426ecdc9bfb16d24714b54460e5fdaf338d507ed2d5b6d181d';
+function verifySignature(signature, timestamp, rawBody, publicKey) {
+
+const isVerified = nacl.sign.detached.verify(
+  Buffer.from(timestamp + rawBody),
+  Buffer.from(signature, 'hex'),
+  Buffer.from(publicKey, 'hex')
+);
+    return isVerified
+  }
+
+function rawBodySaver(req, res, buf, encoding) {
+    if (buf && buf.length) {
+      req.rawBody = buf.toString(encoding || 'utf8');
+    }
+  }
+
 app.use(express.urlencoded({ extended: true }))
-app.use(express.json())
 app.use(cors())
 
-app.post("/interactions", async (req, res) => {
+app.post("/interactions", express.json({verify: rawBodySaver}), async (req, res) => {
 
 // Your public key can be found on your application in the Developer Portal
 
@@ -18,29 +33,14 @@ const interaction = req.body;
 // Verify the interaction's signature
 const signature = req.get('X-Signature-Ed25519');
 const timestamp = req.get('X-Signature-Timestamp');
-  var buf = '';
-req.setEncoding('utf8');
-req.on('data', function(chunk){ buf += chunk });
-req.on('end', function() {
-  req.rawBody = buf;
-  const isVerified = nacl.sign.detached.verify(
-  Buffer.from(timestamp + req.body),
-  Buffer.from(signature, 'hex'),
-  Buffer.from(PUBLIC_KEY, 'hex')
-);
-if (!isVerified) {
+const isValidSignature = verifySignature(signature, timestamp, req.rawBody, PUBLIC_KEY);
+if (!isValidSignature) {
   return res.status(401).end('invalid request signature');
 }
-  
-});
 
 switch (interaction.type) {
     case 1: // Ping
-    res.status(201).send(
-        JSON.stringify({
-          type: 1
-        })
-      )
+      res.json({ type: 1 });
       break;
     case 2: 
     res.status(200).end();
