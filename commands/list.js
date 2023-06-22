@@ -78,7 +78,7 @@ module.exports = {
                     {
                         type: 3,
                         custom_id: "levels",
-                        options: duplicates["function replacements"].map(async e => {
+                        options: await Promise.all(duplicates["function replacements"].map(async e => {
                             let d = await levelsSchema.findOne({name: e.actual})
                             return {
                                 label: `#${d.position} - ${e.name} by ${d.host}`,
@@ -86,7 +86,7 @@ module.exports = {
                                 default: duplicates["function replacements"].indexOf(e) ? false : true,
                                 value: d.name                          
                             }
-                        })
+                        }))
                     }
                 ]
             }
