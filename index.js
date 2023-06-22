@@ -66,13 +66,17 @@ switch (interaction.type) {
   }
 
 
-})
+});
+
+(async () => {
+    await rest.patch(Routes.applicationCommands(CLIENT_ID), {
+        body: Object.values(cmdobject).map(e => e.data)
+    })
+      console.log("Registered slash commands.");
+})()
 
 app.listen(process.env.PORT || 5000, async () => {
-await rest.patch(Routes.applicationCommands(CLIENT_ID), {
-    body: Object.values(cmdobject).map(e => e.data)
-})
-  console.log("Registered slash commands.");
+
 });
 // Export the Express API
 module.exports = app;
