@@ -12,6 +12,7 @@ const lowercaseKeys = obj =>
     return parseInt("0x" + n.slice(0, 6))
   };
 
+  let cache = new Map()
 
 module.exports = {
     data: {
@@ -29,11 +30,42 @@ module.exports = {
   },
   cooldown: require("../cooldowns.json").list,
   async execute(interaction, rest, Routes, events) {
+    if(interaction.data.type == 1) {
     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
         body: {
           type: 5
         }
       })
+    }
+    if(interaction.data?.options?.find(e => e.name == "level")?.value) {
+
+        if(interaction.data.component_type == 2) {
+            if(!cache.has(interaction.message.interaction.id)) return;
+        let {expr, name1, name2, name3, name4, name5, token} = cache.get(interaction.message.interaction.id)
+        if(Date.now() > expr) return;
+                if(interaction.data.custom_id == "true") {
+                    gay = Object.keys(rawdata).indexOf(`${name1.actual}`)
+                    await rest.delete(Routes.webhookMessage(interaction.application_id, token))
+                    important("LMFAOA")
+                } else if(interaction.data.custom_id == "false") {
+                    gay = Object.keys(rawdata).indexOf(`${name2.actual}`)
+                    await rest.delete(Routes.webhookMessage(interaction.application_id, token))
+                    important("LMFAOA")
+                }else if(interaction.data.custom_id == "middle") {
+                    gay = Object.keys(rawdata).indexOf(`${name3.actual}`)
+                    await rest.delete(Routes.webhookMessage(interaction.application_id, token))
+                    important("LMFAOA")
+                }else if(interaction.data.custom_id == "bro") {
+                    gay = Object.keys(rawdata).indexOf(`${name4.actual}`)
+                    await rest.delete(Routes.webhookMessage(interaction.application_id, token))
+                    important("LMFAOA")
+                }else if(interaction.data.custom_id == "chill") {
+                    gay = Object.keys(rawdata).indexOf(`${name5.actual}`)
+                    await rest.delete(Routes.webhookMessage(interaction.application_id, token))
+                    important("LMFAOA")
+                }
+        }
+
     var alldata = await levelsSchema.find()
     alldata.sort((a, b) => a.position - b.position)
     var alldatalead = await leaderboardSchema.find()
@@ -70,9 +102,6 @@ module.exports = {
     let gay = 0
     let num = ""
     let generated = false
-    var big1 = Math.floor(Math.random() * 255);
-    var big2 = Math.floor(Math.random() * 255);
-    var big3 = Math.floor(Math.random() * 255);
 async function important(pjgf) {
         let level = Object.values(rawdata)[gay]
                     let txt = []
@@ -187,6 +216,7 @@ return Object.values(rawdata)[Object.keys(rawdata).indexOf(`${val.actual}`)].hos
         b = name2.name
         but.components[0].label = `${a} by ${gh(name1)}`
         but.components[1].label = `${b} by ${gh(name2)}`
+
         if(name3) {
             c = name3.name
             but.components.push({
@@ -214,36 +244,13 @@ return Object.values(rawdata)[Object.keys(rawdata).indexOf(`${val.actual}`)].hos
                 label: `${e} by ${gh(name5)}`
             })
         }
+        cache.set(interaction.id, {expr: Date.now() + 86400000, name1, name2, name3, name4, name5, token: interaction.token})
         await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
             body: {
                 content: `Which ${name1.name}?`, 
               components: [but]
             }
           })
-        events.on("INTERACTION_CREATE", async(buttonclick) => {
-            if(buttonclick.data?.component_type != 2 || buttonclick.message?.interaction?.id != interaction.id) return;
-            if(buttonclick.data.custom_id == "true") {
-                gay = Object.keys(rawdata).indexOf(`${name1.actual}`)
-                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
-                important("LMFAOA")
-            } else if(buttonclick.data.custom_id == "false") {
-                gay = Object.keys(rawdata).indexOf(`${name2.actual}`)
-                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
-                important("LMFAOA")
-            }else if(buttonclick.data.custom_id == "middle") {
-                gay = Object.keys(rawdata).indexOf(`${name3.actual}`)
-                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
-                important("LMFAOA")
-            }else if(buttonclick.data.custom_id == "bro") {
-                gay = Object.keys(rawdata).indexOf(`${name4.actual}`)
-                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
-                important("LMFAOA")
-            }else if(buttonclick.data.custom_id == "chill") {
-                gay = Object.keys(rawdata).indexOf(`${name5.actual}`)
-                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
-                important("LMFAOA")
-            }
-        }) 
 }
 for(let j = 0; j < jajajaja.length; j++) {
 LL.push(jajajaja[j].name)
@@ -256,27 +263,15 @@ LL.push(jajajaja[j].name)
                         important()  
                         if(!interaction.guild_id && Object.keys(rawdata)[amount].toLowerCase() == "distraught") {
                             var mat = await require("../schemas/distraught").findById("620d82791a3d44d419816c42")
-                            interaction.guild.members.cache.get(mat.personID).roles.remove("931432673702994012")
-                            interaction.member.roles.add("931432673702994012")
-                            await require("../schemas/distraught").findByIdAndUpdate("620d82791a3d44d419816c42", {personID: message.author.id})
+                            await rest.delete(Routes.guildMemberRole("530041360443506698", mat.personID, "931432673702994012"))
+                            await rest.delete(Routes.guildMemberRole("530041360443506698", interaction.member.user.id, "931432673702994012"))
+                            await require("../schemas/distraught").findByIdAndUpdate("620d82791a3d44d419816c42", {personID: interaction.member.user.id})
                         }
                 } else if(isNaN(ok) && interaction.data?.options?.find(e => e.name == "level")?.value != "generate") {
                     if(LL.includes(ok)) {
                         for(let i = 0; i < jajajaja.length; i++) {
                         if(ok == jajajaja[i].name) {
-                        if(jajajaja[i]["function replacements"].length == 2) {
-                        JJJ(jajajaja[i]['function replacements'][0], jajajaja[i]['function replacements'][1])
-                        break;
-                        } else if(jajajaja[i]["function replacements"].length == 3) {
-                            JJJ(jajajaja[i]['function replacements'][0], jajajaja[i]['function replacements'][1], jajajaja[i]['function replacements'][2])
-                            break;
-                            } else if(jajajaja[i]["function replacements"].length == 4) {
-                                JJJ(jajajaja[i]['function replacements'][0], jajajaja[i]['function replacements'][1], jajajaja[i]['function replacements'][2], jajajaja[i]['function replacements'][3])
-                                break;
-                                } else if(jajajaja[i]["function replacements"].length == 5) {
-                                    JJJ(jajajaja[i]['function replacements'][0], jajajaja[i]['function replacements'][1], jajajaja[i]['function replacements'][2], jajajaja[i]['function replacements'][3], jajajaja[i]['function replacements'][4])
-                                    break;
-                                    }
+                            JJJ(...jajajaja[i]['function replacements'])
                                 }
                     }
                     } else {
@@ -330,7 +325,9 @@ LL.push(jajajaja[j].name)
                     gay = amount - 1
                     important()
                 }
-                } else if(!interaction.data?.options?.find(e => e.name == "level")?.value) {
+                }
+            }
+                if(!interaction.data?.options?.find(e => e.name == "level")?.value) {
                     let hy = []
                     let page = 25
                     let fr = ""
