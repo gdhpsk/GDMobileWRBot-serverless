@@ -73,7 +73,7 @@ module.exports = {
             }
             let components = []
             if(duplicates) {
-                level = await levelsSchema.find({name: duplicates["function replacements"][0].name})
+                level = await levelsSchema.findOne({name: duplicates["function replacements"][0].actual})
             components.push({
                 type: 1,
                 components: [
@@ -95,7 +95,6 @@ module.exports = {
         }
 
         if(level) {
-            console.log(level)
             let embed = {
                 title: `${level.position > 150 ? "" : `#${level.position} - `}${level.name} by ${level.host} and verified by ${level.verifier}`,
                 color: random_hex_color_code(),

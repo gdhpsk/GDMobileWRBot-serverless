@@ -11,6 +11,7 @@ if(!process.env.token) {
 const {REST} = require("@discordjs/rest")
 const {Routes} = require("discord-api-types/v10");
 const { default: mongoose } = require("mongoose");
+const { levelsSchema } = require("./mongodb");
 let rest = new REST({version: "10"}).setToken(process.env.token)
 
 // Verify the interaction signature
@@ -81,7 +82,13 @@ switch (interaction.type) {
 })()
 
 app.listen(process.env.PORT || 5000, async () => {
-
+    // mongoose.connect(process.env.MONGODB_URI);
+    // let levs = await levelsSchema.aggregate([
+    //     {$match: {$or: [{name: {$ne: true}}, {position: "0"}]}},
+    //     {$sample: {size: 1}},
+    //     {$limit: 1}
+    // ])
+    // console.log(levs)
 });
 // Export the Express API
 module.exports = app;
