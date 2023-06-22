@@ -437,6 +437,7 @@ module.exports = {
                     }
                 }
             }
+            console.log(interaction)
             if(interaction.data.type == 1) {
                 let alldatalead = await leaderboardSchema.find()
         let leaderboard = alldatalead.reduce(function (acc, cur, i) {
