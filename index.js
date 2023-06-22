@@ -2,9 +2,25 @@ const express = require("express");
 const app = express();
 const cors = require("cors")
 const nacl = require('tweetnacl');
+const dotenv = require("dotenv")
+if(!process.env.token) {
+    dotenv.config()
+}
+
+let commands = fs.readdirSync("./commands").filter(e => e.endsWith(".js"));
+let cmdobject = {}
+for(const file of commands) {
+  let command_file = require(`./commands/${file}`)
+  cmdobject[command_file.data.name] = command_file
+};
+
+const {REST} = require("@discordjs/rest")
+const {Routes} = require("discord-api-types/v10")
+let rest = new REST({version: "10"}).setToken(process.env.token)
 
 // Verify the interaction signature
-const PUBLIC_KEY = '1fe8e3e4ed23a6426ecdc9bfb16d24714b54460e5fdaf338d507ed2d5b6d181d';
+const PUBLIC_KEY =process.env.public_key;
+const CLIENT_ID = process.env.app_id;
 function verifySignature(signature, timestamp, rawBody, publicKey) {
 
 const isVerified = nacl.sign.detached.verify(
@@ -42,19 +58,20 @@ switch (interaction.type) {
     case 1: // Ping
       res.json({ type: 1 });
       break;
-    case 2: 
-    res.status(200).end();
-      break;
-    default:
-      res.status(400).end();
+    default: 
+    let exec = await cmdobject[req.body.data.name ?? req.body.message.interaction.name].execute(req.body)
+    res.status(200).send(exec);
       break;
   }
 
 
 })
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log("Running on port 5000.");
+app.listen(process.env.PORT || 5000, async () => {
+await rest.patch(Routes.applicationCommands(CLIENT_ID), {
+    body: Object.values(cmdobject).map(e => e.data)
+})
+  console.log("Registered slash commands.");
 });
 // Export the Express API
 module.exports = app;
