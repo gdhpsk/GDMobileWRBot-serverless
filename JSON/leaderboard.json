@@ -1,0 +1,6738 @@
+{
+  "ThunderBT": {
+    "_id": "62098eafb6cc4ed56c14e0ac",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "discord": [
+          "Bigthunder556#1839",
+          "https://discord.gg/q4YSgzenkv"
+        ],
+        "twitch": "https://www.twitch.tv/bigthunder556",
+        "youtube": "https://www.youtube.com/channel/UCvCKenq1emhVI3mK_1Y0sIw",
+        "twitter": "https://twitter.com/bigthunder556"
+      }
+    ],
+    "records": [
+      {
+        "name": "Zodiac",
+        "hertz": "60",
+        "percent": 47,
+        "id": "62098c12e9bbd84196e9549d"
+      },
+      {
+        "name": "Thinking Space",
+        "hertz": "60",
+        "percent": 42,
+        "id": "62098c13e9bbd84196e954cb"
+      },
+      {
+        "name": "Cold Sweat",
+        "hertz": "60",
+        "percent": 76,
+        "id": "62098c13e9bbd84196e954d1"
+      },
+      {
+        "name": "Cognition",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c13e9bbd84196e954d5"
+      },
+      {
+        "name": "Lucid Nightmares",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c14e9bbd84196e954ea"
+      },
+      {
+        "name": "Visible Ray",
+        "hertz": "60",
+        "percent": 46,
+        "id": "62098c16e9bbd84196e9553b"
+      },
+      {
+        "name": "Ouroboros",
+        "hertz": "60",
+        "percent": 19,
+        "id": "62098c16e9bbd84196e9552f"
+      },
+      {
+        "name": "Digital Descent",
+        "hertz": "60",
+        "percent": 74,
+        "id": "62098c1ce9bbd84196e95634"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Bloodbath",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e957fe"
+      },
+      {
+        "name": "Skrrah",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b61"
+      },
+      {
+        "name": "Heartbeat",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e95985"
+      },
+      {
+        "name": "Caution",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e95836"
+      },
+      {
+        "name": "Idols",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e959aa"
+      },
+      {
+        "name": "UltraSans",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c13"
+      },
+      {
+        "name": "Thunder Alphabet",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bdb"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Demonicat",
+        "hertz": "60",
+        "percent": 26,
+        "id": "62098c1de9bbd84196e9566c"
+      }
+    ],
+    "name": "ThunderBT",
+    "__v": 0
+  },
+  "King Dart": {
+    "_id": "62098eafb6cc4ed56c14e0ae",
+    "records": [
+      {
+        "name": "The Golden",
+        "hertz": "60",
+        "percent": 19,
+        "id": "62098c12e9bbd84196e95495"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "King Dart",
+    "__v": 0
+  },
+  "Zentel": {
+    "_id": "62098eafb6cc4ed56c14e0b0",
+    "nationality": "China",
+    "records": [
+      {
+        "name": "Calculator Core",
+        "hertz": "120",
+        "percent": 17,
+        "id": "62098c13e9bbd84196e954c6"
+      },
+      {
+        "name": "Cognition",
+        "hertz": "120",
+        "percent": 50,
+        "id": "62098c13e9bbd84196e954d6"
+      },
+      {
+        "name": "ZAPHKIEL",
+        "hertz": "120",
+        "percent": 61,
+        "id": "62098c1ce9bbd84196e95639"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Crimson Planet",
+        "hertz": "120",
+        "id": "62098c13e9bbd84196e954c1"
+      },
+      {
+        "name": "Kowareta",
+        "hertz": "120",
+        "id": "62098c15e9bbd84196e9551e"
+      },
+      {
+        "name": "Ziroikabi",
+        "hertz": "120",
+        "id": "62098c20e9bbd84196e956f8"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Acu",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e95739"
+      },
+      {
+        "name": "Artificial Dream",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e9578f"
+      },
+      {
+        "name": "Concaved Memories",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e9584d"
+      },
+      {
+        "name": "Audio Extraction",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957b7"
+      },
+      {
+        "name": "Thanatophobia",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bab"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Zentel",
+    "__v": 0
+  },
+  "DashY": {
+    "_id": "62098eafb6cc4ed56c14e0b2",
+    "nationality": "Finland",
+    "records": [
+      {
+        "name": "Kenos",
+        "hertz": "120",
+        "percent": 37,
+        "id": "62098c12e9bbd84196e954a6"
+      },
+      {
+        "name": "Trueffet",
+        "hertz": "120",
+        "percent": 10,
+        "id": "62098c12e9bbd84196e95488"
+      },
+      {
+        "name": "Sonic Wave Infinity",
+        "hertz": "120",
+        "percent": 25,
+        "id": "62098c12e9bbd84196e95490"
+      },
+      {
+        "name": "Deimos",
+        "hertz": "120",
+        "percent": 16,
+        "id": "62098c15e9bbd84196e95509"
+      },
+      {
+        "name": "Firework",
+        "hertz": "120",
+        "percent": 41,
+        "id": "62098c11e9bbd84196e95480"
+      },
+      {
+        "name": "Slaughterhouse",
+        "hertz": "120",
+        "percent": 20,
+        "id": "62098c11e9bbd84196e9547c"
+      },
+      {
+        "name": "The Rupture",
+        "hertz": "120",
+        "percent": "55",
+        "id": "6212c165d24f90d61129b08d"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Sonic Wave",
+        "hertz": "120",
+        "id": "62098c17e9bbd84196e95582"
+      },
+      {
+        "name": "Sonic Wave Rebirth",
+        "hertz": "120",
+        "id": "62098c17e9bbd84196e9557b"
+      },
+      {
+        "name": "Auditory Breaker",
+        "hertz": "120",
+        "id": "62098c20e9bbd84196e956f1"
+      },
+      {
+        "name": "Arctic Lights",
+        "hertz": "120",
+        "id": "62098c15e9bbd84196e95511"
+      },
+      {
+        "name": "Bausha Vortex",
+        "hertz": "120",
+        "id": "62098c1fe9bbd84196e956c4"
+      },
+      {
+        "name": "Generic Wave",
+        "hertz": "120",
+        "id": "62098c19e9bbd84196e955ad"
+      },
+      {
+        "name": "Erebus",
+        "hertz": "120",
+        "id": "62098c19e9bbd84196e955d4"
+      },
+      {
+        "name": "Hyper Paracosm",
+        "hertz": "120",
+        "id": "62098c17e9bbd84196e95568"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Hyper Paradox",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e9599f"
+      },
+      {
+        "name": "Sakupen Hell",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b2f"
+      },
+      {
+        "name": "Bloodbath",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e95800"
+      },
+      {
+        "name": "INNARDS",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959d5"
+      },
+      {
+        "name": "Mujigae",
+        "hertz": "60",
+        "percent": 34,
+        "id": "62098c36e9bbd84196e95a4b"
+      },
+      {
+        "name": "Mujigae",
+        "hertz": "90",
+        "percent": 36,
+        "id": "62098c36e9bbd84196e95a4c"
+      },
+      {
+        "name": "Gunslinga Corridor",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e95973"
+      },
+      {
+        "name": "Gunslinga Corridor",
+        "hertz": "60",
+        "percent": 30,
+        "id": "62098c30e9bbd84196e95974"
+      },
+      {
+        "name": "New Record",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a6c"
+      },
+      {
+        "name": "ErebuS",
+        "hertz": "90",
+        "percent": "47",
+        "id": "62112a2d3f2ad2c8f55ad0d8"
+      },
+      {
+        "name": "ErebuS",
+        "hertz": "120",
+        "id": "62112b343f2ad2c8f55ad621",
+        "percent": 100
+      },
+      {
+        "name": "Doradura",
+        "hertz": "120",
+        "percent": "100",
+        "id": "622332bac602bdfe0b76617e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "DashY",
+    "__v": 0
+  },
+  "Random": {
+    "_id": "62098eafb6cc4ed56c14e0b4",
+    "nationality": "Puerto_Rico",
+    "records": [
+      {
+        "name": "Arctic Lights",
+        "hertz": "60",
+        "percent": 42,
+        "id": "62098c15e9bbd84196e95512"
+      },
+      {
+        "name": "Renevant",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c12e9bbd84196e954ab"
+      },
+      {
+        "name": "Edge of the Blade",
+        "hertz": "60",
+        "percent": 31,
+        "id": "62098c18e9bbd84196e955a9"
+      },
+      {
+        "name": "Timor",
+        "hertz": "60",
+        "percent": 39,
+        "id": "62098c1be9bbd84196e95607"
+      },
+      {
+        "name": "ZAPHKIEL",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c1ce9bbd84196e95638"
+      },
+      {
+        "name": "Berserk",
+        "hertz": "60",
+        "percent": 22,
+        "id": "62098c20e9bbd84196e956e7"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Annihilation Nation",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c23e9bbd84196e95768"
+      },
+      {
+        "name": "Betrayal of Fate",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c26e9bbd84196e957f1"
+      },
+      {
+        "name": "Elite Z Rebirth",
+        "hertz": "60",
+        "percent": 81,
+        "id": "62098c2ce9bbd84196e958cb"
+      },
+      {
+        "name": "Betrayal of Destiny",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c26e9bbd84196e957ed"
+      },
+      {
+        "name": "The Flawless",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bb4"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Tapwreck",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c1be9bbd84196e95601"
+      },
+      {
+        "name": "Mujigae",
+        "hertz": "60",
+        "percent": 47,
+        "id": "62098c36e9bbd84196e95a4a"
+      }
+    ],
+    "name": "Random",
+    "__v": 0
+  },
+  "Venfy": {
+    "_id": "62098eb0b6cc4ed56c14e0b6",
+    "nationality": "Korea",
+    "socials": [
+      {
+        "discord": [
+          "vbnfgh231#9726"
+        ],
+        "youtube": "https://www.youtube.com/channel/UCVxyClrBepddN6ordhl1HAw/featured"
+      }
+    ],
+    "records": [
+      {
+        "name": "SARY NEVER CLEAR",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c12e9bbd84196e954af"
+      },
+      {
+        "name": "BBBBBBBBBBBBBBBBBBBB",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c1ee9bbd84196e95694"
+      }
+    ],
+    "completions": [
+      {
+        "name": "super probably level",
+        "hertz": "60",
+        "id": "62098c1ee9bbd84196e95683"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Phantasmagoria",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95add"
+      },
+      {
+        "name": "(Old) SHATTER",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95aa8"
+      },
+      {
+        "name": "Want Me",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c39"
+      },
+      {
+        "name": "Nowdead",
+        "hertz": "60",
+        "percent": 58,
+        "id": "62098c37e9bbd84196e95a8b"
+      },
+      {
+        "name": "Kinetic Bypass",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959ee"
+      },
+      {
+        "name": "Uprise",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c17"
+      },
+      {
+        "name": "The Hell Dignity",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bbe"
+      },
+      {
+        "name": "Matilda the Machine",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e95a1c"
+      },
+      {
+        "name": "night party",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a7b"
+      },
+      {
+        "name": "Plasma Pulse III",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95aea"
+      },
+      {
+        "name": "OOPZ",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95abc"
+      },
+      {
+        "name": "Glitched Memories",
+        "hertz": "60",
+        "percent": 35,
+        "id": "62098c30e9bbd84196e9595d"
+      },
+      {
+        "name": "Mecha Mayhem",
+        "hertz": "60",
+        "percent": 31,
+        "id": "62098c35e9bbd84196e95a25"
+      },
+      {
+        "name": "Sarthix",
+        "hertz": "60",
+        "percent": 38,
+        "id": "62098c3be9bbd84196e95b36"
+      },
+      {
+        "name": "Inflammable Infusion",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c32e9bbd84196e959cd"
+      },
+      {
+        "name": "Supercharged",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c3de9bbd84196e95b85"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Venfy",
+    "__v": 0
+  },
+  "Hilo": {
+    "_id": "62098eb0b6cc4ed56c14e0b8",
+    "nationality": "Indonesia",
+    "records": [
+      {
+        "name": "Spectrum Rave",
+        "hertz": "60",
+        "percent": 40,
+        "id": "62098c1fe9bbd84196e956cd"
+      },
+      {
+        "name": "The Rupture",
+        "hertz": "60",
+        "percent": "16",
+        "id": "62101d2c87815d923e2c89c8"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Celestial Force",
+        "hertz": "60",
+        "id": "62098c1ae9bbd84196e955f7"
+      },
+      {
+        "name": "Belloq",
+        "hertz": "60",
+        "id": "62098c1fe9bbd84196e956c9"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Dimensional Breaking",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c2be9bbd84196e958a1"
+      },
+      {
+        "name": "Epsilon",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958e0"
+      },
+      {
+        "name": "Limitless",
+        "hertz": "60",
+        "percent": 52,
+        "id": "62098c34e9bbd84196e959fb"
+      },
+      {
+        "name": "Glide",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e95953"
+      },
+      {
+        "name": "Evangelion",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2de9bbd84196e958f2"
+      },
+      {
+        "name": "Heat Wave",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e95989"
+      },
+      {
+        "name": "Crowd Control",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95864"
+      },
+      {
+        "name": "Atmosphere",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957aa"
+      },
+      {
+        "name": "Novalis",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a80"
+      },
+      {
+        "name": "Cosmorush 21",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e9585b"
+      },
+      {
+        "name": "(Old) Fabrication",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95a9c"
+      },
+      {
+        "name": "Aurora",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957c5"
+      },
+      {
+        "name": "Awakening Horus",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c26e9bbd84196e957cd"
+      },
+      {
+        "name": "A2Marbl",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c21e9bbd84196e95720"
+      },
+      {
+        "name": "CYCLONE",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95869"
+      },
+      {
+        "name": "Esencia",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2de9bbd84196e958e5"
+      },
+      {
+        "name": "Cadrega Mode",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e9581d"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Hilo",
+    "__v": 0
+  },
+  "SarTiZ": {
+    "_id": "62098eb0b6cc4ed56c14e0ba",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Celestial Force",
+        "hertz": "120",
+        "id": "62098c1ae9bbd84196e955f9"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "CholeriX",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e9583a"
+      },
+      {
+        "name": "SubSonic",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b77"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Spectrum Cyclone",
+        "hertz": "120",
+        "percent": 61,
+        "id": "62098c16e9bbd84196e9554a"
+      },
+      {
+        "name": "Spacial Rend",
+        "hertz": "120",
+        "percent": 72,
+        "id": "62098c17e9bbd84196e95576"
+      }
+    ],
+    "name": "SarTiZ",
+    "__v": 0
+  },
+  "Zeth": {
+    "_id": "62098eb0b6cc4ed56c14e0bc",
+    "nationality": "Thailand",
+    "records": [
+      {
+        "name": "The Yandere",
+        "hertz": "60",
+        "percent": 69,
+        "id": "62098c16e9bbd84196e95533"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Violently X",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c1f"
+      },
+      {
+        "name": "Reverence",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b29"
+      },
+      {
+        "name": "Artifice",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e95789"
+      },
+      {
+        "name": "SubSonic",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b76"
+      },
+      {
+        "name": "Ancestral Calamity",
+        "hertz": "60",
+        "percent": 78,
+        "id": "62098c23e9bbd84196e95764"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Ragnarok",
+        "hertz": "60",
+        "percent": 14,
+        "id": "62098c14e9bbd84196e95504"
+      }
+    ],
+    "name": "Zeth",
+    "__v": 0
+  },
+  "Biprex": {
+    "_id": "62098eb0b6cc4ed56c14e0be",
+    "nationality": "Georgia",
+    "records": [
+      {
+        "name": "Hyper Paracosm",
+        "hertz": "60",
+        "percent": 21,
+        "id": "62098c17e9bbd84196e95569"
+      },
+      {
+        "name": "Spectrum Cyclone",
+        "hertz": "60",
+        "percent": 34,
+        "id": "62098c16e9bbd84196e95549"
+      },
+      {
+        "name": "Sonic Wave Rebirth",
+        "hertz": "60",
+        "percent": 31,
+        "id": "62098c17e9bbd84196e9557d"
+      },
+      {
+        "name": "WOW",
+        "hertz": "60",
+        "percent": 79,
+        "id": "62098c1be9bbd84196e95623"
+      },
+      {
+        "name": "Bass Cave",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c20e9bbd84196e956d9"
+      },
+      {
+        "name": "Silent Club",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c14e9bbd84196e954ee"
+      },
+      {
+        "name": "Fragile",
+        "hertz": "60",
+        "percent": 39,
+        "id": "62098c13e9bbd84196e954bd"
+      },
+      {
+        "name": "Deimos",
+        "hertz": "60",
+        "percent": 16,
+        "id": "62098c15e9bbd84196e95508"
+      },
+      {
+        "name": "Kenos",
+        "hertz": "60",
+        "percent": 23,
+        "id": "62098c12e9bbd84196e954a7"
+      },
+      {
+        "name": "Delta Interface",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c1ce9bbd84196e95647"
+      },
+      {
+        "name": "Tartarus",
+        "hertz": "60",
+        "percent": 27,
+        "id": "62098c11e9bbd84196e95484"
+      },
+      {
+        "name": "Wasureta",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c16e9bbd84196e9554f"
+      },
+      {
+        "name": "Sonic Wave Infinity",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c12e9bbd84196e95491"
+      },
+      {
+        "name": "Rage",
+        "hertz": "60",
+        "percent": 31,
+        "id": "62098c19e9bbd84196e955c7"
+      },
+      {
+        "name": "Aquatic Auroras",
+        "hertz": "60",
+        "percent": 19,
+        "id": "62098c15e9bbd84196e95527"
+      },
+      {
+        "name": "Factory Realm X",
+        "hertz": "60",
+        "percent": 69,
+        "id": "62098c1de9bbd84196e95657"
+      },
+      {
+        "name": "Arcturus",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c12e9bbd84196e9548c"
+      },
+      {
+        "name": "Gamma",
+        "hertz": "60",
+        "percent": 76,
+        "id": "62098c17e9bbd84196e95571"
+      },
+      {
+        "name": "Frozen Cave",
+        "hertz": "60",
+        "percent": "83",
+        "id": "62196a45b6b31caa96bd49a7"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Erebus",
+        "hertz": "60",
+        "id": "62098c19e9bbd84196e955d3"
+      },
+      {
+        "name": "Plasma Pulse Finale",
+        "hertz": "60",
+        "id": "62098c16e9bbd84196e9553f"
+      },
+      {
+        "name": "Killbot",
+        "hertz": "60",
+        "id": "62098c1ce9bbd84196e9564d"
+      },
+      {
+        "name": "Aronia",
+        "hertz": "60",
+        "id": "62098c15e9bbd84196e9550d"
+      },
+      {
+        "name": "Kowareta",
+        "hertz": "60",
+        "id": "62098c15e9bbd84196e9551f"
+      },
+      {
+        "name": "Sonic Wave",
+        "hertz": "60",
+        "id": "62098c17e9bbd84196e95583"
+      },
+      {
+        "name": "Sigma",
+        "hertz": "60",
+        "id": "62098c16e9bbd84196e95537"
+      },
+      {
+        "name": "Artificial Ascent",
+        "hertz": "60",
+        "percent": "100",
+        "id": "621688b93bcc8d8f42a26cc2"
+      }
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Biprex",
+    "__v": 0
+  },
+  "Tetrys": {
+    "_id": "62098eb0b6cc4ed56c14e0c0",
+    "nationality": "Portugal",
+    "records": [
+      {
+        "name": "Catalyze",
+        "hertz": "90",
+        "percent": 36,
+        "id": "62098c1be9bbd84196e9561e"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Celestial Force",
+        "hertz": "90",
+        "id": "62098c1ae9bbd84196e955f8"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Triple Six",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95bf1"
+      },
+      {
+        "name": "Novalis",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a81"
+      },
+      {
+        "name": "Ziroikapi",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c52"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Tetrys",
+    "__v": 0
+  },
+  "Chubs Dubs": {
+    "_id": "62098eb0b6cc4ed56c14e0c2",
+    "nationality": "Guernsey",
+    "socials": [
+      {
+        "discord": [
+          "Chubs Dubs#0560"
+        ],
+        "twitch": "https://twitch.tv/ChubsDubsGD",
+        "youtube": "https://bit.ly/3ifuOe9"
+      }
+    ],
+    "records": [
+      {
+        "name": "Bloodlust",
+        "hertz": "60",
+        "percent": 26,
+        "id": "62098c14e9bbd84196e954f2"
+      },
+      {
+        "name": "Stygian Machinery",
+        "hertz": "60",
+        "percent": 10,
+        "id": "62098c1ce9bbd84196e9562f"
+      },
+      {
+        "name": "Step To Hell",
+        "hertz": "60",
+        "percent": 34,
+        "id": "62098c1de9bbd84196e9565b"
+      },
+      {
+        "name": "Auditory Breaker",
+        "hertz": "60",
+        "percent": 68,
+        "id": "62098c20e9bbd84196e956f4"
+      },
+      {
+        "name": "Ragnarok",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c14e9bbd84196e95503"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Quantum Processing",
+        "hertz": "60",
+        "id": "62098c1ee9bbd84196e956a0"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Phobos",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95ae1"
+      },
+      {
+        "name": "Dolos",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2be9bbd84196e958b1"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Sakupen Hell",
+        "hertz": "60",
+        "percent": 36,
+        "id": "62098c3be9bbd84196e95b30"
+      }
+    ],
+    "name": "Chubs Dubs",
+    "__v": 0
+  },
+  "Ssamosa211": {
+    "_id": "62098eb0b6cc4ed56c14e0c4",
+    "nationality": "India",
+    "socials": [
+      {
+        "discord": [
+          "ssamosa211#2828"
+        ],
+        "youtube": "https://www.youtube.com/channel/UCZEL0trZwcLMt8DQg_UZ5MQ",
+        "twitch": "https://www.twitch.tv/ssamosa211",
+        "twitter": "https://twitter.com/ssamosa211"
+      }
+    ],
+    "records": [
+      {
+        "name": "Tapwreck",
+        "hertz": "60",
+        "percent": 18,
+        "id": "62098c1be9bbd84196e95602"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Shibui",
+        "hertz": "60",
+        "percent": 41,
+        "id": "62098c3ce9bbd84196e95b47"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Ssamosa211",
+    "__v": 0
+  },
+  "Coheton": {
+    "_id": "62098eb0b6cc4ed56c14e0c6",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Untitled",
+        "hertz": "60",
+        "percent": 35,
+        "id": "62098c41e9bbd84196e95c0e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Coheton",
+    "__v": 0
+  },
+  "ChosBar": {
+    "_id": "62098eb1b6cc4ed56c14e0c8",
+    "records": [
+      {
+        "name": "Luxtra",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c1ee9bbd84196e95687"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Freedom08",
+        "hertz": "60",
+        "id": "62098c1be9bbd84196e95610"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Elliptic Curve",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958cf"
+      },
+      {
+        "name": "2 1 1",
+        "hertz": "60",
+        "percent": 37,
+        "id": "62098c21e9bbd84196e95718"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Promethean",
+        "hertz": "60",
+        "percent": 16,
+        "id": "62098c13e9bbd84196e954b9"
+      }
+    ],
+    "name": "ChosBar",
+    "__v": 0
+  },
+  "Shoco": {
+    "_id": "62098eb1b6cc4ed56c14e0ca",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Breakout Redux",
+        "hertz": "60",
+        "percent": 31,
+        "id": "62098c27e9bbd84196e95809"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Shoco",
+    "__v": 0
+  },
+  "ErraticStatic": {
+    "_id": "62098eb1b6cc4ed56c14e0cc",
+    "records": [
+      {
+        "name": "Spacial Rend",
+        "hertz": "144",
+        "percent": 32,
+        "id": "62098c17e9bbd84196e95577"
+      },
+      {
+        "name": "Aesthetic",
+        "hertz": "144",
+        "percent": 19,
+        "id": "62098c1ee9bbd84196e9568c"
+      },
+      {
+        "name": "Glowy",
+        "hertz": "144",
+        "percent": 22,
+        "id": "62098c1fe9bbd84196e956af"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Cataclysm",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e95832"
+      },
+      {
+        "name": "GridLocked",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e9596b"
+      },
+      {
+        "name": "Heat Wave",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e9598b"
+      },
+      {
+        "name": "SUBVERSIVE",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b7d"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "ErraticStatic",
+    "__v": 0
+  },
+  "Vink": {
+    "_id": "62098eb1b6cc4ed56c14e0ce",
+    "nationality": "Canada",
+    "socials": [
+      {
+        "discord": [
+          "Vink#9463"
+        ],
+        "youtube": "https://www.youtube.com/channel/UCCjblKPQBrY4g2hTy24E9yQ"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Voltaic",
+        "hertz": "60",
+        "percent": 19,
+        "id": "62098c41e9bbd84196e95c30"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Vink",
+    "__v": 0
+  },
+  "Rusty": {
+    "_id": "62098eb1b6cc4ed56c14e0d0",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Stalemate Redux",
+        "hertz": "60",
+        "percent": 35,
+        "id": "62098c1ce9bbd84196e9563e"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Aftermath",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e95746"
+      },
+      {
+        "name": "Cataclysm",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e9582f"
+      },
+      {
+        "name": "Athanatos",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e957a1"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Rusty",
+    "__v": 0
+  },
+  "FrenchFry": {
+    "_id": "62098eb1b6cc4ed56c14e0d2",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "discord": [
+          "FrenchFry#2127"
+        ],
+        "youtube": "https://youtube.com/c/FrenchFry"
+      }
+    ],
+    "records": [
+      {
+        "name": "Omega",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c18e9bbd84196e95588"
+      },
+      {
+        "name": "Bausha Vortex",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c1fe9bbd84196e956c5"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Hyper Paradox",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c31e9bbd84196e959a0"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "FrenchFry",
+    "__v": 0
+  },
+  "Thonyell": {
+    "_id": "62098eb1b6cc4ed56c14e0d4",
+    "nationality": "Brazil",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Audio Expulsion",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957b2"
+      },
+      {
+        "name": "Torsion",
+        "hertz": "60",
+        "percent": 47,
+        "id": "62098c40e9bbd84196e95be8"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Mirrored Calamity",
+        "hertz": "60",
+        "percent": 22,
+        "id": "62098c19e9bbd84196e955b3"
+      },
+      {
+        "name": "Shock Therapy",
+        "hertz": "60",
+        "percent": 55,
+        "id": "62098c3ce9bbd84196e95b50"
+      },
+      {
+        "name": "Delta Interface",
+        "hertz": "60",
+        "percent": 21,
+        "id": "62098c1ce9bbd84196e95649"
+      }
+    ],
+    "name": "Thonyell",
+    "__v": 0
+  },
+  "Kkbleeblob": {
+    "_id": "62098eb1b6cc4ed56c14e0d6",
+    "nationality": "Peru",
+    "records": [
+      {
+        "name": "Omicron",
+        "hertz": "60",
+        "percent": 80,
+        "id": "62098c1de9bbd84196e95651"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Prismatic Haze",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95b00"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Kkbleeblob",
+    "__v": 0
+  },
+  "Pigchefer": {
+    "_id": "62098eb1b6cc4ed56c14e0d8",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "xo",
+        "hertz": "60",
+        "id": "62098c19e9bbd84196e955cb"
+      }
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Pigchefer",
+    "__v": 0
+  },
+  "MrBudgie": {
+    "_id": "62098eb2b6cc4ed56c14e0da",
+    "nationality": "Canada",
+    "records": [
+      {
+        "name": "Dark Flare",
+        "hertz": "60",
+        "percent": 87,
+        "id": "62098c1ae9bbd84196e955ea"
+      },
+      {
+        "name": "Paroxysm",
+        "hertz": "60",
+        "percent": 35,
+        "id": "62098c1be9bbd84196e9560b"
+      },
+      {
+        "name": "Crystal",
+        "hertz": "60",
+        "percent": 50,
+        "id": "62098c1fe9bbd84196e956b4"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Void Wave",
+        "hertz": "60",
+        "id": "62098c1fe9bbd84196e956bc"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "ATMarbl",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957a6"
+      },
+      {
+        "name": "Raindance",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95b0d"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "SINGULARITY",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c3ce9bbd84196e95b5d"
+      }
+    ],
+    "name": "MrBudgie",
+    "__v": 0
+  },
+  "Monstergamer": {
+    "_id": "62098eb2b6cc4ed56c14e0dc",
+    "records": [
+      {
+        "name": "Lucid Chaos",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c1ae9bbd84196e955f2"
+      },
+      {
+        "name": "Titan Complex",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c19e9bbd84196e955b7"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Moment",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c35e9bbd84196e95a3d"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Monstergamer",
+    "__v": 0
+  },
+  "Bradenbowl": {
+    "_id": "62098eb2b6cc4ed56c14e0de",
+    "nationality": "United_States",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Sunset Sandstorm",
+        "hertz": "60",
+        "id": "62098c1ae9bbd84196e955dd"
+      },
+      {
+        "name": "Black Blizzard",
+        "hertz": "60",
+        "id": "62098c20e9bbd84196e956eb"
+      }
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Bradenbowl",
+    "__v": 0
+  },
+  "YtTanel": {
+    "_id": "62098eb2b6cc4ed56c14e0e0",
+    "nationality": "Estonia",
+    "socials": [
+      {
+        "discord": [
+          "YtTanel#3441",
+          "https://discord.gg/NFtspxS"
+        ],
+        "youtube": "https://www.youtube.com/channel/UC4VM-H-b5cISa_PWqip8UVw"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Distraught",
+        "hertz": "60",
+        "id": "62098c20e9bbd84196e956dd"
+      }
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "YtTanel",
+    "__v": 0
+  },
+  "CooperSuper": {
+    "_id": "62098eb2b6cc4ed56c14e0e2",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Altered Ascent",
+        "hertz": "60",
+        "percent": 16,
+        "id": "62098c1ae9bbd84196e955e1"
+      },
+      {
+        "name": "Catalyze",
+        "hertz": "60",
+        "percent": 36,
+        "id": "62098c1be9bbd84196e9561d"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Sakupen Hell",
+        "hertz": "60",
+        "percent": 34,
+        "id": "62098c3be9bbd84196e95b31"
+      },
+      {
+        "name": "Disentombed",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2be9bbd84196e958a5"
+      },
+      {
+        "name": "Low Death",
+        "hertz": "60",
+        "percent": 41,
+        "id": "62098c34e9bbd84196e95a03"
+      },
+      {
+        "name": "Bang Gang",
+        "hertz": "60",
+        "percent": 57,
+        "id": "62098c26e9bbd84196e957e1"
+      },
+      {
+        "name": "Breakout",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e95805"
+      },
+      {
+        "name": "Frightful Melody",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e95936"
+      },
+      {
+        "name": "WaveBreaker",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c41"
+      },
+      {
+        "name": "Sephtis",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b3a"
+      },
+      {
+        "name": "Surge of Memories",
+        "hertz": "60",
+        "percent": 23,
+        "id": "62098c3de9bbd84196e95b89"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "CooperSuper",
+    "__v": 1
+  },
+  "Xyghost": {
+    "_id": "62098eb2b6cc4ed56c14e0e4",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Thinking Space",
+        "hertz": "120",
+        "percent": 42,
+        "id": "62098c13e9bbd84196e954cc"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Sinister Incision",
+        "hertz": "120",
+        "id": "62098c20e9bbd84196e956e2"
+      },
+      {
+        "name": "Digital Descent",
+        "hertz": "120",
+        "id": "62098c1ce9bbd84196e95633"
+      },
+      {
+        "name": "The Hell Field",
+        "hertz": "120",
+        "id": "62098c1fe9bbd84196e956a5"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Cataclysm",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e95831"
+      },
+      {
+        "name": "Maybe Possibly Thing",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c35e9bbd84196e95a21"
+      },
+      {
+        "name": "Skrrah",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b62"
+      },
+      {
+        "name": "Raindance",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95b0e"
+      },
+      {
+        "name": "Mujigae",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a49"
+      },
+      {
+        "name": "Libertas",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959f3"
+      },
+      {
+        "name": "Forbidden Isle",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e9592d"
+      },
+      {
+        "name": "Castling",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e9582a"
+      },
+      {
+        "name": "Penombre",
+        "hertz": "120",
+        "percent": "100",
+        "id": "621d8286cb61aee6fa034dc8"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Xyghost",
+    "__v": 1
+  },
+  "Slinky": {
+    "_id": "62098eb2b6cc4ed56c14e0e6",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "youtube": "https://youtube.com/channel/UC1H4SlFJs8lGS6pdmHNjwlg",
+        "discord": [
+          "slinky#0039"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "name": "Photovoltaic II",
+        "hertz": "90",
+        "percent": 56,
+        "id": "62098c1be9bbd84196e95619"
+      },
+      {
+        "name": "Auditory Breaker",
+        "hertz": "90",
+        "percent": 81,
+        "id": "62098c20e9bbd84196e956f3"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Black Blizzard",
+        "hertz": "90",
+        "id": "62098c20e9bbd84196e956ec"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Alcatraz",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c23e9bbd84196e95750"
+      },
+      {
+        "name": "NecropoliX",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a68"
+      },
+      {
+        "name": "Niflheim",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a72"
+      },
+      {
+        "name": "Epsilon",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958e1"
+      },
+      {
+        "name": "Unearthed",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95c08"
+      },
+      {
+        "name": "Deception Dive",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e95880"
+      },
+      {
+        "name": "Cataclysm",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e95830"
+      },
+      {
+        "name": "Artificial Dream",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e9578e"
+      },
+      {
+        "name": "Reverence",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b2a"
+      },
+      {
+        "name": "A Bizarre Phantasm",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e9572b"
+      },
+      {
+        "name": "Twisted Tranquility",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95bff"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Slinky",
+    "__v": 0
+  },
+  "Teamless": {
+    "_id": "62098eb2b6cc4ed56c14e0e8",
+    "records": [
+      {
+        "name": "Photovoltaic II",
+        "hertz": "60",
+        "percent": 41,
+        "id": "62098c1be9bbd84196e95618"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Teamless",
+    "__v": 0
+  },
+  "Overowned": {
+    "_id": "62098eb2b6cc4ed56c14e0ea",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Dimension Breaker",
+        "hertz": "60",
+        "percent": 51,
+        "id": "62098c2be9bbd84196e9589d"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Cadrega City",
+        "hertz": "60",
+        "percent": 40,
+        "id": "62098c1ce9bbd84196e95643"
+      }
+    ],
+    "name": "Overowned",
+    "__v": 0
+  },
+  "Breakthrough": {
+    "_id": "62098eb2b6cc4ed56c14e0ec",
+    "nationality": "New_Zealand",
+    "socials": [
+      {
+        "youtube": "https://youtube.com/channel/UCcOATLKCW0pRGdIj0mm7k7A",
+        "discord": [
+          "Breakthrough#1026"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "name": "Glowy",
+        "hertz": "60",
+        "percent": 16,
+        "id": "62098c1fe9bbd84196e956ae"
+      },
+      {
+        "name": "Yuh",
+        "hertz": "60",
+        "percent": 21,
+        "id": "62098c1ee9bbd84196e95690"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Aureole",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c25e9bbd84196e957c0"
+      },
+      {
+        "name": "Based Gang",
+        "hertz": "60",
+        "percent": 29,
+        "id": "62098c26e9bbd84196e957e5"
+      },
+      {
+        "name": "Azurite (Sillow)",
+        "hertz": "60",
+        "percent": 58,
+        "id": "62098c26e9bbd84196e957d7"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Breakthrough",
+    "__v": 0
+  },
+  "Hpsk": {
+    "_id": "62098eb3b6cc4ed56c14e0ee",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "discord": [
+          "gdhpsk#0001",
+          "https://discord.gg/YYDY7cM"
+        ],
+        "youtube": "https://www.youtube.com/channel/UCnlpzjbXM19xJJSdY8ztd_A/videos",
+        "twitter": "https://twitter.com/gdhpsk",
+        "twitch": "https://www.twitch.com/gdhpsk"
+      }
+    ],
+    "records": [
+      {
+        "name": "Molten Gear",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c19e9bbd84196e955c3"
+      },
+      {
+        "name": "The Reaper",
+        "hertz": "60",
+        "percent": 40,
+        "id": "62098c19e9bbd84196e955bb"
+      },
+      {
+        "name": "Demonicat",
+        "hertz": "60",
+        "percent": 18,
+        "id": "62098c1de9bbd84196e9566b"
+      },
+      {
+        "name": "Fabrication",
+        "hertz": "60",
+        "percent": 27,
+        "id": "62098c1de9bbd84196e95674"
+      },
+      {
+        "name": "Ethereal Artifice",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c1de9bbd84196e95678"
+      },
+      {
+        "name": "Occult Outcry",
+        "hertz": "60",
+        "percent": 27,
+        "id": "62098c1ee9bbd84196e9569c"
+      },
+      {
+        "name": "Aesthetic",
+        "hertz": "60",
+        "percent": 13,
+        "id": "62098c1ee9bbd84196e9568b"
+      },
+      {
+        "name": "Tempered Steel",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c1de9bbd84196e95667"
+      },
+      {
+        "name": "Chromatic Haze",
+        "hertz": "60",
+        "percent": 63,
+        "id": "62098c1ce9bbd84196e9562b"
+      },
+      {
+        "name": "RUST",
+        "hertz": "60",
+        "percent": 28,
+        "id": "62098c14e9bbd84196e954e2"
+      },
+      {
+        "name": "Icotact",
+        "hertz": "60",
+        "percent": "65",
+        "id": "621598573bcc8d8f42a158de"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "BYE",
+        "hertz": "60",
+        "percent": 40,
+        "id": "62098c27e9bbd84196e95819"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Hpsk",
+    "__v": 0
+  },
+  "Nintenfox": {
+    "_id": "62098eb3b6cc4ed56c14e0f0",
+    "nationality": "Romania",
+    "records": [
+      {
+        "name": "Missing Benefits",
+        "hertz": "60",
+        "percent": 41,
+        "id": "62098c1ee9bbd84196e95698"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Fingerdash v3",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e95921"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Nintenfox",
+    "__v": 0
+  },
+  "MiniWheatDuo": {
+    "_id": "62098eb3b6cc4ed56c14e0f2",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Sinister Incision",
+        "hertz": "60",
+        "percent": 56,
+        "id": "62098c20e9bbd84196e956e3"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Zenith",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c49"
+      },
+      {
+        "name": "Glacial Torrent",
+        "hertz": "60",
+        "percent": 100,
+        "verification": true,
+        "id": "62098c2fe9bbd84196e9594f"
+      },
+      {
+        "name": "Incipient",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c32e9bbd84196e959c0"
+      },
+      {
+        "name": "Napalm",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a62"
+      },
+      {
+        "name": "Polish Alphabet",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95af3"
+      },
+      {
+        "name": "Zettabyte",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c4d"
+      },
+      {
+        "name": "Lonely Lights",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e959ff"
+      },
+      {
+        "name": "Broken Signal",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e95811"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "MiniWheatDuo",
+    "__v": 0
+  },
+  "Mike139115": {
+    "_id": "62098eb3b6cc4ed56c14e0f4",
+    "nationality": "Great_Britain",
+    "socials": [
+      {
+        "youtube": "https://www.youtube.com/channel/UCt8kdsrfS0cxwsEt8V5VMBA",
+        "discord": [
+          "Mike139115#0038"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "name": "Calculator Core",
+        "hertz": "60",
+        "percent": 13,
+        "id": "62098c13e9bbd84196e954c7"
+      }
+    ],
+    "completions": [
+      {
+        "name": "The Hell Field",
+        "hertz": "60",
+        "id": "62098c1fe9bbd84196e956a4"
+      },
+      {
+        "name": "The Hell Zone",
+        "hertz": "60",
+        "id": "62098c1fe9bbd84196e956a9"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "A Bizarre Phantasm",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e9572a"
+      },
+      {
+        "name": "The Hell Origin",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bc6"
+      },
+      {
+        "name": "8o X",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c21e9bbd84196e9571c"
+      },
+      {
+        "name": "The Hell Bird",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bba"
+      },
+      {
+        "name": "The Hell World",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bca"
+      },
+      {
+        "name": "The Hell Inferno",
+        "hertz": "60",
+        "id": "62098c21e9bbd84196e9570e",
+        "percent": 100
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Mike139115",
+    "__v": 0
+  },
+  "A n t": {
+    "_id": "62098eb3b6cc4ed56c14e0f6",
+    "nationality": "Luxembourg",
+    "records": [
+      {
+        "name": "Ziroikabi",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c20e9bbd84196e956f9"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "A n t",
+    "__v": 0
+  },
+  "TheRunawayGang": {
+    "_id": "62098eb3b6cc4ed56c14e0f8",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Blade of Justice",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e957f9"
+      },
+      {
+        "name": "Hatred",
+        "hertz": "60",
+        "id": "62098c21e9bbd84196e95706",
+        "percent": 100
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "TheRunawayGang",
+    "__v": 1
+  },
+  "Adqm": {
+    "_id": "62098eb3b6cc4ed56c14e0fa",
+    "records": [
+      {
+        "name": "Rate Demon",
+        "hertz": "60",
+        "percent": 74,
+        "id": "62098c1fe9bbd84196e956b8"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "BuTiTi III",
+        "hertz": "60",
+        "percent": 65,
+        "id": "62098c27e9bbd84196e95815"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Adqm",
+    "__v": 0
+  },
+  "Ben The Cool": {
+    "_id": "62098eb3b6cc4ed56c14e0fc",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Triple Six",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95bf0"
+      },
+      {
+        "name": "Ziroikapi",
+        "hertz": "60",
+        "percent": 71,
+        "id": "62098c42e9bbd84196e95c53"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Ben The Cool",
+    "__v": 0
+  },
+  "Guraud": {
+    "_id": "62098eb3b6cc4ed56c14e0fe",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      {
+        "name": "CHROMA II",
+        "hertz": "60",
+        "percent": 32,
+        "id": "62098c28e9bbd84196e9583f"
+      }
+    ],
+    "name": "Guraud",
+    "__v": 0
+  },
+  "Powahh": {
+    "_id": "62098eb4b6cc4ed56c14e100",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Tenth Circle",
+        "hertz": "60",
+        "percent": 67,
+        "id": "62098c3ee9bbd84196e95ba6"
+      },
+      {
+        "name": "(Old) Tenth Circle",
+        "hertz": "60",
+        "percent": 62,
+        "id": "62098c38e9bbd84196e95aac"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Powahh",
+    "__v": 0
+  },
+  "Kkgrooms": {
+    "_id": "62098eb4b6cc4ed56c14e102",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Galactus",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e95947"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Kkgrooms",
+    "__v": 1
+  },
+  "GochuJang": {
+    "_id": "62098eb4b6cc4ed56c14e104",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Mirage",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c35e9bbd84196e95a31"
+      },
+      {
+        "name": "Shock Breaker",
+        "hertz": "60",
+        "percent": 55,
+        "id": "62098c3ce9bbd84196e95b4b"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Glitched Memories",
+        "hertz": "60",
+        "percent": 43,
+        "id": "62098c30e9bbd84196e9595c"
+      },
+      {
+        "name": "Untitled",
+        "hertz": "60",
+        "percent": 47,
+        "id": "62098c41e9bbd84196e95c0f"
+      },
+      {
+        "name": "Alpha Baa X",
+        "hertz": "60",
+        "percent": 14,
+        "id": "62098c23e9bbd84196e9575c"
+      }
+    ],
+    "name": "GochuJang",
+    "__v": 0
+  },
+  "Demolishers21": {
+    "_id": "62098eb4b6cc4ed56c14e106",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "SPEEDRUN",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b6a"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Demolishers21",
+    "__v": 0
+  },
+  "Starteccs": {
+    "_id": "62098eb4b6cc4ed56c14e108",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Galactic Shift",
+        "hertz": "60",
+        "percent": 22,
+        "id": "62098c2fe9bbd84196e95943"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Starteccs",
+    "__v": 0
+  },
+  "Chris 255": {
+    "_id": "62098eb4b6cc4ed56c14e10a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "TeaM Z",
+        "hertz": "60",
+        "percent": 59,
+        "id": "62098c3ee9bbd84196e95b9a"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Chris 255",
+    "__v": 0
+  },
+  "Amp1ify": {
+    "_id": "62098eb4b6cc4ed56c14e10c",
+    "nationality": "Canada",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "MadMansion",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e95a07"
+      },
+      {
+        "name": "Allegiance",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c23e9bbd84196e95757"
+      },
+      {
+        "name": "Glide",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e95954"
+      },
+      {
+        "name": "Fexty",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e9591d"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Amp1ify",
+    "__v": 0
+  },
+  "Sadius": {
+    "_id": "62098eb4b6cc4ed56c14e10e",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Congregation",
+        "hertz": "60",
+        "percent": 43,
+        "id": "62098c15e9bbd84196e95516"
+      },
+      {
+        "name": "Omega Interface",
+        "hertz": "60",
+        "percent": 18,
+        "id": "62098c14e9bbd84196e954fb"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Removed Submission",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b1f"
+      },
+      {
+        "name": "MadMansion",
+        "hertz": "60",
+        "percent": 40,
+        "id": "62098c34e9bbd84196e95a08"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Nhelv",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c16e9bbd84196e95545"
+      }
+    ],
+    "name": "Sadius",
+    "__v": 0
+  },
+  "TheLiga": {
+    "_id": "62098eb4b6cc4ed56c14e110",
+    "nationality": "Italy",
+    "socials": [
+      {
+        "discord": [
+          "AtomicDario#5950"
+        ],
+        "youtube": "https://youtube.com/channel/UCfHuO5-I0XO5S3I_04Aw-uQ"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Asmodeus",
+        "hertz": "60",
+        "percent": 46,
+        "id": "62098c24e9bbd84196e95797"
+      },
+      {
+        "name": "Asmodeus",
+        "hertz": "120",
+        "percent": 94,
+        "id": "62098c24e9bbd84196e95798"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "TheLiga",
+    "__v": 0
+  },
+  "MAUBILE": {
+    "_id": "62098eb5b6cc4ed56c14e112",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Fusion Z",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e9593e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "MAUBILE",
+    "__v": 0
+  },
+  "WhiteEmerald": {
+    "_id": "62098eb5b6cc4ed56c14e114",
+    "nationality": "Hong_Kong",
+    "socials": [
+      {
+        "discord": [
+          "WhiteEmerald#9621"
+        ],
+        "youtube": "https://www.youtube.com/c/WhiteEmeraldGD",
+        "twitter": "https://twitter.com/TheWhiteEm"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Boogie",
+        "hertz": "60",
+        "percent": "100",
+        "id": "6213bdeb6ed12e9d1835f341"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Tempest Tornado",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95ba2"
+      },
+      {
+        "name": "Falcon16",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e9590f"
+      },
+      {
+        "name": "PLUS ULTRA",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95aef"
+      },
+      {
+        "name": "Frozen",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e9593a"
+      },
+      {
+        "name": "Ferrum Frenzy",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e95917"
+      },
+      {
+        "name": "Eternal Star",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2de9bbd84196e958ea"
+      },
+      {
+        "name": "GewErBiX",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e9594b"
+      },
+      {
+        "name": "OPSM1",
+        "hertz": "60",
+        "percent": 71,
+        "id": "62098c38e9bbd84196e95ac0"
+      },
+      {
+        "name": "Malware II",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e95a10"
+      },
+      {
+        "name": "Freedom19",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e95932"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "Molten Mercury",
+        "hertz": "60",
+        "percent": 14,
+        "id": "62098c35e9bbd84196e95a39"
+      }
+    ],
+    "name": "WhiteEmerald",
+    "__v": 0
+  },
+  "Guip": {
+    "_id": "62098eb5b6cc4ed56c14e116",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Advanced AirStream",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c22e9bbd84196e95742"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Guip",
+    "__v": 0
+  },
+  "Eightversive": {
+    "_id": "62098eb5b6cc4ed56c14e118",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "AcropoliX",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e9572f"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Eightversive",
+    "__v": 0
+  },
+  "Goandjump": {
+    "_id": "62098eb5b6cc4ed56c14e11a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "AcropoliX",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e95730"
+      },
+      {
+        "name": "Plasma Pulse III",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95aeb"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Goandjump",
+    "__v": 0
+  },
+  "Dreamtide": {
+    "_id": "62098eb5b6cc4ed56c14e11c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "RASH",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b12"
+      },
+      {
+        "name": "Endless Dream",
+        "hertz": "60",
+        "verification": true,
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958d7"
+      },
+      {
+        "name": "Stellaluna",
+        "hertz": "60",
+        "verification": true,
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b72"
+      },
+      {
+        "name": "Acu",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e95738"
+      },
+      {
+        "name": "Brimtanic Paradise",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e9580d"
+      },
+      {
+        "name": "FinKor",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e95925"
+      },
+      {
+        "name": "Misty Mountains",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c35e9bbd84196e95a35"
+      },
+      {
+        "name": "Precipitance",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95afc"
+      },
+      {
+        "name": "Virtual Collapse",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c28"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Dreamtide",
+    "__v": 0
+  },
+  "Stilluetto": {
+    "_id": "62098eb5b6cc4ed56c14e11e",
+    "nationality": "United_States",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Allegiance",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c23e9bbd84196e95755"
+      },
+      {
+        "name": "Deception Dive",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e9587f"
+      },
+      {
+        "name": "Twisted Tranquility",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95bfe"
+      },
+      {
+        "name": "Falling Up",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e95913"
+      },
+      {
+        "name": "Niflheim",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a71"
+      },
+      {
+        "name": "Retention",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b23"
+      },
+      {
+        "name": "Audio Extraction",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957b6"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Stilluetto",
+    "__v": 0
+  },
+  "EthanLX": {
+    "_id": "62098eb5b6cc4ed56c14e120",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "youtube": "https://youtube.com/channel/UCgaCKRAxS2jC6Xd0SdhVSXQ",
+        "discord": [
+          "EthanLX#5360"
+        ]
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Armageddon",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e95785"
+      },
+      {
+        "name": "Ocular Miracle",
+        "hertz": "60",
+        "percent": 48,
+        "id": "62098c37e9bbd84196e95a8f"
+      },
+      {
+        "name": "Diligence",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2be9bbd84196e95899"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "EthanLX",
+    "__v": 0
+  },
+  "Nontypical": {
+    "_id": "62098eb5b6cc4ed56c14e122",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Biohazard",
+        "hertz": "60",
+        "percent": 65,
+        "id": "62098c27e9bbd84196e957f5"
+      },
+      {
+        "name": "Acrozis",
+        "hertz": "60",
+        "percent": 50,
+        "id": "62098c22e9bbd84196e95734"
+      },
+      {
+        "name": "Carnage Mode",
+        "hertz": "60",
+        "percent": 59,
+        "id": "62098c28e9bbd84196e95826"
+      },
+      {
+        "name": "Furious Flames",
+        "hertz": "60",
+        "percent": "95",
+        "id": "6212c0dfd24f90d61129ab50"
+      },
+      {
+        "name": "Instant Execution",
+        "hertz": "60",
+        "percent": "100",
+        "id": "621f8a6be1494e30b4632e12"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Nontypical",
+    "__v": 0
+  },
+  "SubZeroV": {
+    "_id": "62098eb6b6cc4ed56c14e124",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Red World Rebirth",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b1b"
+      },
+      {
+        "name": "Red World",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b16"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SubZeroV",
+    "__v": 0
+  },
+  "Usual KhaOS": {
+    "_id": "62098eb6b6cc4ed56c14e126",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Auroral Darkness",
+        "hertz": "60",
+        "percent": 18,
+        "id": "62098c1de9bbd84196e95670"
+      },
+      {
+        "name": "Mirrored Calamity",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c19e9bbd84196e955b2"
+      },
+      {
+        "name": "CHROMA FINALE",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c17e9bbd84196e9555f"
+      },
+      {
+        "name": "Slaughterhouse",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c11e9bbd84196e9547b"
+      },
+      {
+        "name": "RGB",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c1de9bbd84196e95663"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Explosion",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c2de9bbd84196e958ff"
+      },
+      {
+        "name": "Another Phase",
+        "hertz": "60",
+        "percent": 19,
+        "id": "62098c23e9bbd84196e9576c"
+      },
+      {
+        "name": "APEX",
+        "hertz": "60",
+        "percent": 25,
+        "id": "62098c23e9bbd84196e95775"
+      },
+      {
+        "name": "FirePower",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c2ee9bbd84196e95929"
+      },
+      {
+        "name": "I hate you",
+        "hertz": "60",
+        "percent": 10,
+        "id": "62098c32e9bbd84196e959b0"
+      },
+      {
+        "name": "Pandemonium",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c21e9bbd84196e95702"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Usual KhaOS",
+    "__v": 1
+  },
+  "UltravioletRS": {
+    "_id": "62098eb6b6cc4ed56c14e128",
+    "nationality": "United_States",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      {
+        "name": "Surge of the Shield",
+        "hertz": "60",
+        "percent": 52,
+        "id": "62098c3de9bbd84196e95b8e"
+      }
+    ],
+    "name": "UltravioletRS",
+    "__v": 0
+  },
+  "SWMS": {
+    "_id": "62098eb6b6cc4ed56c14e12a",
+    "records": [
+      {
+        "name": "Paroxysm",
+        "hertz": "120",
+        "percent": 62,
+        "id": "62098c1be9bbd84196e9560c"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Wasureta",
+        "hertz": "120",
+        "id": "62098c16e9bbd84196e9554e"
+      },
+      {
+        "name": "Factory Realm X",
+        "hertz": "120",
+        "id": "62098c1de9bbd84196e95656"
+      },
+      {
+        "name": "Distraught",
+        "hertz": "120",
+        "id": "62098c20e9bbd84196e956de"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Volume",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c34"
+      },
+      {
+        "name": "Incipient",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c32e9bbd84196e959c1"
+      },
+      {
+        "name": "Deception Dive",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e95881"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SWMS",
+    "__v": 0
+  },
+  "xCyen": {
+    "_id": "62098eb6b6cc4ed56c14e12c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Niflheim",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a73"
+      },
+      {
+        "name": "Awakening Horus",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c26e9bbd84196e957ce"
+      },
+      {
+        "name": "Retention",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b24"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "xCyen",
+    "__v": 0
+  },
+  "Gherkin": {
+    "_id": "62098eb6b6cc4ed56c14e12e",
+    "nationality": "Great_Britain",
+    "socials": [
+      {
+        "discord": [
+          "Gherkin#2006"
+        ],
+        "youtube": "https://youtube.com/c/Gherkin"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Alcatraz",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c23e9bbd84196e95751"
+      },
+      {
+        "name": "The Antimatter",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bb0"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Gherkin",
+    "__v": 0
+  },
+  "IH32": {
+    "_id": "62098eb6b6cc4ed56c14e130",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Balengu Vortex",
+        "hertz": "60",
+        "percent": 48,
+        "id": "62098c20e9bbd84196e956d5"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "IH32",
+    "__v": 0
+  },
+  "GreenO": {
+    "_id": "62098eb6b6cc4ed56c14e132",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Ithacropolis",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c33e9bbd84196e959e2"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "GreenO",
+    "__v": 0
+  },
+  "MineFord": {
+    "_id": "62098eb6b6cc4ed56c14e134",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Adrenaline",
+        "hertz": "60",
+        "percent": 89,
+        "id": "62098c22e9bbd84196e9573e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "MineFord",
+    "__v": 0
+  },
+  "TheRealKat": {
+    "_id": "62098eb7b6cc4ed56c14e136",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Esencia",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c2de9bbd84196e958e6"
+      },
+      {
+        "name": "HURRICANE",
+        "hertz": "90",
+        "percent": "100",
+        "id": "6209fd0bda6c815f16e10818"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "I hate you",
+        "hertz": "90",
+        "percent": 24,
+        "id": "62098c32e9bbd84196e959af"
+      }
+    ],
+    "name": "TheRealKat",
+    "__v": 0
+  },
+  "Bejako": {
+    "_id": "62098eb7b6cc4ed56c14e138",
+    "records": [
+      {
+        "name": "Generic Wave",
+        "hertz": "60",
+        "percent": 44,
+        "id": "62098c19e9bbd84196e955ae"
+      },
+      {
+        "name": "Nhelv",
+        "hertz": "60",
+        "percent": 46,
+        "id": "62098c16e9bbd84196e95544"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Bejako",
+    "__v": 0
+  },
+  "Flavyola64": {
+    "_id": "62098eb7b6cc4ed56c14e13a",
+    "nationality": "Belgium",
+    "records": [
+      {
+        "name": "Delta Interface",
+        "hertz": "120",
+        "percent": 27,
+        "id": "62098c1ce9bbd84196e95648"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "EXPLICIT",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2de9bbd84196e958fa"
+      },
+      {
+        "name": "NecropoliX",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a67"
+      },
+      {
+        "name": "Grill Kill",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e9596f"
+      },
+      {
+        "name": "Mandragora",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e95a14"
+      },
+      {
+        "name": "GridLocked",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e9596a"
+      },
+      {
+        "name": "Penultimate Phase",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95ad8"
+      },
+      {
+        "name": "Fexty",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e9591c"
+      },
+      {
+        "name": "Maybe Possibly Thing",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c35e9bbd84196e95a20"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Flavyola64",
+    "__v": 0
+  },
+  "Coffee081": {
+    "_id": "62098eb7b6cc4ed56c14e13c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Unearthed",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95c07"
+      },
+      {
+        "name": "Penombre",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95ad4"
+      },
+      {
+        "name": "Concaved Memories",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e9584b"
+      },
+      {
+        "name": "MELTDOWN",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c35e9bbd84196e95a29"
+      },
+      {
+        "name": "Conical Depression",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95851"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Coffee081",
+    "__v": 0
+  },
+  "Gizbro": {
+    "_id": "62098eb7b6cc4ed56c14e13e",
+    "nationality": "United_States",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Artificial Dream",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e9578d"
+      },
+      {
+        "name": "SUBVERSIVE",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b7c"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Gizbro",
+    "__v": 0
+  },
+  "Not Applicable 11": {
+    "_id": "62098eb7b6cc4ed56c14e140",
+    "records": [
+      {
+        "name": "Spacial Rend",
+        "hertz": "60",
+        "percent": 17,
+        "id": "62098c17e9bbd84196e95575"
+      },
+      {
+        "name": "Sephiroth",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c18e9bbd84196e9559d"
+      },
+      {
+        "name": "Solarion",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c1de9bbd84196e9565f"
+      },
+      {
+        "name": "Verdant Landscape",
+        "hertz": "60",
+        "percent": "10",
+        "id": "6217dbfe269c955a04cc870d"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Arctic Arena",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e95781"
+      },
+      {
+        "name": "Goldcrest Palace",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c30e9bbd84196e95962"
+      },
+      {
+        "name": "N0",
+        "hertz": "60",
+        "percent": "77",
+        "id": "621c6f28a5c412ac52a1c6f9"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Not Applicable 11",
+    "__v": 0
+  },
+  "FrostFoxyn": {
+    "_id": "62098eb7b6cc4ed56c14e142",
+    "nationality": "Brazil",
+    "socials": [
+      {
+        "discord": [
+          "I'll be back, better than ever#5293"
+        ],
+        "twitch": "https://twitch.tv/frostfoxyn",
+        "twitter": "https://twitter.com/FrostFoxyn?s=09",
+        "youtube": "https://youtube.com/channel/UCY9pRLcGO-s2HuA4cfMB-Lw"
+      }
+    ],
+    "records": [
+      {
+        "name": "Static Ignition",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c1fe9bbd84196e956c0"
+      },
+      {
+        "name": "Promethean",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c13e9bbd84196e954b8"
+      },
+      {
+        "name": "Asterios",
+        "hertz": "60",
+        "percent": 10,
+        "id": "62098c15e9bbd84196e9551a"
+      },
+      {
+        "name": "Molten Core",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c17e9bbd84196e9555b"
+      },
+      {
+        "name": "Jamboree",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c1be9bbd84196e95627"
+      },
+      {
+        "name": "DubKore X",
+        "hertz": "60",
+        "percent": 21,
+        "id": "62098c1ae9bbd84196e955d9"
+      },
+      {
+        "name": "Cosmic Cyclone",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c14e9bbd84196e954f7"
+      },
+      {
+        "name": "Terminux",
+        "hertz": "60",
+        "percent": 13,
+        "id": "62098c15e9bbd84196e9552b"
+      },
+      {
+        "name": "ATOMIC CANNON",
+        "hertz": "60",
+        "percent": 10,
+        "id": "62098c25e9bbd84196e957ae"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "VendetTa",
+        "hertz": "60",
+        "percent": 49,
+        "id": "62098c41e9bbd84196e95c1b"
+      },
+      {
+        "name": "Dark Rivalry",
+        "hertz": "60",
+        "percent": 44,
+        "id": "62098c2ae9bbd84196e95877"
+      },
+      {
+        "name": "Alpha Baa X",
+        "hertz": "60",
+        "percent": 10,
+        "id": "62098c23e9bbd84196e9575b"
+      },
+      {
+        "name": "DMG CTRL",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c2be9bbd84196e958ad"
+      },
+      {
+        "name": "Doradura",
+        "hertz": "60",
+        "percent": "30",
+        "id": "622332e4c602bdfe0b7666c0"
+      },
+      {
+        "name": "Delirium Tremens",
+        "hertz": "60",
+        "percent": "100",
+        "id": "6223360fc602bdfe0b766c09"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "FrostFoxyn",
+    "__v": 2
+  },
+  "Bribo": {
+    "_id": "62098eb7b6cc4ed56c14e144",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "discord": [
+          "Bribo#3188"
+        ],
+        "youtube": "https://youtube.com/channel/UCaV6HeVjAWOxBxZWwVV270w"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Omorfia",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95ab4"
+      },
+      {
+        "name": "Anoxysm",
+        "hertz": "60",
+        "percent": 87,
+        "id": "62098c23e9bbd84196e95771"
+      },
+      {
+        "name": "Myocardia",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a54"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Bribo",
+    "__v": 0
+  },
+  "Jastro": {
+    "_id": "62098eb7b6cc4ed56c14e146",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "The Lost Existence",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bce"
+      },
+      {
+        "name": "Infernal Abyss",
+        "hertz": "60",
+        "percent": 77,
+        "id": "62098c32e9bbd84196e959c9"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Jastro",
+    "__v": 0
+  },
+  "Trueskills2": {
+    "_id": "62098eb7b6cc4ed56c14e148",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "HURRICANE",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e95993"
+      },
+      {
+        "name": "Our Fountain",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95ac4"
+      },
+      {
+        "name": "Tech Manifestation",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95b9e"
+      },
+      {
+        "name": "Just DANCE",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959e6"
+      },
+      {
+        "name": "TANTRUM",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95b96"
+      },
+      {
+        "name": "Digital Disarray",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2be9bbd84196e95895"
+      },
+      {
+        "name": "Night Life",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a77"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Trueskills2",
+    "__v": 0
+  },
+  "Matobia": {
+    "_id": "62098eb8b6cc4ed56c14e14a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Mystic",
+        "hertz": "60",
+        "percent": 95,
+        "id": "62098c36e9bbd84196e95a59"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Matobia",
+    "__v": 0
+  },
+  "Moe": {
+    "_id": "62098eb8b6cc4ed56c14e14c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Sakupen Hell",
+        "hertz": "90",
+        "percent": 46,
+        "id": "62098c3be9bbd84196e95b32"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Moe",
+    "__v": 0
+  },
+  "Juniorr": {
+    "_id": "62098eb8b6cc4ed56c14e14e",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Plasma Pulse Finale",
+        "hertz": "120",
+        "id": "62098c16e9bbd84196e95540"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Bloodbath",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e957ff"
+      },
+      {
+        "name": "The Flawless",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bb5"
+      },
+      {
+        "name": "Concaved Memories",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e9584c"
+      },
+      {
+        "name": "Allegiance",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c23e9bbd84196e95756"
+      },
+      {
+        "name": "Phobos",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95ae2"
+      },
+      {
+        "name": "Conical Depression",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95852"
+      },
+      {
+        "name": "Troll level",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95bf6"
+      },
+      {
+        "name": "Air Tech",
+        "hertz": "120",
+        "percent": "100",
+        "id": "62153c9dec120fc6ca3b13a7"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Juniorr",
+    "__v": 0
+  },
+  "El Ameno": {
+    "_id": "62098eb8b6cc4ed56c14e150",
+    "nationality": "Mexico",
+    "socials": [
+      {
+        "youtube": "https://youtube.com/channel/UClELpjVeC1lSASGTK8I3NSg",
+        "discord": [
+          "Ameno#7792"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "name": "Tapwreck",
+        "hertz": "120",
+        "percent": 25,
+        "id": "62098c1be9bbd84196e95603"
+      },
+      {
+        "name": "CHROMA FINALE",
+        "hertz": "120",
+        "percent": 15,
+        "id": "62098c17e9bbd84196e95560"
+      },
+      {
+        "name": "RELENTLESS",
+        "hertz": "120",
+        "percent": 35,
+        "id": "62098c1ae9bbd84196e955e6"
+      }
+    ],
+    "completions": [
+      {
+        "name": "Black Blizzard",
+        "hertz": "120",
+        "id": "62098c20e9bbd84196e956ed"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Azurite (Sillow)",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c26e9bbd84196e957d6"
+      },
+      {
+        "name": "Explosion",
+        "hertz": "120",
+        "percent": 17,
+        "id": "62098c2de9bbd84196e958fe"
+      },
+      {
+        "name": "Abandoned Planet",
+        "hertz": "120",
+        "percent": 28,
+        "id": "62098c22e9bbd84196e95726"
+      },
+      {
+        "name": "Cosmorush 21",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e9585c"
+      },
+      {
+        "name": "Reverence",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b2b"
+      },
+      {
+        "name": "Crowd Control",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95865"
+      },
+      {
+        "name": "SHATTER",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b43"
+      },
+      {
+        "name": "Prismatic Haze",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ae9bbd84196e95b01"
+      },
+      {
+        "name": "Azurite (Royen)",
+        "hertz": "120",
+        "percent": 29,
+        "id": "62098c26e9bbd84196e957db"
+      },
+      {
+        "name": "Azurite (Royen)",
+        "hertz": "90",
+        "percent": 26,
+        "id": "62098c26e9bbd84196e957dc"
+      },
+      {
+        "name": "Azurite (Royen)",
+        "hertz": "60",
+        "percent": 22,
+        "id": "62098c26e9bbd84196e957dd"
+      },
+      {
+        "name": "Dismay",
+        "hertz": "120",
+        "percent": 25,
+        "id": "62098c2be9bbd84196e958a9"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "El Ameno",
+    "__v": 0
+  },
+  "P8geons": {
+    "_id": "62098eb8b6cc4ed56c14e152",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "discord": [
+          "P8geons#0243"
+        ],
+        "youtube": "https://youtube.com/channel/UCtffeZdJZ9MHnZg46L7vENg"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Insaction",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959da"
+      },
+      {
+        "name": "Poltergeist Reborn",
+        "hertz": "60",
+        "percent": 20,
+        "id": "62098c3ae9bbd84196e95af7"
+      },
+      {
+        "name": "Inflective",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959d1"
+      },
+      {
+        "name": "Hydraulic Overdrive",
+        "hertz": "60",
+        "percent": 40,
+        "id": "62098c31e9bbd84196e9599b"
+      },
+      {
+        "name": "Shape of the Sun",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b3e"
+      },
+      {
+        "name": "Abandoned Planet",
+        "hertz": "60",
+        "percent": 17,
+        "id": "62098c22e9bbd84196e95725"
+      },
+      {
+        "name": "Paralysis",
+        "hertz": "60",
+        "percent": 33,
+        "id": "62098c39e9bbd84196e95ad0"
+      },
+      {
+        "name": "Dream City",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c2ce9bbd84196e958be"
+      },
+      {
+        "name": "Wintertime",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c45"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "P8geons",
+    "__v": 0
+  },
+  "Storm957": {
+    "_id": "62098eb8b6cc4ed56c14e154",
+    "records": [
+      {
+        "name": "Sakupen Circles",
+        "hertz": "60",
+        "percent": "41",
+        "id": "621ee929b1d1b18406a41706"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Make It Drop",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e95a0c"
+      },
+      {
+        "name": "Cromulent",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95860"
+      },
+      {
+        "name": "Under Lavaland",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95c03"
+      },
+      {
+        "name": "Hateful Reflection",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e9597c"
+      },
+      {
+        "name": "EnvY",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958dc"
+      },
+      {
+        "name": "(Old) KillerZone",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95aa0"
+      },
+      {
+        "name": "Volume",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c35"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Storm957",
+    "__v": 0
+  },
+  "Noxop": {
+    "_id": "62098eb8b6cc4ed56c14e156",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Artificial Ascent",
+        "hertz": "144",
+        "id": "62098c1ee9bbd84196e9567c"
+      },
+      {
+        "name": "Auditory Breaker",
+        "hertz": "144",
+        "id": "62098c20e9bbd84196e956f2"
+      },
+      {
+        "name": "Sonic Wave Rebirth",
+        "hertz": "144",
+        "id": "62098c17e9bbd84196e9557e"
+      },
+      {
+        "name": "Sonic Wave",
+        "hertz": "144",
+        "id": "62098c17e9bbd84196e95584"
+      },
+      {
+        "name": "Yatagarasu",
+        "hertz": "144",
+        "percent": "100",
+        "id": "6213d849d2c028f5a9df8db7"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Endless Dream",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958d8"
+      },
+      {
+        "name": "Bloodbath",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e95801"
+      },
+      {
+        "name": "Myocardia",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a55"
+      },
+      {
+        "name": "Aftermath",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e95748"
+      },
+      {
+        "name": "Conical Depression",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e95853"
+      },
+      {
+        "name": "Ecstasy",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958c2"
+      },
+      {
+        "name": "Ecstasy",
+        "hertz": "60",
+        "percent": 55,
+        "id": "62098c2ce9bbd84196e958c3"
+      },
+      {
+        "name": "SubSonic",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b78"
+      },
+      {
+        "name": "The Ultimate Phase",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bd3"
+      },
+      {
+        "name": "Zettabyte",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c42e9bbd84196e95c4e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Noxop",
+    "__v": 0
+  },
+  "Euricio da Sliva": {
+    "_id": "62098eb8b6cc4ed56c14e158",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Aftermath",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e95747"
+      },
+      {
+        "name": "The Flawless",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bb6"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Euricio da Sliva",
+    "__v": 0
+  },
+  "SkylarkyXD": {
+    "_id": "62098eb8b6cc4ed56c14e15a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Faith",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e9590b"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SkylarkyXD",
+    "__v": 0
+  },
+  "SwagMartin": {
+    "_id": "62098eb9b6cc4ed56c14e15c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "PanaSonic",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95acc"
+      },
+      {
+        "name": "Azure Fiesta",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c26e9bbd84196e957d2"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SwagMartin",
+    "__v": 0
+  },
+  "SoulSilver Jr.": {
+    "_id": "62098eb9b6cc4ed56c14e15e",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "The Hell Factory",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bc2"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SoulSilver Jr.",
+    "__v": 0
+  },
+  "TheAvalanche": {
+    "_id": "62098eb9b6cc4ed56c14e160",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Down Bass",
+        "hertz": "60",
+        "percent": 69,
+        "id": "62098c2ce9bbd84196e958ba"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "TheAvalanche",
+    "__v": 0
+  },
+  "Bayron GD Mobile": {
+    "_id": "62098eb9b6cc4ed56c14e162",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Pumped Up Kicks",
+        "hertz": "60",
+        "percent": 67,
+        "id": "62098c3ae9bbd84196e95b05"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Bayron GD Mobile",
+    "__v": 0
+  },
+  "Nell": {
+    "_id": "62098eb9b6cc4ed56c14e164",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Marathon",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c34e9bbd84196e95a18"
+      },
+      {
+        "name": "Dark Odyssey",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e95872"
+      },
+      {
+        "name": "Time Pulse",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bdf"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Nell",
+    "__v": 0
+  },
+  "Subperfect": {
+    "_id": "62098eb9b6cc4ed56c14e166",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Artificial Ideology",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e95793"
+      },
+      {
+        "name": "Castling",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e9582b"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Subperfect",
+    "__v": 0
+  },
+  "gloxie": {
+    "_id": "62098eb9b6cc4ed56c14e168",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Aurorae",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957c9"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "gloxie",
+    "__v": 0
+  },
+  "Perlite": {
+    "_id": "62098eb9b6cc4ed56c14e16a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Dark Odyssey",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e95873"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Perlite",
+    "__v": 0
+  },
+  "Zoink Doink": {
+    "_id": "62098eb9b6cc4ed56c14e16c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Doop",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2be9bbd84196e958b6"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Zoink Doink",
+    "__v": 0
+  },
+  "2A7": {
+    "_id": "62098ebab6cc4ed56c14e16e",
+    "nationality": "Bosnia",
+    "socials": [
+      {
+        "discord": [
+          "2A7#1613"
+        ],
+        "youtube": "https://youtube.com/c/2A7gd"
+      }
+    ],
+    "records": [
+      {
+        "name": "Lotus Flower",
+        "hertz": "60",
+        "percent": 33,
+        "id": "62098c13e9bbd84196e954da"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Impasse",
+        "hertz": "60",
+        "percent": 14,
+        "id": "62098c32e9bbd84196e959b8"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "2A7",
+    "__v": 0
+  },
+  "Star TheFer519": {
+    "_id": "62098ebab6cc4ed56c14e170",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "ElectroLux",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ce9bbd84196e958c7"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Star TheFer519",
+    "__v": 0
+  },
+  "Technical": {
+    "_id": "62098ebab6cc4ed56c14e172",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "HyperSonic",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e959a4"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Technical",
+    "__v": 0
+  },
+  "Meep - Kingcy2": {
+    "_id": "62098ebab6cc4ed56c14e174",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "HyperSonic",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e959a5"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Meep - Kingcy2",
+    "__v": 0
+  },
+  "BiPolarBearr GD": {
+    "_id": "62098ebab6cc4ed56c14e176",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Hate War",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e95981"
+      },
+      {
+        "name": "The Ultimate Phase",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3fe9bbd84196e95bd2"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "BiPolarBearr GD",
+    "__v": 0
+  },
+  "Notlsa": {
+    "_id": "62098ebab6cc4ed56c14e178",
+    "nationality": "Mexico",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Halberd",
+        "hertz": "60",
+        "verification": true,
+        "percent": 100,
+        "id": "62098c30e9bbd84196e95978"
+      },
+      {
+        "name": "SHATTER",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b42"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Notlsa",
+    "__v": 0
+  },
+  "SwordBx": {
+    "_id": "62098ebab6cc4ed56c14e17a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Sigma Interface",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b54"
+      },
+      {
+        "name": "Thanatophobia",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95baa"
+      },
+      {
+        "name": "Aether",
+        "hertz": "60",
+        "percent": "100",
+        "id": "620c3d476b8ca21492b8b617"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SwordBx",
+    "__v": 0
+  },
+  "「iRuHa♡」": {
+    "_id": "62098ebab6cc4ed56c14e17c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Incandescent",
+        "hertz": "60",
+        "percent": 23,
+        "id": "62098c32e9bbd84196e959bc"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "「iRuHa♡」",
+    "__v": 0
+  },
+  "Mephiles175": {
+    "_id": "62098ebab6cc4ed56c14e17e",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "GLISTEN",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e95958"
+      },
+      {
+        "name": "Libertas",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959f2"
+      },
+      {
+        "name": "Sunburn",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3de9bbd84196e95b81"
+      },
+      {
+        "name": "(Old) Libertas",
+        "hertz": "60",
+        "percent": 56,
+        "id": "62098c38e9bbd84196e95aa4"
+      },
+      {
+        "name": "On1y Cub3",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95ab8"
+      },
+      {
+        "name": "Daydream",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e9587b"
+      },
+      {
+        "name": "Extinction",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2de9bbd84196e95903"
+      },
+      {
+        "name": "Troll level",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95bf5"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Mephiles175",
+    "__v": 0
+  },
+  "Comeoutgd": {
+    "_id": "62098ebbb6cc4ed56c14e180",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Exotic Energy",
+        "hertz": "60",
+        "percent": 31,
+        "id": "62098c2de9bbd84196e958f6"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Comeoutgd",
+    "__v": 0
+  },
+  "Renato 16": {
+    "_id": "62098ebbb6cc4ed56c14e182",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "(Old) Cataclysm",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a93"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Renato 16",
+    "__v": 0
+  },
+  "SharkFaceHQ": {
+    "_id": "62098ebbb6cc4ed56c14e184",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "(Old) Cataclysm",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a94"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SharkFaceHQ",
+    "__v": 0
+  },
+  "le Sothic": {
+    "_id": "62098ebbb6cc4ed56c14e186",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "night party",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a7c"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "le Sothic",
+    "__v": 0
+  },
+  "Surpl3x": {
+    "_id": "62098ebbb6cc4ed56c14e188",
+    "records": [
+      {
+        "name": "Bloodlust",
+        "hertz": "120",
+        "percent": 31,
+        "id": "62098c14e9bbd84196e954f3"
+      },
+      {
+        "name": "Yatagarasu",
+        "hertz": "60",
+        "percent": 23,
+        "id": "62098c18e9bbd84196e955a1"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Silentium Gradas",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b59"
+      },
+      {
+        "name": "Red World",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b17"
+      },
+      {
+        "name": "Athanatos",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e957a2"
+      },
+      {
+        "name": "INNARDS",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959d6"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Surpl3x",
+    "__v": 0
+  },
+  "Luqualizer": {
+    "_id": "62098ebbb6cc4ed56c14e18a",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Sky tech",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b66"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Luqualizer",
+    "__v": 0
+  },
+  "TristonGD": {
+    "_id": "62098ebbb6cc4ed56c14e18c",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Torgue",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95be3"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "TristonGD",
+    "__v": 0
+  },
+  "Hydrus73": {
+    "_id": "62098ebbb6cc4ed56c14e18e",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "DARKENED",
+        "hertz": "60",
+        "percent": 60,
+        "id": "62098c2ae9bbd84196e9586e"
+      },
+      {
+        "name": "Deflective",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c2ae9bbd84196e95885"
+      },
+      {
+        "name": "New Record",
+        "hertz": "60",
+        "percent": 63,
+        "id": "62098c36e9bbd84196e95a6d"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Hydrus73",
+    "__v": 0
+  },
+  "Batle": {
+    "_id": "62098ebbb6cc4ed56c14e190",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Arcane16",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c24e9bbd84196e9577d"
+      },
+      {
+        "name": "Multition",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a50"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Batle",
+    "__v": 0
+  },
+  "DiscJoker": {
+    "_id": "62098ebcb6cc4ed56c14e192",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "(Old) The Ultimate Phase",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c38e9bbd84196e95ab0"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "DiscJoker",
+    "__v": 0
+  },
+  "Fishyyy": {
+    "_id": "62098ebcb6cc4ed56c14e194",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      {
+        "name": "Anahita",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c23e9bbd84196e95760"
+      },
+      {
+        "name": "Aureole",
+        "hertz": "60",
+        "percent": 18,
+        "id": "62098c25e9bbd84196e957c1"
+      },
+      {
+        "name": "Novasphere",
+        "hertz": "60",
+        "percent": 43,
+        "id": "62098c37e9bbd84196e95a87"
+      },
+      {
+        "name": "DDiamond",
+        "hertz": "60",
+        "percent": "12",
+        "id": "62112f04fa9409efbd84701f"
+      }
+    ],
+    "name": "Fishyyy",
+    "__v": 0
+  },
+  "vAurora": {
+    "_id": "62098ebcb6cc4ed56c14e196",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Factory Realm X",
+        "hertz": "144",
+        "id": "62098c1de9bbd84196e95655"
+      }
+    ],
+    "extralist": [
+      {
+        "name": "Blade of Justice",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c27e9bbd84196e957fa"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "vAurora",
+    "__v": 0
+  },
+  "NicJGD": {
+    "_id": "62098ebcb6cc4ed56c14e198",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Hydratic",
+        "hertz": "60",
+        "percent": 21,
+        "id": "62098c31e9bbd84196e95997"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "NicJGD",
+    "__v": 0
+  },
+  "BlueTomcat": {
+    "_id": "62098ebcb6cc4ed56c14e19a",
+    "nationality": "Korea",
+    "socials": [
+      {
+        "discord": [
+          "BlueTomcat#1771"
+        ],
+        "youtube": "https://www.youtube.com/channel/UCofYexTSuHGFwPCYsKIpI4A"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "corrupted volume",
+        "hertz": "60",
+        "percent": 21,
+        "id": "62098c29e9bbd84196e95857"
+      },
+      {
+        "name": "(Old) Doomsday",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c37e9bbd84196e95a98"
+      },
+      {
+        "name": "EMPTINESS",
+        "hertz": "60",
+        "percent": 17,
+        "id": "62098c2ce9bbd84196e958d3"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "BlueTomcat",
+    "__v": 0
+  },
+  "Maddie": {
+    "_id": "62098ebcb6cc4ed56c14e19c",
+    "records": [
+      {
+        "name": "Glowy",
+        "hertz": "120",
+        "percent": 39,
+        "id": "62098c1fe9bbd84196e956b0"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Maddie",
+    "__v": 0
+  },
+  "Ozone": {
+    "_id": "62098ebcb6cc4ed56c14e19e",
+    "records": [
+      {
+        "name": "Cadrega City",
+        "hertz": "60",
+        "percent": 18,
+        "id": "62098c1ce9bbd84196e95642"
+      },
+      {
+        "name": "Infinite Iniquity",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c18e9bbd84196e95594"
+      },
+      {
+        "name": "Descent Into Exile",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c2ae9bbd84196e95891"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Codependence",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c29e9bbd84196e95843"
+      },
+      {
+        "name": "Forbidden Isle",
+        "hertz": "60",
+        "percent": 22,
+        "id": "62098c2ee9bbd84196e9592e"
+      },
+      {
+        "name": "Thorny Path",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c3fe9bbd84196e95bd7"
+      },
+      {
+        "name": "Shock Therapy",
+        "hertz": "60",
+        "percent": 13,
+        "id": "62098c3ce9bbd84196e95b4f"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Ozone",
+    "__v": 2
+  },
+  "HypnoRico": {
+    "_id": "62098ebcb6cc4ed56c14e1a0",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "twitch": "https://www.twitch.tv/thehypnorico",
+        "youtube": "https://youtube.com/channel/UCZIFDurmkey2fC-IL_dp5dw",
+        "twitter": "https://twitter.com/GoldcrestPalace",
+        "discord": [
+          "Hypno#9461"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "name": "Lucid Chaos",
+        "hertz": "120",
+        "percent": 31,
+        "id": "62098c1ae9bbd84196e955f3"
+      },
+      {
+        "name": "SARY NEVER CLEAR",
+        "hertz": "120",
+        "percent": 24,
+        "id": "62098c12e9bbd84196e954b0"
+      },
+      {
+        "name": "DubKore X",
+        "hertz": "120",
+        "percent": 23,
+        "id": "62098c1ae9bbd84196e955d8"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Astral Divinity",
+        "hertz": "120",
+        "percent": 28,
+        "id": "62098c24e9bbd84196e9579d"
+      },
+      {
+        "name": "Phantasmagoria",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c39e9bbd84196e95adc"
+      },
+      {
+        "name": "Sector 19",
+        "hertz": "120",
+        "percent": 31,
+        "id": "62098c21e9bbd84196e956fe"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "HypnoRico",
+    "__v": 1
+  },
+  "Snack": {
+    "_id": "62098ebcb6cc4ed56c14e1a2",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Karma",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959ea"
+      }
+    ],
+    "screenshot": [
+      {
+        "name": "N0",
+        "hertz": "60",
+        "percent": 83,
+        "id": "62098c36e9bbd84196e95a5e"
+      }
+    ],
+    "name": "Snack",
+    "__v": 0
+  },
+  "Caua": {
+    "_id": "62098ebdb6cc4ed56c14e1a6",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Novalis",
+        "hertz": "40",
+        "percent": 48,
+        "id": "62098c37e9bbd84196e95a83"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Caua",
+    "__v": 0
+  },
+  "ABOSS47": {
+    "_id": "62098ebdb6cc4ed56c14e1a8",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Apparition",
+        "hertz": "60",
+        "percent": 83,
+        "id": "62098c23e9bbd84196e95779"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "ABOSS47",
+    "__v": 0
+  },
+  "White Pythor": {
+    "_id": "62098ebdb6cc4ed56c14e1aa",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Sigma Interface",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c3ce9bbd84196e95b55"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "White Pythor",
+    "__v": 0
+  },
+  "Johkhun": {
+    "_id": "62098ebdb6cc4ed56c14e1ac",
+    "records": [
+      {
+        "name": "Macabre",
+        "hertz": "60",
+        "percent": 41,
+        "id": "62098c18e9bbd84196e9558c"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Johkhun",
+    "__v": 0
+  },
+  "PojangMacha": {
+    "_id": "62098ebdb6cc4ed56c14e1ae",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "CYCLONE",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c29e9bbd84196e9586a"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "PojangMacha",
+    "__v": 0
+  },
+  "NihiliusR": {
+    "_id": "62098ebdb6cc4ed56c14e1b0",
+    "records": [
+      {
+        "name": "Stalemate Redux",
+        "hertz": "120",
+        "percent": 73,
+        "id": "62098c1ce9bbd84196e9563d"
+      },
+      {
+        "name": "Cybernetic Crescent",
+        "hertz": "120",
+        "percent": 58,
+        "id": "62098c18e9bbd84196e95599"
+      },
+      {
+        "name": "Zodiac",
+        "hertz": "120",
+        "percent": 49,
+        "id": "62098c12e9bbd84196e9549e"
+      }
+    ],
+    "completions": [
+      {
+        "name": "The Hell Zone",
+        "hertz": "120",
+        "id": "62098c1fe9bbd84196e956aa"
+      }
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "NihiliusR",
+    "__v": 0
+  },
+  "Unn": {
+    "_id": "62098ebdb6cc4ed56c14e1b2",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Fusion Z",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c2fe9bbd84196e9593f"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Unn",
+    "__v": 0
+  },
+  "WhyBotherTry": {
+    "_id": "62098ebdb6cc4ed56c14e1b4",
+    "records": [
+      {
+        "name": "Catalyze",
+        "hertz": "120",
+        "percent": 52,
+        "id": "62098c1be9bbd84196e9561f"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "WhyBotherTry",
+    "__v": 0
+  },
+  "Question": {
+    "_id": "62098ebeb6cc4ed56c14e1b6",
+    "nationality": "Brazil",
+    "socials": [
+      {
+        "discord": [
+          "question#1133"
+        ],
+        "youtube": "https://youtube.com/channel/UCTQ5kty_IlbWt7ixDBrLk4Q"
+      }
+    ],
+    "records": [
+      {
+        "name": "Cybernetic Crescent",
+        "hertz": "60",
+        "percent": 33,
+        "id": "62098c18e9bbd84196e95598"
+      },
+      {
+        "name": "Requiem",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c17e9bbd84196e95564"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Question",
+    "__v": 0
+  },
+  "DashIeLL10": {
+    "_id": "62098ebeb6cc4ed56c14e1b8",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Lights Out",
+        "hertz": "60",
+        "verification": true,
+        "percent": 100,
+        "id": "62098c33e9bbd84196e959f7"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "DashIeLL10",
+    "__v": 0
+  },
+  "SeaWolfMikes": {
+    "_id": "62098ebeb6cc4ed56c14e1ba",
+    "records": [
+      {
+        "name": "Necromancer",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c17e9bbd84196e9556d"
+      },
+      {
+        "name": "Hard Machine",
+        "hertz": "60",
+        "percent": 16,
+        "id": "62098c12e9bbd84196e95499"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SeaWolfMikes",
+    "__v": 0
+  },
+  "ddddr": {
+    "_id": "62098ebeb6cc4ed56c14e1bc",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "CHROMA II",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c28e9bbd84196e9583e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "ddddr",
+    "__v": 0
+  },
+  "GD Ombu": {
+    "_id": "62098ebeb6cc4ed56c14e1be",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Ferrum Frenzy",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c2ee9bbd84196e95918"
+      },
+      {
+        "name": "Idols",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e959ab"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "GD Ombu",
+    "__v": 0
+  },
+  "ReduX": {
+    "_id": "62098ebeb6cc4ed56c14e1c0",
+    "records": [
+      {
+        "name": "Thinking Space",
+        "hertz": "144",
+        "percent": 43,
+        "id": "62098c13e9bbd84196e954cd"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Audio Extraction",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c25e9bbd84196e957b8"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "ReduX",
+    "__v": 0
+  },
+  "AstraloFY": {
+    "_id": "62098ebeb6cc4ed56c14e1c2",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Novalis",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c37e9bbd84196e95a82"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "AstraloFY",
+    "__v": 0
+  },
+  "Bloom": {
+    "_id": "62098ebeb6cc4ed56c14e1c4",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Heat Wave",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e9598a"
+      },
+      {
+        "name": "Torgue",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c40e9bbd84196e95be4"
+      },
+      {
+        "name": "A2Marbl",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c21e9bbd84196e95721"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Bloom",
+    "__v": 0
+  },
+  "SuperDogGD": {
+    "_id": "62098ebeb6cc4ed56c14e1c6",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Ikaros",
+        "hertz": "60",
+        "percent": 70,
+        "id": "62098c32e9bbd84196e959b4"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "SuperDogGD",
+    "__v": 0
+  },
+  "Juancho 876": {
+    "_id": "62098ebfb6cc4ed56c14e1c8",
+    "nationality": "Colombia",
+    "socials": [
+      {
+        "youtube": "https://youtube.com/channel/UCP-AJZK1QI7eYLQihvEPl8w",
+        "discord": [
+          "Juancho 876#7344"
+        ]
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Another Phase",
+        "hertz": "120",
+        "percent": 19,
+        "id": "62098c23e9bbd84196e9576d"
+      },
+      {
+        "name": "Betelgeuse",
+        "hertz": "120",
+        "percent": 10,
+        "id": "62098c26e9bbd84196e957e9"
+      },
+      {
+        "name": "Poltergeist Reborn",
+        "hertz": "120",
+        "percent": 20,
+        "id": "62098c3ae9bbd84196e95af8"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Juancho 876",
+    "__v": 0
+  },
+  "Demonbeater17": {
+    "_id": "62098ebfb6cc4ed56c14e1ca",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Hateful Reflection",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e9597d"
+      },
+      {
+        "name": "Violently X",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c20"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Demonbeater17",
+    "__v": 0
+  },
+  "WhitePythor": {
+    "_id": "62098ebfb6cc4ed56c14e1cc",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      {
+        "name": "Artificial Ascent",
+        "hertz": "120",
+        "id": "62098c1ee9bbd84196e9567d"
+      }
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "WhitePythor",
+    "__v": 0
+  },
+  "mrclean": {
+    "_id": "62098ebfb6cc4ed56c14e1ce",
+    "nationality": "United_States",
+    "records": [
+      {
+        "name": "Eternal Moment",
+        "hertz": "60",
+        "percent": 58,
+        "id": "62098c16e9bbd84196e95557"
+      },
+      {
+        "name": "Crimson Planet",
+        "hertz": "60",
+        "percent": 25,
+        "id": "62098c13e9bbd84196e954c2"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "mrclean",
+    "__v": 0
+  },
+  "Robotic Dash": {
+    "_id": "62098ebfb6cc4ed56c14e1d0",
+    "nationality": "Brazil",
+    "socials": [
+      {
+        "discord": [
+          "LT#8122"
+        ],
+        "youtube": "https://youtube.com/channel/UCdV-amc1T3Amqiud9yT-KBg"
+      }
+    ],
+    "records": [
+      {
+        "name": "RELENTLESS",
+        "hertz": "60",
+        "percent": "17",
+        "id": "620ad99e558350541d829064"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "EUOUAE",
+        "hertz": "60",
+        "percent": 26,
+        "id": "62098c2de9bbd84196e958ee"
+      },
+      {
+        "name": "Monstercat",
+        "hertz": "60",
+        "percent": 15,
+        "id": "62098c35e9bbd84196e95a41"
+      },
+      {
+        "name": "ErebuS",
+        "hertz": "60",
+        "percent": 43,
+        "id": "62098c21e9bbd84196e95713"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Robotic Dash",
+    "__v": 0
+  },
+  "WoodPecker": {
+    "_id": "62098ebfb6cc4ed56c14e1d2",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Warning",
+        "hertz": "60",
+        "percent": 14,
+        "id": "62098c42e9bbd84196e95c3d"
+      },
+      {
+        "name": "Dismay",
+        "hertz": "60",
+        "percent": "11",
+        "id": "621eaf2ccb61aee6fa03bb92"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "WoodPecker",
+    "__v": 0
+  },
+  "Grim": {
+    "_id": "62098ebfb6cc4ed56c14e1d4",
+    "nationality": "United_States",
+    "socials": [
+      {
+        "discord": [
+          "Grim#5728"
+        ]
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Aura",
+        "hertz": "60",
+        "percent": 12,
+        "id": "62098c25e9bbd84196e957bc"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Grim",
+    "__v": 0
+  },
+  "Ehrenga": {
+    "_id": "62098ebfb6cc4ed56c14e1d6",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Cadrega Mode",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c28e9bbd84196e9581e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Ehrenga",
+    "__v": 0
+  },
+  "Rachel": {
+    "_id": "62098ebfb6cc4ed56c14e1d8",
+    "records": [
+      {
+        "name": "Devil Vortex",
+        "hertz": "60",
+        "percent": 53,
+        "id": "62098c1be9bbd84196e955fd"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Surge of the Shield",
+        "hertz": "60",
+        "percent": 51,
+        "id": "62098c3de9bbd84196e95b8d"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Rachel",
+    "__v": 0
+  },
+  "ExoLiter": {
+    "_id": "62098ebfb6cc4ed56c14e1da",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Vignette",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c24"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "ExoLiter",
+    "__v": 0
+  },
+  "Teine": {
+    "_id": "62098ec0b6cc4ed56c14e1dc",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Napalm",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c36e9bbd84196e95a63"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Teine",
+    "__v": 0
+  },
+  "Temical": {
+    "_id": "62098ec0b6cc4ed56c14e1de",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "To The Stars II",
+        "hertz": "60",
+        "percent": 51,
+        "id": "62098c40e9bbd84196e95bec"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Temical",
+    "__v": 0
+  },
+  "DitzyDoo4": {
+    "_id": "62098ec0b6cc4ed56c14e1e0",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Helios",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e9598f"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "DitzyDoo4",
+    "__v": 0
+  },
+  "Saiko": {
+    "_id": "62098ec0b6cc4ed56c14e1e2",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Dolos",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c2be9bbd84196e958b2"
+      },
+      {
+        "name": "Untitled",
+        "hertz": "144",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c0c"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Saiko",
+    "__v": 0
+  },
+  "LNate": {
+    "_id": "62098ec0b6cc4ed56c14e1e4",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Fabricated Thoughts",
+        "hertz": "60",
+        "percent": 54,
+        "id": "62098c2de9bbd84196e95907"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "LNate",
+    "__v": 0
+  },
+  "Electric": {
+    "_id": "62098ec0b6cc4ed56c14e1e6",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Vivacious",
+        "hertz": "60",
+        "percent": 13,
+        "id": "62098c41e9bbd84196e95c2c"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Electric",
+    "__v": 0
+  },
+  "Electroanimator": {
+    "_id": "62098ec0b6cc4ed56c14e1e8",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "MONSTROSITY",
+        "hertz": "60",
+        "percent": 13,
+        "id": "62098c36e9bbd84196e95a45"
+      },
+      {
+        "name": "Astral Divinity",
+        "hertz": "60",
+        "percent": 19,
+        "id": "62098c24e9bbd84196e9579c"
+      },
+      {
+        "name": "Sector 19",
+        "hertz": "60",
+        "percent": 11,
+        "id": "62098c21e9bbd84196e956fd"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Electroanimator",
+    "__v": 1
+  },
+  "Dashin": {
+    "_id": "62098ec0b6cc4ed56c14e1ec",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Goldcrest Palace",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c30e9bbd84196e95961"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Dashin",
+    "__v": 0
+  },
+  "Cofla": {
+    "_id": "62098ec1b6cc4ed56c14e1ee",
+    "nationality": "Argentina",
+    "socials": [
+      {
+        "discord": [
+          "Cofla#1674",
+          ""
+        ],
+        "youtube": "https://youtube.com/channel/UCCdUJ6nowADtpgPoO238GCQ"
+      }
+    ],
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Retention",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c3be9bbd84196e95b25"
+      },
+      {
+        "name": "HyperSonic",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c31e9bbd84196e959a6"
+      },
+      {
+        "name": "Thanatophobia",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c3ee9bbd84196e95bac"
+      },
+      {
+        "name": "Acu",
+        "hertz": "90",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e9573a"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Cofla",
+    "__v": 0
+  },
+  "Seolha": {
+    "_id": "62098ec1b6cc4ed56c14e1f0",
+    "records": [
+      {
+        "name": "Kuzureta",
+        "hertz": "60",
+        "percent": 46,
+        "id": "62098c19e9bbd84196e955bf"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Ainoseikatsu",
+        "hertz": "60",
+        "percent": 100,
+        "id": "62098c22e9bbd84196e9574c"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Seolha",
+    "__v": 0
+  },
+  "Fluffy12234": {
+    "_id": "62098ec1b6cc4ed56c14e1f2",
+    "records": [
+      {
+        "name": "Never Beat It",
+        "hertz": "60",
+        "percent": 24,
+        "id": "62098c20e9bbd84196e956d1"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Fluffy12234",
+    "__v": 0
+  },
+  "Thewaru": {
+    "_id": "62098ec1b6cc4ed56c14e1f6",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Untitled",
+        "hertz": "120",
+        "percent": 100,
+        "id": "62098c41e9bbd84196e95c0d"
+      },
+      {
+        "name": "Night Rider",
+        "hertz": "120",
+        "percent": "45",
+        "id": "621b0c832ce331b4adb87e0e"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Thewaru",
+    "__v": 0
+  },
+  "Jas Sin": {
+    "_id": "6217d884269c955a04cc654d",
+    "nationality": "Indonesia",
+    "socials": [
+      {
+        "discord": [
+          "TheoSi#8284",
+          ""
+        ],
+        "youtube": "https://www.youtube.com/channel/UCs8Ps0FQAUciHFkwHbAdqKg"
+      }
+    ],
+    "records": [
+      {
+        "name": "Verdant Landscape",
+        "hertz": "120",
+        "percent": "11",
+        "id": "6217d884269c955a04cc654f"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Jas Sin",
+    "__v": 0
+  },
+  "Kucouski": {
+    "_id": "621e9b24cb61aee6fa03a686",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "2 1 1",
+        "hertz": "120",
+        "percent": "42",
+        "id": "621e9b24cb61aee6fa03a688"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Kucouski",
+    "__v": 0
+  },
+  "Andres LC": {
+    "_id": "621e9b6fcb61aee6fa03abc8",
+    "records": [
+      {
+        "name": "Kuzureta",
+        "hertz": "120",
+        "percent": "48",
+        "id": "621e9b79cb61aee6fa03ae6a"
+      }
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      "none"
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Andres LC",
+    "__v": 0
+  },
+  "Kaydss": {
+    "_id": "62251ba0d4b90170d0aec8c3",
+    "records": [
+      "none"
+    ],
+    "completions": [
+      "none"
+    ],
+    "extralist": [
+      {
+        "name": "Carcano",
+        "hertz": "60",
+        "percent": "56",
+        "id": "621523a9ec120fc6ca3ac30b"
+      }
+    ],
+    "screenshot": [
+      "none"
+    ],
+    "name": "Kaydss",
+    "__v": 0
+  }
+}

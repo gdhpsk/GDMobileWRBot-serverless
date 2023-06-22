@@ -1,0 +1,4243 @@
+{
+    "One": {
+            "level changes": [
+               {
+                   "name": "Sonic Wave Infinity",
+                   "movedplacement": [3, 2],
+                   "abovebelow": ["The Golden", "Tartarus"]
+               },
+               {
+                "name": "Crimson Planet",
+                "movedplacement": [6, 10],
+                "abovebelow": ["Calculator Core", "Promethean"]
+                },
+                {
+                 "name": "SARY NEVER CLEAR",
+                 "movedplacement": [8, 7],
+                 "abovebelow": ["Fragile", "Renevant"]
+                 }
+            ],
+            "level placements": [
+                {
+                    "name": "RUST",
+                    "placement": 17,
+                    "worldrecord": {
+                        "name": "Hpsk",
+                        "percent": 28,
+                        "hertz": "60"
+                    },
+                    "abovebelow": ["The Rupture", "Cognition"],
+                    "pushes": [
+                        {
+                            "name": "Stalemate Redux", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "RASH", 
+                            "type": "legacy"
+                        }
+                    ]
+                }
+            ],
+            "record changes": [
+                {
+                    "name": "Surpl3x",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Yatagarasu",
+                        "screenshot": false,
+                        "percent": ["23", ""]
+                    },
+                    "points": 1,
+                    "comments": "Good luck Surpl3x!"
+                },
+                {
+                    "name": "Nontypical",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Carnage Mode",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["44", ""]
+                    },
+                    "points": 0,
+                    "comments": "Still though, this level is boring af so good job on this!"
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Aureole",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["14", ""]
+                    },
+                    "points": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Based Gang",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["14", ""]
+                    },
+                    "points": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EUOUAE",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0,
+                    "comments": "Bro you have too many world records chill"
+                },
+                {
+                    "name": "Electric",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Pandemonium",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0
+                },
+                {
+                    "name": "WhiteEmerald",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Molten Mercury",
+                        "screenshot": true,
+                        "extralist": true,
+                        "percent": ["14", ""]
+                    },
+                    "points": 0
+                },
+                {
+                    "name": "Storm957",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EnvY",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "comments": "Still though, this is really insane GG!"
+                },
+                {
+                    "name": "Electric",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Moment",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["13", ""]
+                    },
+                    "points": 0
+                },
+                {
+                    "name": "HypnoRico",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Stalemate Redux",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["38", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "HypnoRico",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Lucid Chaos",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["31", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "Noxop",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "SubSonic",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "comments": "(This was a while ago btw)"
+                },
+                {
+                    "name": "El Ameno",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Crowd Control",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1
+                }
+            ],
+            "rates": [
+                {
+                    "name": "Paralysis",
+                    "ID": "72506465",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "Usual KhaOS",
+                        "percent": 24,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Lonely Travel",
+                    "ID": "72785216",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "FurryW Gd",
+                        "percent": 18,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "CHROMA FINALE",
+                    "ID": "72570152",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 18,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Sunburn",
+                    "ID": "73005068",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 18,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "APEX",
+                    "ID": "72941895",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 18,
+                        "hertz": "60"
+                    }
+                }
+            ]
+        },
+        "Two": {
+            "level changes": [
+                {
+                    "name": "Molten Core",
+                    "movedplacement": [28, 39],
+                    "abovebelow": ["Necromancer", "Wasureta"]
+                    }
+            ],
+            "level placements": [
+                "none"
+            ],
+            "record changes": [
+                {
+                    "name": "Coheton",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Untitled",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["35", ""]
+                    },
+                    "points": 0
+                },
+                {
+                    "name": "WhiteEmerald",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Eternal Star",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "comments": "GG man 8)",
+                    "points": 1
+                },
+                {
+                    "name": "MineFord",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Adrenaline",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["62", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "NicJGD",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Warning",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0
+                },
+                {
+                    "name": "Not Applicable 11",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Arctic Arena",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "comments": "This is very insane GGGGGGGGGGGGGGGGGGG!!"
+                },
+                {
+                    "name": "TheRealMap",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "N0",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["52", ""]
+                    },
+                    "points": 0
+                },
+                {
+                    "name": "Noxop",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Artificial Ascent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "comments": "GG!"
+                },
+                {
+                    "name": "Mephiles",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Sunburn",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "HypnoRico",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Astral Divinity",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["28", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "Snack",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Karma",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Plasma Pulse Finale",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "comments": "GG THIS IS INSANE"
+                },
+                {
+                    "name": "Zeth",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Yandere",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["32", ""]
+                    },
+                    "points": 0
+                }
+            ],
+            "rates": [
+                {
+                    "name": "nowdead",
+                    "ID": "69459902",
+                    "status": "promoted",
+                    "worldrecord": {
+                        "name": "FrostFoxyn",
+                        "percent": 19,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "ILLUMINOUS",
+                    "ID": "72776334",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 100,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Coke Master",
+                    "ID": "70943059",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 100,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Kappa",
+                    "ID": "59800588",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 100,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Kuzureta",
+                    "ID": "71216292",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 100,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Hard Machine",
+                    "ID": "72744364",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "NicJGD",
+                        "percent": 10,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Boogie",
+                    "ID": "72873416",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 100,
+                        "hertz": "60"
+                    }
+                }
+            ]
+        },
+        "Three": {
+            "level changes": [
+                {
+                    "name": "Auditory Breaker",
+                    "ytcode": "ZcQ5NrKmpT0",
+                    "movedplacement": [94, 110],
+                    "abovebelow": ["Ziroikabi", "Black Blizzard"]
+                }
+            ],
+            "level placements": [
+                "none"
+            ],
+            "record changes": [
+                {
+                    "name": "Xploiter",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Coke Master",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Annihilation Nation",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "Venfy",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "OOPZ",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1
+                },
+                {
+                    "name": "Caua",
+                    "hertz": "40",
+                    "levelinfo": {
+                        "name": "Novalis",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["48", ""]
+                    },
+                    "points": 0,
+                    "comments": "This is the first time Ive seen a 40hz record. Pretty crazy if you ask me"
+                },
+                {
+                    "name": "Venfy",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Nowdead",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["58", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/qnovhm"
+                },
+                {
+                    "name": "Gherkin",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Cadrega City",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/hvbORPlYav8"
+                },
+                {
+                    "name": "Not Applicable 11",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Spacial Rend",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["17", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/u8ba02"
+                },
+                {
+                    "name": "NicJGD",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Antimatter",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["45", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/-6W9q3RX0S0"
+                },
+                {
+                    "name": "Gherkin",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "To The Stars II",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["14", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/bwjEebNtav4"
+                }
+            ],
+            "rates": [
+                {
+                    "name": "Infinite Iniquity",
+                    "ID": "59331091",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 19,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Requiem",
+                    "ID": "52303420",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 19,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "ErebuS",
+                    "ID": "65860142",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 19,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Dismay",
+                    "ID": "64680297",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 19,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Memories III",
+                    "ID": "72651677",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 19,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Helios",
+                    "ytcode": "XI4SkaFqS5c",
+                    "ID": "71728635",
+                    "status": "promoted",
+                    "worldrecord": {
+                        "name": "Electric",
+                        "percent": 22,
+                        "hertz": "60",
+                        "link": "https://cdn.discordapp.com/attachments/844106557507108865/886255839982272562/image0.png"
+                    }
+                }
+            ]
+        },
+        "Four": {
+            "level changes": [
+                "none"
+             ],
+             "level placements": [
+                 {
+                     "name": "Pandemonium",
+                     "placement": 122,
+                     "worldrecord": {
+                        "name": "Usual KhaOS",
+                        "percent": 12,
+                        "hertz": "60",
+                        "link": "https://youtu.be/Ehsdu9kwX-s"
+                     },
+                     "abovebelow": ["Astral Divinity", "Carcano"],
+                     "pushes": [
+                         {
+                             "name": "Fabricated Thoughts", 
+                             "type": "legacy"
+                         }
+                     ]
+                 },
+                 {
+                     "name": "Spectrum Rave",
+                     "placement": 104,
+                     "worldrecord": {
+                         "name": "WhiteEmerald",
+                         "percent": 18,
+                         "hertz": "60",
+                         "link": "https://streamable.com/vjwqy2"
+                     },
+                     "abovebelow": ["Balengu Vortex", "Belloq"],
+                     "pushes": [
+                         {
+                             "name": "Infernal Abyss", 
+                             "type": "legacy"
+                         }
+                     ]
+                 },
+                 {
+                     "name": "Trueffet",
+                     "placement": 3,
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 18,
+                         "hertz": "60"
+                     },
+                     "abovebelow": ["The Golden", "Sonic Wave Infinity"],
+                     "pushes": [
+                         {
+                             "name": "Photovoltaic II", 
+                             "type": "extended"
+                         },
+                         {
+                             "name": "Endless Dream", 
+                             "type": "legacy"
+                         }                                     
+                     ]
+                 }
+             ],
+             "record changes": [
+                {
+                    "name": "DerpOverlord",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Malware II",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["23", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/QdkQyra5O6c"
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Mirrored Calamity",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/4BAOUrC5gog"
+                },
+                {
+                    "name": "Mike139115",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Artificial Ascent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["71", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/UzCY-5qVCNY"
+                },
+                {
+                    "name": "TheLiga",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Asmodeus",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["53", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/H1GjZMJx4Fo",
+                    "comments": "GL man, you got this!"
+                },
+                {
+                    "name": "Chubs Dubs",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Cadrega City",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["16", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=9o759JCF3C8"
+                },
+                {
+                    "name": "ABOSS47",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Apparition",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["83", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/NxxrlKmgk5Y"
+                },
+                {
+                    "name": "Electric",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Helios",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["43", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/xpuVtMqgxZo"
+                },
+                {
+                    "name": "Hilo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Limitless",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["52", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/QyXKupy5lfQ"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Gunslinga Corridor",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["30", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/v0dlas"
+                },
+                {
+                    "name": "White Pythor",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Sigma Interface",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/SD-Ptk_Y0t8",
+                    "comments": "GG!"
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "APEX",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["21", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/oPKetaudNsk"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Arctic Lights",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["64", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/4zq8siQuXPw"
+                },
+                {
+                    "name": "Chubs Dubs",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Bloodlust",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["26", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/XtsX2eGANO8"
+                },
+                {
+                    "name": "Hpsk",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Chromatic Haze",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["63", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/0RHOQdIUucU"
+                },
+                {
+                    "name": "Johkhun",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Eternal Moment",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["41", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/oDytnf1L_50"
+                },
+                {
+                    "name": "PojangMacha",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "CYCLONE",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=I4OqNJeTZeA"
+                },
+                {
+                    "name": "SpeedyFriend67",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Kuzureta",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["16", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/Qokg27eKYKo"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Hydraulic Overdrive",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["40", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/MrZkguxf6_8"
+                }
+             ],
+             "rates": [
+                {
+                    "name": "PPPPPPPPPPPPPPPPIXEL",
+                    "ytcode": "utim7mVmIWY",
+                    "ID": "69729105",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "Venfy",
+                        "percent": 56,
+                        "hertz": "60",
+                        "link": "https://streamable.com/lo436y"
+                    }
+                },
+                 {
+                     "name": "ILLUMINOUS",
+                     "ytcode": "8rUMX6vR3Tg",
+                     "ID": "72776334",
+                     "status": "unrated"
+                 },
+                 {
+                     "name": "Memories III",
+                     "ytcode": "XI4SkaFqS5c",
+                     "ID": "72651677",
+                     "status": "unrated"
+                 },
+                 {
+                     "name": "Voltaic",
+                     "ytcode": "sa5wbOKmIK4",
+                     "ID": "73529215",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 56,
+                         "hertz": "60"
+                     }
+                 },
+                 {
+                     "name": "Tunnel",
+                     "ytcode": "xusX-xC0zzk",
+                     "ID": "73428541",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 56,
+                         "hertz": "60"
+                     }
+                 },
+                 {
+                     "name": "Dream City",
+                     "ytcode": "ud2VtM5Soi0",
+                     "ID": "72908323",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 56,
+                         "hertz": "60"
+                     }
+                 },
+                 {
+                     "name": "Effect",
+                     "ytcode": "93nV3KBtpuQ",
+                     "ID": "67188780",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "Electric",
+                         "percent": 25,
+                         "hertz": "60",
+                         "link": "https://youtu.be/v84Hiud5phY"
+                     }
+                 }
+             ]
+        },
+        "Five": {
+            "date": "September 19th - September 26th, 2021",
+            "level changes": [
+                "none"
+             ],
+             "level placements": [
+                 "none"
+             ],
+             "record changes": [
+                 {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Shape of the Sun",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["63", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/f00gyQ0u-RQ"
+                },
+                {
+                    "name": "Ozone",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Shock Therapy",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["13", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/FBWQwCWIszM"
+                },
+                {
+                    "name": "Ozone",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Cadrega City",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["18", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/FE682qnSkao"
+                },
+                {
+                    "name": "WhiteEmerald",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "PPPPPPPPPPPPPPPPIXEL",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/ykJN8v9Y91c"
+                },
+                {
+                    "name": "King Dart",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Golden",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["19", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/xk7XAQUpnrc"
+                },
+                {
+                    "name": "Ozone",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Chroma II",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["14", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/NK6qXzv7VtE"
+                },
+                {
+                    "name": "Vink",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Voltaic",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["19", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/3_SSJql83dY"
+                },
+                {
+                    "name": "WhiteEmerald",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "GewErbiX",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["57", "74"]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/c7kfnf",
+                    "comments": "This time on recording btw"
+                },
+                {
+                    "name": "Noxop",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Endless Dream",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/EuWA4N3k3LU"
+                },
+                {
+                    "name": "RedMatrix",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Glowy",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/-XTrSE-FpD4"
+                },
+                {
+                    "name": "Detrezo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Pandemonium",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["21", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/fRg_pcwMNoQ"
+                },
+                {
+                    "name": "Hpsk",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Molten Gear",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["24", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/lrls84"
+                },
+                {
+                    "name": "Hydrus73",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "DARKENED",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["44", ""]
+                    },
+                    "points": 0,
+                    "link": "https://www.youtube.com/watch?v=ceOlX6kjaTI"
+                },
+                {
+                    "name": "NihiliusR",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Cybernetic Crescent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["50", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/h533p1_vOTc"
+                },
+                {
+                    "name": "Vink",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Boogie",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/tpKOctseCgQ"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Generic Wave",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "link": "https://youtu.be/F23z7cP_ems"
+                },
+                {
+                    "name": "Mephiles175",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Extinction",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/1DlsT4rcvFU"
+                },
+                {
+                    "name": "SWMS",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Volume",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/9WPAlbE8Zd8"
+                },
+                {
+                    "name": "SWMS",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Deception Dive",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/P6nmDVPqrNU"
+                },
+                {
+                    "name": "xCyen",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Retention",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/_HX-D6KvJn4"
+                },
+                {
+                    "name": "Unn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Fusion Z",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/t8H6pxsgjBg"
+                },
+                {
+                    "name": "ChizuruGD",
+                    "hertz": "90",
+                    "levelinfo": {
+                        "name": "Concaved Memories",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/XPLBrKf4vEY"
+                },
+                {
+                    "name": "Xyghost",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Raindance",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/8NlXSJnBPR4"
+                },
+                {
+                    "name": "ChizuruGD",
+                    "hertz": "90",
+                    "levelinfo": {
+                        "name": "Allegiance",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/nSBjnbAcCvo"
+                },
+                {
+                    "name": "ErraticStatic",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "SUBVERSIVE",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/1RKMtdlr5fg"
+                }
+             ],
+             "rates": [
+                "none"
+             ]
+        },
+        "Six": {
+            "date": "September 26th - October 3rd, 2021",
+            "level changes": [
+                {
+                    "name": "Akashic Records",
+                    "ytcode": "qnZnV6q-mt4",
+                    "movedplacement": [14, 23],
+                    "abovebelow": ["Ragnarok", "Bloodlust"]
+                },
+                {
+                    "name": "Omega Interface",
+                    "ytcode": "2-M9-KtHdRs",
+                    "movedplacement": [15, 22],
+                    "abovebelow": ["Akashic Records", "Bloodlust"]
+                },
+                {
+                    "name": "Mirrored Calamity",
+                    "ytcode": "Lh_3KMn8Vbk",
+                    "movedplacement": [77, 56],
+                    "abovebelow": ["Titan Complex", "Generic Wave"],
+                    "pushes": [
+                        {
+                            "name": "ZAPHKIEL",
+                            "type":"extended"
+                        }
+                    ]
+                }
+            ],
+             "level placements": [
+                 {
+                     "name": "Kappa",
+                     "placement": 17,
+                     "ytcode": "Npzgmpw_zqI",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 18,
+                         "hertz": "60"
+                     },
+                     "abovebelow": ["RUST", "Cognition"],
+                     "pushes": [
+                         {
+                             "name": "Tapwreck", 
+                             "type": "extended"
+                         },
+                         {
+                             "name": "Kinetic Bypass", 
+                             "type": "legacy"
+                         }                                     
+                     ]
+                 },
+                 {
+                     "name": "Calamity",
+                     "placement": 42,
+                     "ytcode": "2u4xxNUtJLI",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 18,
+                         "hertz": "60"
+                     },
+                     "abovebelow": ["Necromancer", "Molten Core"],
+                     "pushes": [
+                         {
+                             "name": "Digital Descent", 
+                             "type": "extended"
+                         },
+                         {
+                             "name": "SPEEDRUN", 
+                             "type": "legacy"
+                         }                                     
+                     ]
+                 },
+                 {
+                     "name": "Hard Machine",
+                     "placement": 5,
+                     "ytcode": "6i0pdTDAo1c",
+                     "worldrecord": {
+                         "name": "NicJGD",
+                         "percent": 10,
+                         "hertz": "60",
+                         "link": "https://youtu.be/lyHwdEV9Pfk"
+                     },
+                     "abovebelow": ["Zodiac", "The Golden"],
+                     "pushes": [
+                         {
+                             "name": "WOW", 
+                             "type": "extended"
+                         },
+                         {
+                             "name": "Galactic Shift", 
+                             "type": "legacy"
+                         }                                     
+                     ]
+                 },
+                 {
+                     "name": "Boogie",
+                     "placement": 75,
+                      "ytcode": "bluhf__Mdqo",
+                     "worldrecord": {
+                         "name": "Kkgrooms",
+                         "percent": 39,
+                         "hertz": "60",
+                         "link": "https://youtu.be/ids2hUyIWYo"
+                     },
+                     "abovebelow": ["Catalyze", "Freedom08"],
+                     "pushes": [
+                         {
+                             "name": "Catalyze", 
+                             "type": "extended"
+                         }                                   
+                     ]
+                 }
+             ],
+             "record changes": [
+                 {
+                    "name": "WhiteEmerald",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "GewErbiX",
+                        "screenshot": true,
+                        "extralist": true,
+                        "percent": ["74", ""]
+                    },
+                    "points": 0,
+                    "link": "https://cdn.discordapp.com/attachments/846183373763641365/894318343916511272/Capture.PNG",
+                    "comments": "U got this :)"
+                },
+                {
+                    "name": "Nihilius",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Cybernetic Crescent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["53", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/W5iJPr54VpU"
+                },
+                {
+                    "name": "WhyBotherTry",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Catalyze",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["41", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/gFmwJP516E4"
+                },
+                {
+                    "name": "TheRealKat",
+                    "hertz": "90",
+                    "levelinfo": {
+                        "name": "Esencia",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=yoa8txO0gPE",
+                    "comments": "GG!"
+                },
+                {
+                    "name": "Hydrus73",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "DARKENED",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["57", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/LUe4uuliKww"
+                },
+                {
+                    "name": "NicJGD",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Crystal",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["17", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/cAMDwGnbz7M"
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "APEX",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["25", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/j3A7h3GwTVU"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Arctic Lights",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "link": "https://youtu.be/eBPNEqxvylY",
+                    "comments": "GG MAN 8)))))))"
+                },
+                {
+                    "name": "TheLiga",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Asmodeus",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["64", "80"]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/cMrj_dGydWI"
+                },
+                {
+                    "name": "HypnoRico",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "SARY NEVER CLEAR",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["24", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=8kHdcDhPm5Q"
+                },
+                {
+                    "name": "Mephiles175",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "On1y Cub3",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=PwQkpsc92vE",
+                    "comments": "How do you beat shit so fast"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Hyper Paracosm",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["58", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/KSKlbDk6Zlw"
+                },
+                {
+                    "name": "Guraud",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "CHROMA FINALE",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/ru813e"
+                },
+                {
+                    "name": "Crypto",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Moment",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["14", "25"]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/sfb977"
+                },
+                {
+                    "name": "Guraud",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "CHROMA II",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["18", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/hsq5jf"
+                },
+                {
+                    "name": "Guraud",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "MONTROSITY",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/gk5lcd"
+                },
+                {
+                    "name": "SubZeroV",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Tempest Tornado",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["85", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/4w95g3"
+                },
+                {
+                    "name": "Snail",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Macabre",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["27", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=kgvGBqEGm7I"
+                },
+                {
+                    "name": "Question",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Cybernetic Crescent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["33", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/TrGO_fbd9ko"
+                }
+             ],
+             "rates": [
+                 {
+                     "name": "The Elysium",
+                     "ytcode": "3rEbyfUplrM",
+                     "ID": "24842579",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 56,
+                         "hertz": "60"
+                     }
+                 },
+                 {
+                     "name": "PPPPPPPPPPPPPPPPIXEL",
+                     "ytcode": "utim7mVmIWY",
+                     "ID": "69729105",
+                     "status": "demoted",
+                     "pointreductions": [
+                         {
+                             "name": "WhiteEmerald",
+                             "pointsremoved": 1
+                         }
+                     ]
+                 },
+                 {
+                     "name": "Static Ignition",
+                     "ytcode": "ZK9gkVRP9ao",
+                     "ID": "73335285",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "NicJGD",
+                         "percent": 14,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=u70WiY2hWeo"
+                     }
+                 },
+                 {
+                     "name": "On1y Cub3",
+                     "ytcode": "ti2pZXblNcA",
+                     "ID": "73878822",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "Mephiles175",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "Lights Out",
+                     "ytcode": "NoBJ1wmSqPA",
+                     "ID": "73837161",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "Lin Anya",
+                     "ytcode": "jbl1Ywk6DfA",
+                     "ID": "69433311",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "DMG CTRL",
+                     "ytcode": "Jis-5PTdgiE",
+                     "ID": "73733373",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "Aura",
+                     "ytcode": "d2EGok6Qx9g",
+                     "ID": "73988608",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "EMPTINESS",
+                     "ytcode": "oXYWITEzZBQ",
+                     "ID": "71599414",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "EXPLICIT",
+                     "ytcode": "cFQstEfAfpM",
+                     "ID": "74028410",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 },
+                 {
+                     "name": "Icotact",
+                     "ytcode": "EH8RHdSpVY0",
+                     "ID": "66203074",
+                     "status": "rated",
+                     "worldrecord": {
+                         "name": "",
+                         "percent": 100,
+                         "hertz": "60",
+                         "link": "https://www.youtube.com/watch?v=PwQkpsc92vE"
+                     }
+                 }
+             ]
+        },
+        "Seven": {
+            "date": "October 3rd - October 11th, 2021",
+            "level changes": [
+                {
+                    "name": "Low Death",
+                    "ytcode": "V25x_i9lgh8",
+                    "movedplacement": [152, 149],
+                    "abovebelow": ["Athanatos", "The Hell World"],
+                    "pushes": [
+                        {
+                            "name": "Anahita",
+                            "type":"legacy"
+                        }
+                    ]
+                }
+            ],
+            "level placements": [
+                {
+                     "name": "Kuzureta",
+                     "placement": 61,
+                     "ytcode": "icFauDz_Fz8",
+                     "worldrecord": {
+                         "name": "SpeedyFriend67",
+                         "percent": 16,
+                         "hertz": "60",
+                         "link": "https://youtu.be/Qokg27eKYKo"
+                     },
+                     "abovebelow": ["Rage", "The Reaper"],
+                     "pushes": [
+                         {
+                             "name": "Boogie", 
+                             "type": "extended"
+                         },
+                         {
+                             "name": "Adrenaline", 
+                             "type": "legacy"
+                         }                                     
+                     ]
+                 },
+                 {
+                    "name": "Requiem",
+                    "placement": 45,
+                    "ytcode": "DpP7qQsRXBQ",
+                    "worldrecord": {
+                        "name": "FrostFoxyn",
+                        "percent": 13,
+                        "hertz": "60",
+                        "link": "https://youtu.be/P5WZNk4QxgQ"
+                    },
+                    "abovebelow": ["Hyper Paracosm", "Necromancer"],
+                    "pushes": [
+                        {
+                            "name": "Freedom08", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "Athanatos", 
+                            "type": "legacy"
+                        }                                     
+                    ]
+                },
+                {
+                   "name": "Infinite Iniquity",
+                   "placement": 55,
+                   "ytcode": "mFJWmFQ1OPU",
+                   "worldrecord": {
+                       "name": "",
+                       "percent": 13,
+                       "hertz": "60",
+                       "link": "https://youtu.be/P5WZNk4QxgQ"
+                   },
+                   "abovebelow": ["Cybernetic Cresent", "Macabre"],
+                   "pushes": [
+                       {
+                           "name": "Paroxysm", 
+                           "type": "extended"
+                       },
+                       {
+                           "name": "Low Death", 
+                           "type": "legacy"
+                       }                                     
+                   ]
+               },
+               {
+                  "name": "ErebuS",
+                  "placement": 125,
+                  "ytcode": "ora91iNOTyU",
+                  "worldrecord": {
+                      "name": "",
+                      "percent": 13,
+                      "hertz": "60",
+                      "link": "https://youtu.be/P5WZNk4QxgQ"
+                  },
+                  "abovebelow": ["Cadrega Mode", "The Hell Inferno"],
+                  "pushes": [
+                      {
+                          "name": "The Hell World", 
+                          "type": "legacy"
+                      }                                     
+                  ]
+              }
+            ],
+            "record changes": [
+               {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Requiem",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["13", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/P5WZNk4QxgQ"
+                },
+                {
+                    "name": "Kkgrooms",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Boogie",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["54", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/Ar1IdAhbMzM"
+                },
+                {
+                    "name": "Hilo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Spectrum Rave",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["40", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/I9ZOF-UTmSA"
+                },
+                {
+                    "name": "DashIeLL10",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Lights Out",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/Aqf4wQbkXu0"
+                },
+                {
+                    "name": "Crypto",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Moment",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["26", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/y3i7sf"
+                },
+                {
+                    "name": "Hpsk",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Reaper",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["36", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/38jylu"
+                },
+                {
+                    "name": "SeaWolfMikes",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Necromancer",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["53", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=OmEbVUso2S4"
+                },
+                {
+                    "name": "Mephiles175",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Elysium",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/V_xnsMxkdMs"
+                },
+                {
+                    "name": "El Ameno",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Black Blizzard",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/SXWRn9g1-eI"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Kuzureta",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["45", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/aclbw0k9kbM"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Fragile",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["39", "42"]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/mitgq9"
+                },
+                {
+                    "name": "TheLiga",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Asmodeus",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["94", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/B7j8NwMA8fE"
+                },
+                {
+                    "name": "NihiliusR",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Cybernetic Cresent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["58", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/7FPygXUUsGk"
+                },
+                {
+                    "name": "NihiliusR",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "The Hell Zone",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/c-qKy3ICPF8"
+                },
+                {
+                    "name": "El Ameno",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "SHATTER",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/_rLxXIXSL-w"
+                },
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Pandemonium",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["24", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/-nrv4NNHF9I"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Sephiroth",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/W3IGqMEstCI"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Aura",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/CTWrVzgrAI0"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "CHROMA II",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["21", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/Ig1BQ0Oc1pI"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Poltergeist Reborn",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["20", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/NNbKt7vbnd4"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Abandoned Planet",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["17", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/M26jSuvleBw"
+                }
+            ],
+            "rates": [
+                {
+                    "name": "ICE Carbon Diablo X",
+                    "ytcode": "VhwkasTfdy8",
+                    "ID": "814678",
+                    "status": "demoted",
+                    "pointreductions": [
+                        {
+                            "name": "Pacosky18",
+                            "pointsremoved": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Coke Master",
+                    "ytcode": "9OvcVL606qM",
+                    "ID": "70943059",
+                    "status": "demoted",
+                    "pointreductions": [
+                        {
+                            "name": "Xploiter",
+                            "pointsremoved": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Tesseract",
+                    "ytcode": "UHSlkxKSPyQ",
+                    "ID": "52289646",
+                    "status": "demoted"
+                },
+                {
+                    "name": "RGB",
+                    "ytcode": "VIEGEHCU4H4",
+                    "ID": "74343352",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 56,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "RELENTLESS",
+                    "ytcode": "HMR-cl6W7HE",
+                    "ID": "74361921",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 56,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Keres",
+                    "ytcode": "vr-1Y28Bz-E",
+                    "ID": "74391640",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 56,
+                        "hertz": "60"
+                    }
+                }
+            ]
+        },
+        "Eight": {
+            "date":"October 11th - October 17th, 2021",
+            "level changes": [
+                {
+                    "name": "Bass Cave",
+                    "ytcode": "Q-14s9wjt0I",
+                    "movedplacement": [131, 117],
+                    "abovebelow": ["Distraught", "Super Probably Level"]
+                },
+                {
+                    "name": "Glitched Memories",
+                    "ytcode": "ktMb4k6G0D0",
+                    "movedplacement": [151, 141],
+                    "abovebelow": ["Audio Expulsion", "Dolos"],
+                    "pushes": [
+                        {
+                            "name": "I hate you",
+                            "type":"legacy"
+                        }
+                    ]
+                }
+            ],
+            "level placements": [
+                {
+                    "name": "MONSTROSITY",
+                    "placement": 140,
+                    "ytcode": "_21_4LIEK9I",
+                    "worldrecord": {
+                        "name": "Guraud",
+                        "percent": 11,
+                        "hertz": "60",
+                        "link": "https://streamable.com/gk5lcd"
+                    },
+                    "abovebelow": ["Anoxysm", "Audio Expulsion"],
+                    "pushes": [
+                        {
+                            "name": "Breakout Redux", 
+                            "type": "legacy"
+                        }                                     
+                    ]
+                },
+                {
+                    "name": "Static Ignition",
+                    "placement": 111,
+                    "ytcode": "ZK9gkVRP9ao",
+                    "worldrecord": {
+                        "name": "NicJGD",
+                        "percent": 14,
+                        "hertz": "60",
+                        "link": "https://www.youtube.com/watch?v=u70WiY2hWeo"
+                    },
+                    "abovebelow": ["Bausha Vortex", "CHROMA II"],
+                    "pushes": [
+                        {
+                            "name": "SINGULARITY", 
+                            "type": "legacy"
+                        }                                     
+                    ]
+                },
+                {
+                    "name": "Never Beat it",
+                    "placement": 114,
+                    "ytcode": "ycsBMQmP8yk",
+                    "worldrecord": {
+                        "name": "Zyxo",
+                        "percent": 13,
+                        "hertz": "60",
+                        "link": "https://media.discordapp.net/attachments/530041360443506700/899485118027165736/Screenshot_20211017-193051_Geometry_Dash.jpg"
+                    },
+                    "abovebelow": ["Balengu Vortex", "Spectrum Rave"],
+                    "pushes": [
+                        {
+                            "name": "Glitched Memories", 
+                            "type": "legacy"
+                        }                                     
+                    ]
+                }
+            ],
+            "record changes": [
+                {
+                    "name": "Ddddr",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "CHROMA II",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["24", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=bI1_zqWFEZ8"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Kuzureta",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["63", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/tBAyOvL-xtQ"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Hyper Paracosm",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["66", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/H2dzuy4z6Qo"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Kowareta",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "link": "https://www.youtube.com/watch?v=BX_zkpKL8bI",
+                    "comments": "GG!"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Azurite",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["66", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/zq83qt"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Calamity",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["26", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/e1fkby"
+                },
+                {
+                    "name": "SWMS",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Wasureta",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["81", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/rE297GZBMw0"
+                },
+                {
+                    "name": "Not Applicable 11",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Sephiroth",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["12", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/9hXv36yGkmM?t=13"
+                },
+                {
+                    "name": "Not Applicable 11",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Solarion",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/9hXv36yGkmM"
+                },
+                {
+                    "name": "Not Applicable 11",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Calculator Core",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["12", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/9hXv36yGkmM?t=63"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Bausha Vortex",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["89", "98"]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/FsZhuxvorVw"
+                },
+                {
+                    "name": "Nontypical",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Carnage Mode",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["59", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/pGrfRYOqoKQ"
+                },
+                {
+                    "name": "Hpsk",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Reaper",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["38", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/9jemle"
+                },
+                {
+                    "name": "Bribo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Anoxysm",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["65", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/41QpeJ8R154"
+                }
+            ],
+            "rates": [
+                {
+                    "name": "Castling",
+                    "ytcode": "0cMfW600dEo",
+                    "ID": "57023074",
+                    "status": "demoted"
+                },
+                {
+                    "name": "Another Phase",
+                    "ytcode": "HLUW_4jQl-s",
+                    "ID": "74194269",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 56,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Time Pulse",
+                    "ytcode": "RYJAxJYkUTs",
+                    "ID": "67699606",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 56,
+                        "hertz": "60"
+                    }
+                }
+            ]
+        },
+        "Nine": {
+            "date":"October 11th - October 24th, 2021",
+            "level changes": [
+                {
+                    "name": "The Hell Zone",
+                    "ytcode": "puBH6HOkPVo",
+                    "movedplacement": [148, 107],
+                    "abovebelow": ["Glowy", "Quantum Processing"]
+                }
+            ],
+            "level placements": [
+                "none"
+            ],
+            "record changes": [
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Bausha Vortex",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/bZOKbnobHIQ",
+                    "comments": "GG!"
+                },
+                {
+                    "name": "GD Ombu",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Ferrum Frenzy",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/lBylr5dTf9Y"
+                },
+                {
+                    "name": "ReduX",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Audio Extraction",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/LeSVqaVOTs8"
+                },
+                {
+                    "name": "ReduX",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Audio Extraction",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/LeSVqaVOTs8"
+                },
+                {
+                    "name": "Tetrys",
+                    "hertz": "90",
+                    "levelinfo": {
+                        "name": "Novalis",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/Yc3yR3LetnE"
+                },
+                {
+                    "name": "AstraloFY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Novalis",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/x_eDb9pnvN4"
+                },
+                {
+                    "name": "Bloom",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Heat Wave",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/J3zAVs1PXJM"
+                },
+                {
+                    "name": "Bloom",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Torgue",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/R7C8eujdt20"
+                },
+                {
+                    "name": "Bloom",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "A2Marbl",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/Aak8LPer84I"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Erebus",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "link": "https://youtu.be/jaP0R3svguA",
+                    "comments": "How do you do this"
+                },
+                {
+                    "name": "WhiteEmerald",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "OPSM1",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["54", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/irs9g5"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Kuzureta",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["82", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/tzJ73mXNz3E"
+                },
+                {
+                    "name": "Zeth",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Yandere",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["53", "55"]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/tfAHujthimE"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Azurite",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/WB3sAmJPLTk"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "WaveBreaker",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/f1b9uduwMxQ"
+                },
+                {
+                    "name": "Guraud",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "CHROMA II",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["32", ""]
+                    },
+                    "points": 0,
+                    "link": "https://media.discordapp.net/attachments/530041360443506700/900304288176304148/Screenshot_20211020-174637_Geometry_Dash.jpg"
+                },
+                {
+                    "name": "Zyxo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Never Beat It",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["14", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/6eA6wRatbaQ"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "RELENTLESS",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/uWZe5uVX8kw"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "MONSTROSITY",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["12", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/jYR8fVakwRk"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Asterios",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["10", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/55CHN2HZi00"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Surge of the Shield",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/m2JfLkzwRMk"
+                },
+                {
+                    "name": "Johkhun",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Macabre",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["41", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/9OXLyi_xy9w"
+                },
+                {
+                    "name": "Thonyell",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Shock Therapy",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["55", ""]
+                    },
+                    "points": 0,
+                    "link": "https://media.discordapp.net/attachments/775149529279758356/901523345307234355/Screenshot_20211023-142811_Geometry_Dash.jpg"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Icotact",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["21", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/EFjfyJ911gk"
+                },
+                {
+                    "name": "ReduX",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Thinking Space",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["43", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/Pl6TIsOWmL0"
+                },
+                {
+                    "name": "SuperDogGD",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Ikaros",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["52", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/_6KY1RXETo0"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Shape of the Sun",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/2qcuC5HekEg"
+                },
+                {
+                    "name": "Grim",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/XkxZKOQ-hs4"
+                },
+                {
+                    "name": "Juancho 876",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Explosion",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["10", ""]
+                    },
+                    "points": 0,
+                    "link": "https://www.youtube.com/watch?v=mQvAqvFa-P0"
+                },
+                {
+                    "name": "TheNinja801",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "To The Stars II",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["42", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/z9xq6y"
+                },
+                {
+                    "name": "Juancho 876",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/r0JaRSsBDaI"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Sonic Wave",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["66", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/qtsxq7"
+                },
+                {
+                    "name": "Question",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Requiem",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["36", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/ptvmfr"
+                }
+            ],
+            "rates": [
+                {
+                    "name": "Acrozis",
+                    "ytcode": "tPpCTcDT8dw",
+                    "ID": "71136146",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 56,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Luxtra",
+                    "ytcode": "FeYzqB2tQZU",
+                    "ID": "65332454",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "Venfy",
+                        "percent": 21,
+                        "hertz": "60",
+                        "link": "https://streamable.com/c7piiw"
+                    }
+                },
+                {
+                    "name": "Jamboree",
+                    "ytcode": "14y8pQ_yEdk",
+                    "ID": "74821587",
+                    "status": "rated",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 21,
+                        "hertz": "60"
+                    }
+                }
+            ]
+        },
+        "Ten": {
+             "date": "October 24th - October 31st, 2021",
+            "level changes": [
+                {
+                    "name": "Molten Gear",
+                    "ytcode": "JevlpRtO05M",
+                    "movedplacement": [73, 64],
+                    "abovebelow": ["Rage", "Kuzureta"]
+                },
+                {
+                    "name": "super probably level",
+                    "ytcode": "FkFU7JHyO5g",
+                    "movedplacement": [120, 102],
+                    "abovebelow": ["Aesthetic", "Chromatic Haze"]
+                }
+            ],
+            "level placements": [
+                {
+                    "name": "Crystal",
+                    "placement": 109,
+                    "ytcode": "FvUmaJib5uo",
+                    "worldrecord": {
+                        "name": "NicJGD",
+                        "percent": 17,
+                        "hertz": "60",
+                        "link": "https://www.youtube.com/watch?v=cAMDwGnbz7M"
+                    },
+                    "abovebelow": ["Rate Demon", "Glowy"],
+                    "pushes": [
+                        {
+                            "name": "Shock Therapy", 
+                            "type": "legacy"
+                        }                                     
+                    ]
+                },
+                {
+                    "name": "DMG CTRL",
+                    "placement": 135,
+                    "ytcode": "Jis-5PTdgiE",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 17,
+                        "hertz": "",
+                        "link": ""
+                    },
+                    "abovebelow": ["Surge of Memories", "Ziroikapi"],
+                    "pushes": [
+                        {
+                            "name": "Betrayal of Destiny", 
+                            "type": "legacy"
+                        }                                     
+                    ]
+                },
+                {
+                    "name": "Keres",
+                    "placement": 12,
+                    "ytcode": "vr-1Y28Bz-E",
+                    "worldrecord": {
+                        "name": "",
+                        "percent": 17,
+                        "hertz": "",
+                        "link": ""
+                    },
+                    "abovebelow": ["Crimson Planet", "Promethean"],
+                    "pushes": [
+                        {
+                            "name": "Timor", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "Mujigae", 
+                            "type": "legacy"
+                        }                                 
+                    ]
+                }
+            ],
+            "record changes": [
+                {
+                    "name": "Usual KhaOS",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "CHROMA FINALE",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["12", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/C7VaGreDwTw"
+                },
+                {
+                    "name": "SWMS",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Wasureta",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["85", ""]
+                    },
+                    "points": 0,
+                    "link": "https://cdn.discordapp.com/attachments/815155938159099945/902053057645400084/image0.jpg"
+                },
+                {
+                    "name": "Not Applicable 11",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Goldcrest Palace",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["24", "27"]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/95fxue"
+                },
+                {
+                    "name": "Hpsk",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Reaper",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["40", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/tn5n9z"
+                },
+                {
+                    "name": "Zyxo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Never Beat It",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/g6f506"
+                },
+                {
+                    "name": "Mironator",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["12", ""]
+                    },
+                    "points": 1,
+                    "link": "https://www.youtube.com/watch?v=tGB7DMRKG98"
+                },
+                {
+                    "name": "SeaWolfMikes",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Crimson Planet",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["24", ""]
+                    },
+                    "points": 0,
+                    "link": "https://media.discordapp.net/attachments/530041360443506700/902696347508047892/image0.png"
+                },
+                {
+                    "name": "Zeth",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Yandere",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["58", "59"]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/V2AAEHixvMY"
+                },
+                {
+                    "name": "Kkgrooms",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Boogie",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["62", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/tJANmtI5xpk"
+                },
+                {
+                    "name": "Demonbeater17",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Silentium Gradas",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["24", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/wjonuIQTsR0"
+                },
+                {
+                    "name": "SeaWolfMikes",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Hard Machine",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["16", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/6Lr6cJtIRqg"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Erebus",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "link": "https://youtu.be/_6RjcFJ4sKE"
+                },
+                {
+                    "name": "WhitePythor",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Artificial Ascent",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["73", ""]
+                    },
+                    "points": 0,
+                    "link": "https://media.discordapp.net/attachments/847110880587415592/903743262311981056/Screenshot_2021-10-29-23-30-51-207_com.robtopx.geometryjump.jpg"
+                },
+                {
+                    "name": "Xenalyze",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Kuzureta",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["18", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/2mWs9KOAT6I"
+                },
+                {
+                    "name": "ChosBar",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Promethean",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["16", ""]
+                    },
+                    "points": 0,
+                    "link": "https://cdn.discordapp.com/attachments/815155938159099945/904241356715749386/image0.jpg"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["87", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/N4XO_6Gb7lI"
+                },
+                {
+                    "name": "Monstergamer",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Titan Complex",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/YcGu8fVH_LA"
+                }
+            ],
+            "rates": [
+                {
+                "name": "Cersia Difficult",
+                "ytcode": "8Vi_wD2wp-w",
+                "ID": "74840882",
+                "status": "rated",
+                "worldrecord": {
+                        "name": "",
+                        "percent": 21,
+                        "hertz": "60"
+                    }
+                },
+                {
+                    "name": "Betelgeuse",
+                    "ytcode": "8Vi_wD2wp-w",
+                    "ID": "74986585",
+                    "status": "rated",
+                    "worldrecord": {
+                            "name": "",
+                            "percent": 21,
+                            "hertz": "60"
+                        }
+                },
+                {
+                    "name": "Arcturus",
+                    "ytcode": "wHXFFnmMB1Q",
+                    "ID": "72315402",
+                    "status": "rated",
+                    "worldrecord": {
+                            "name": "Biprex",
+                            "percent": 20,
+                            "hertz": "60",
+                            "link": "https://streamable.com/8lsukx"
+                        }
+                },
+                {
+                    "name": "Slaughterhouse",
+                    "ytcode": "YrTauLnDVdw",
+                    "ID": "27690100",
+                    "status": "rated",
+                    "worldrecord": {
+                            "name": "DashY",
+                            "percent": 18,
+                            "hertz": "120",
+                            "link": "https://streamable.com/nd1fd4"
+                        }
+                },
+                {
+                    "name": "Firework",
+                    "ytcode": "QBe5x2o9v2w",
+                    "ID": "75206202",
+                    "status": "rated",
+                    "worldrecord": {
+                            "name": "DashY",
+                            "percent": 17,
+                            "hertz": "120",
+                            "link": "https://streamable.com/47nxus"
+                        }
+                }
+            ]
+        },
+        "Eleven": {
+             "date": "October 31st - November 7th, 2021",
+            "level changes": [
+                {
+                    "name": "Trueffet",
+                    "ytcode": "eOUJZPn8YuU",
+                    "movedplacement": [4, 3],
+                    "abovebelow": ["Sonic Wave Infinity", "Tartarus"]
+                }
+            ],
+            "level placements": [
+                {
+                    "name": "Icotact",
+                    "placement": 69,
+                    "ytcode": "EH8RHdSpVY0",
+                    "worldrecord": [
+                        {
+                            "name": "FrostFoxyn",
+                            "percent": 21,
+                            "hertz": "60",
+                            "link": "https://www.youtube.com/watch?v=cAMDwGnbz7M"
+                        }
+                    ],
+                    "abovebelow": ["Erebus", "xo"],
+                    "pushes": [
+                        {
+                            "name": "Devil Vortex", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "Ikaros", 
+                            "type": "legacy"
+                        }                                      
+                    ]
+                },
+                {
+                    "name": "Slaughterhouse",
+                    "placement": 1,
+                    "ytcode": "YrTauLnDVdw",
+                    "worldrecord": [
+                        {
+                            "name": "DashY",
+                            "percent": 20,
+                            "hertz": "120",
+                            "link": "https://youtu.be/pwaLKpmwyK0"
+                        },
+                        {
+                            "name": "Breakthrough",
+                            "percent": 19,
+                            "hertz": "60",
+                            "link": "https://youtu.be/pwaLKpmwyK0"
+                        }
+                    ],
+                    "abovebelow": ["Tartarus"],
+                    "pushes": [
+                        {
+                            "name": "Celestial Force", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "SubSonic", 
+                            "type": "legacy"
+                        }                                      
+                    ]
+                },
+                {
+                    "name": "Firework",
+                    "placement": 2,
+                    "ytcode": "QBe5x2o9v2w",
+                    "worldrecord": [
+                        {
+                            "name": "DashY",
+                            "percent": 17,
+                            "hertz": "120",
+                            "link": "https://streamable.com/47nxus"
+                        }
+                    ],
+                    "abovebelow": ["Tartarus", "Slaughterhouse"],
+                    "pushes": [
+                        {
+                            "name": "Lucid Chaos", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "Anoxysm", 
+                            "type": "legacy"
+                        }                                      
+                    ]
+                }
+            ],
+            "record changes": [
+                {
+                    "name": "Noxop",
+                    "hertz": "144",
+                    "levelinfo": {
+                        "name": "Auditory Breaker",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["83", ""]
+                    },
+                    "points": 0,
+                    "link": "https://media.discordapp.net/attachments/847094305411694643/902952295606665336/Screenshot_20211027-175847489.jpg"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Deimos",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["16", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/vjas2y"
+                },
+                {
+                    "name": "Hydrus73",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Tempest Tornado",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["89", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/l8Jl5zDwhbs"
+                },
+                {
+                    "name": "Hydrus73",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/l8Jl5zDwhbs"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["95", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/ys0hiZzx-Xs?t=1414"
+                },
+                {
+                    "name": "Ozone",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Infinite Iniquity",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["11", "12"]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/7Wptwea7pRE"
+                },
+                {
+                    "name": "Zyxo",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Never Beat It",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["16", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/7pyt8q"
+                },
+                {
+                    "name": "Ozone",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "DMG CTRL",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["10", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/vLKppxjX9pM"
+                },
+                {
+                    "name": "Robotic Dash",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["43", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/OuZnmCpe7eU"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "90",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["47", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/bgj1js"
+                },
+                {
+                    "name": "Nontypical",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Acrozis",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["39", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/46e88i"
+                },
+                {
+                    "name": "Robotic Dash",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "GLISTEN",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["36", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/VVYNJNh29b4"
+                },
+                {
+                    "name": "Grim",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Aura",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["12", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/-vZugkHbzHw"
+                },
+                {
+                    "name": "WhyBotherTry",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Catalyze",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["52", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/VUQVgJJS45k"
+                },
+                {
+                    "name": "Juancho 876",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Explosion",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["12", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/npcMmUxLwS8"
+                },
+                {
+                    "name": "WoodPecker",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Molten Core",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["14", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/SR8JC1EvN5A"
+                },
+                {
+                    "name": "mrclean",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Castling",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["60", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/ka8d6i"
+                },
+                {
+                    "name": "Breakthrough",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Slaughterhouse",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["19", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/pwaLKpmwyK0"
+                },
+                {
+                    "name": "WoodPecker",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EXPLICIT",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["14", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/bJ3K50PBfmE"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Static Ignition",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/LoVGWzm61UU"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Slaughterhouse",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["20", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/yk5k7y"
+                },
+                {
+                    "name": "Breakthrough",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Another Phase",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["16", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/05F-lpY4NME"
+                },
+                {
+                    "name": "Breakthrough",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Aureole",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["15", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/9EbBxaUQvz0"
+                },
+                {
+                    "name": "WoodPecker",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Warning",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["14", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/9-ufYo4mu5A"
+                },
+                {
+                    "name": "WoodPecker",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EUOUAE",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["12", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/YfYVAih_d0A"
+                },
+                {
+                    "name": "Surpl3x",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Bloodlust",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["31", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/knwDzJ1ngO8"
+                },
+                {
+                    "name": "Question",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Requiem",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["57", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/iUb5Qw3GdYY"
+                },
+                {
+                    "name": "Xyghost",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "The Hell Field",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/JZnT6KVraTI"
+                }
+            ],
+            "rates": [
+                {
+                    "name": "Castling",
+                    "ytcode": "0cMfW600dEo",
+                    "ID": "57023074",
+                    "status": "rated",
+                    "worldrecord": [
+                        {
+                            "name": "mrclean",
+                            "percent": 60,
+                            "hertz": "60",
+                            "link": "https://streamable.com/ka8d6i"
+                        }
+                    ]
+                },
+                {
+                    "name": "Myocardia",
+                    "ytcode": "YaUT45cnXmw",
+                    "ID": "75248070",
+                    "status": "rated",
+                    "worldrecord": [
+                        {
+                            "name": "",
+                            "percent": 60,
+                            "hertz": "60",
+                            "link": "https://streamable.com/ka8d6i"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ddiamond",
+                    "ytcode": "JekBR8TYHvI",
+                    "ID": "74034217",
+                    "status": "rated",
+                    "worldrecord": [
+                        {
+                            "name": "",
+                            "percent": 60,
+                            "hertz": "60",
+                            "link": "https://streamable.com/ka8d6i"
+                        }
+                    ]
+                },
+                {
+                    "name": "GLISTEN",
+                    "ytcode": "TGofG4b726k",
+                    "ID": "74924716",
+                    "status": "rated",
+                    "worldrecord": [
+                        {
+                            "name": "Robotic Dash",
+                            "percent": 36,
+                            "hertz": "60",
+                            "link": "https://youtu.be/VVYNJNh29b4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Effect",
+                    "ytcode": "93nV3KBtpuQ",
+                    "ID": "67188780",
+                    "status": "demoted"
+                },
+                {
+                    "name": "Lin Anya",
+                    "ytcode": "jbl1Ywk6DfA",
+                    "ID": "69433311",
+                    "status": "demoted"
+                }
+            ]
+        },
+        "Twelve": {
+             "date": "November 7th - November 15th, 2021",
+            "level changes": [
+                {
+                    "name": "Trueffet",
+                    "ytcode": "eOUJZPn8YuU",
+                    "movedplacement": [3, 2],
+                    "abovebelow": ["Tartarus", "Firework"]
+                }
+            ],
+            "level placements": [
+                {
+                    "name": "RELENTLESS",
+                    "placement": 75,
+                    "ytcode": "HMR-cl6W7HE",
+                    "worldrecord": [
+                        {
+                            "name": "FrostFoxyn",
+                            "percent": 11,
+                            "hertz": "60",
+                            "link": "https://youtu.be/uWZe5uVX8kw"
+                        }
+                    ],
+                    "abovebelow": ["Dark Flare", "Altered Ascent"],
+                    "pushes": [
+                        {
+                            "name": "Dark Flare", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "MONSTROSITY", 
+                            "type": "legacy"
+                        }                                      
+                    ]
+                },
+                {
+                    "name": "RGB",
+                    "placement": 99,
+                    "ytcode": "VIEGEHCU4H4",
+                    "worldrecord": [
+                        {
+                            "name": "",
+                            "percent": 11,
+                            "hertz": "60",
+                            "link": "https://youtu.be/uWZe5uVX8kw"
+                        }
+                    ],
+                    "abovebelow": ["Tempered Steel", "Solarion"],
+                    "pushes": [
+                        {
+                            "name": "Audio Expulsion", 
+                            "type": "legacy"
+                        }                                      
+                    ]
+                },
+                {
+                    "name": "Arcturus",
+                    "placement": 5,
+                    "ytcode": "wHXFFnmMB1Q",
+                    "worldrecord": [
+                        {
+                            "name": "Biprex",
+                            "percent": 20,
+                            "hertz": "60",
+                            "link": "https://streamable.com/8lsukx"
+                        }
+                    ],
+                    "abovebelow": ["Sonic Wave Infinity", "Tartarus"],
+                    "pushes": [
+                        {
+                            "name": "RELENTLESS", 
+                            "type": "extended"
+                        },
+                        {
+                            "name": "Glitched Memories", 
+                            "type": "legacy"
+                        }                                      
+                    ]
+                }
+            ],
+            "record changes": [
+                {
+                    "name": "Robotic Dash",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EUOUAE",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["26", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/-SVBJAcIwj8"
+                },
+                {
+                    "name": "Robotic Dash",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Monstercat",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["18", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/aDrZtZkRLak"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Trueffet",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["10", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/3yao7s"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "ErebuS",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/03368GPyzzE"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Hyper Paracosm",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["21", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/5slb9u"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Sonic Wave Rebirth",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["31", ""]
+                    },
+                    "points": 1,
+                    "link": "https://streamable.com/uw6yih"
+                },
+                {
+                    "name": "P8geons",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Paralysis",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["33", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/cj_XU5eSRWk"
+                },
+                {
+                    "name": "Ehrenga",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Cadrega Mode",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 2,
+                    "link": "https://m.youtube.com/watch?v=laYl8dKb65M"
+                },
+                {
+                    "name": "Breakthrough",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Glowy",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["16", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/6M06Y3vGUIU"
+                },
+                {
+                    "name": "Fastyszn",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Kuzureta",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["83", ""]
+                    },
+                    "points": 0,
+                    "link": "https://media.discordapp.net/attachments/530041360443506700/908002291142000680/Screenshot_20211110-113438.png"
+                },
+                {
+                    "name": "Zentel",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Crimson Planet",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/oqRxMY_Upyk",
+                    "comments": "The fact that a mobile player can beat crimson planet is just absolutely insane to me, GG on this!"
+                },
+                {
+                    "name": "Robotic Dash",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Myocardia",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["25", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/bSZDLUlpopE"
+                },
+                {
+                    "name": "Biprex",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Sonic Wave",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["79", ""]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/v2kqao"
+                },
+                {
+                    "name": "FrostFoxyn",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Molten Core",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["15", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/hfLr-YMFgnQ"
+                },
+                {
+                    "name": "mrclean",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Eternal Moment",
+                        "screenshot": true,
+                        "extralist": false,
+                        "percent": ["44", ""]
+                    },
+                    "points": 0,
+                    "link": "https://cdn.discordapp.com/attachments/530041360443506700/909300950131417108/IMG_2486.png"
+                },
+                {
+                    "name": "DashY",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Firework",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["29", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/ih956n7TSeY"
+                },
+                {
+                    "name": "Flavyola64",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EXPLICIT",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["36", "46"]
+                    },
+                    "points": 0,
+                    "link": "https://streamable.com/l8742v"
+                },
+                {
+                    "name": "Juancho 876",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Another Phase",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["19", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/toT7VLqXzm8"
+                },
+                {
+                    "name": "HypnoRico",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Stalemate Redux",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["48", "50"]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/f6qBd4IcS1c"
+                },
+                {
+                    "name": "Zeth",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "The Yandere",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["69", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/focNCkJjQNA"
+                },
+                {
+                    "name": "WhitePythor",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Artificial Ascent",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["100", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/hVYyoFZF3R0"
+                },
+                {
+                    "name": "BlueTomcat",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "corrupted volume",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["21", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/Sfdyjm_GQhk"
+                },
+                {
+                    "name": "BlueTomcat",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Surge of the Shield",
+                        "screenshot": false,
+                        "extralist": false,
+                        "percent": ["17", ""]
+                    },
+                    "points": 1,
+                    "link": "https://youtu.be/4QnVWK7afFQ"
+                },
+                {
+                    "name": "BlueTomcat",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Broken Signal",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["20", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/4z0Oj5AOCE4"
+                },
+                {
+                    "name": "BlueTomcat",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "EMPTINESS",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["21", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/L_K0dsnuPdM"
+                },
+                {
+                    "name": "Juancho 876",
+                    "hertz": "120",
+                    "levelinfo": {
+                        "name": "Betelgeuse",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["10", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/Ca5yy48e2xI"
+                },
+                {
+                    "name": "BlueTomcat",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Supercharged",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["11", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/-r7EavhS1U0"
+                },
+                {
+                    "name": "Breakthrough",
+                    "hertz": "60",
+                    "levelinfo": {
+                        "name": "Based Gang",
+                        "screenshot": false,
+                        "extralist": true,
+                        "percent": ["29", ""]
+                    },
+                    "points": 0,
+                    "link": "https://youtu.be/C_vs5zOLn4g"
+                }
+            ],
+            "rates": [
+                {
+                    "name": "Sarthix",
+                    "ytcode": "alUPGqx0XVM",
+                    "ID": "75232616",
+                    "status": "rated",
+                    "worldrecord": [
+                        {
+                            "name": "Zyxo",
+                            "percent": 13,
+                            "hertz": "60",
+                            "link": "https://streamable.com/epb82l"
+                        }
+                    ]
+                },
+                {
+                    "name": "DubKore X",
+                    "ytcode": "roz31nm3_nY",
+                    "ID": "75455769",
+                    "status": "rated",
+                    "worldrecord": [
+                        {
+                            "name": "WoodPecker",
+                            "percent": 10,
+                            "hertz": "60",
+                            "link": "https://youtu.be/X5_u_ShW5I8"
+                        }
+                    ]
+                }
+            ]
+        }
+    }

@@ -1,17 +1,17 @@
 module.exports = {
     data: {
-      type: 1,
-      name: "ping",
-      description: "This is the ping command."
-    },
+      "name": "ping",
+      "type": 1,
+      "description": "Pinger",
+  },
     async execute(interaction, rest, Routes) {
-      await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-        body: {
-          content: "Hello...",
-        }
-      })
-      return {
-        type: 1
-      }
+        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+          body: {
+            type: 4,
+            data: {
+              content: "Hello..."
+            }
+          }
+        })
       }
     }

@@ -1,4 +1,3 @@
-
 module.exports = {
     data: {
       "name": "avatar",
@@ -34,7 +33,7 @@ module.exports = {
             let user = await rest.get(Routes.user(interaction.data.options.find(e => e.name == "user").value))
           await important(user)
         } else {
-           await  important(interaction.user ?? interaction.member.user)
+           await  important(interaction.member.user)
         }
     }
 }

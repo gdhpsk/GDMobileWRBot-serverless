@@ -1,0 +1,109 @@
+{
+    "user": "703364595321929731",
+    "config": {
+      "levels": [
+        "Sonic Wave",
+        "Sigma",
+        "xo",
+        "Frozen Cave",
+        "Aronia",
+        "Erebus",
+        "kowareta",
+        "Plasma Pulse Finale",
+        "Digital Descent",
+        "Cybernetic Crescent",
+        "Sunset Sandstorm",
+        "Artificial Ascent",
+        "Athanatos",
+        "Quantum Processing",
+        "Carnage Mode",
+        "Bloodbath",
+        "Bausha Vortex",
+        "Celestial Force",
+        "Balengu Vortex",
+        "Freedom08",
+        "SubSonic",
+        "Factory Realm X",
+        "SINGULARITY",
+        "Hateful Reflection",
+        "Furious Flames",
+        "distraught",
+        "Ziroikabi",
+        "Dolos",
+        "Tunnel",
+        "BuTiTi III",
+        "Omicron",
+        "Carcano",
+        "Asmodeus",
+        "Blade of Justice",
+        "Shock Therapy",
+        "The Hell Inferno",
+        "Audio Expulsion",
+        "The Hell Field",
+        "Explicit",
+        "Annihilation Nation",
+        "Phobos",
+        "Killbot",
+        "Boogie",
+        "Black Blizzard",
+        "Black Flag",
+        "Infernal Abyss",
+        "Hatred",
+        "Night Rider",
+        "GewErbiX",
+        "Falcon16",
+        "SPEEDRUN",
+        "Silentium Gradas",
+        "Disentombed",
+        "Belloq",
+        "Red World Rebirth",
+        "The Hell Bird",
+        "Worse Trip",
+        "INNARDS",
+        "Epsilon",
+        "The Hell World",
+        "The Hell Origin",
+        "MadMansion",
+        "Endless Dream",
+        "Untitled",
+        "Mystic",
+        "Ziroikapi",
+        "Ecstasy ",
+        "Artificial Ideology",
+        "Kinetic Bypass",
+        "Betrayal of Fate",
+        "Void Wave",
+        "Ikaros"
+      ]
+    },
+    "levels": [
+      {
+        "name": "EnvY",
+        "percent": 1,
+        "ytcode": "IUJdtXaUhGM",
+        "publisher": "DanZmeN",
+        "_id": {
+          "$oid": "62dbd48e5572677c5513d27d"
+        }
+      },
+      {
+        "name": "ErebuS",
+        "percent": 2,
+        "ytcode": "p877rT5gxNA",
+        "publisher": "Platnuu",
+        "_id": {
+          "$oid": "62dbd54b5572677c5513d28e"
+        }
+      },
+      {
+        "name": "super probably level",
+        "percent": 69,
+        "ytcode": "FkFU7JHyO5g",
+        "publisher": "alkali",
+        "_id": {
+          "$oid": "62dbd5525572677c5513d298"
+        }
+      }
+    ],
+    "__v": 0
+  }

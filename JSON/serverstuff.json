@@ -1,0 +1,87 @@
+{
+    "rules": [
+        "> We kindly beg you to read the rules and make sure to follow them, so it's possible to keep the server as an enjoyable and safe evironment to everyone. Thank you for understanding.\n",
+        "**💖 • Be Respectful.**",
+        "> We don't condone with any sort of disrespect, hate or unnacceptance towards other members. Treat everyone as they're equal to you, and if you ever witness some sort of nocive behaviour of the sort, make sure to report them to a staff member.",
+        "**🔞 • No NSFW Content.**",
+        "> Any type of Not Safe For Work or Controversial content is disencouraged, and any explicit content is not tolerated. Avoid mentioning any sort of human indecencies or controversial topics.",
+        "**📩 • Do Not Spam.**",
+        "> Spamming of any type are not tolerated. Is it in form or messages, emojis, text-walls & chains, mentions (ghost-pings & mass-mentions), and others. To add up, Raiding will bring you a permanent ban.",
+        "**🗃️ • Send Stuff Where It Belongs.**",
+        "> Try to keep the chat English-Only, and also post the right things on the appropriate channels. For an example, don't do commands on smash.",
+        "**🛠️ • Follow Discord TOS.**",
+        "> Discord TOS should be followed by all members without any exceptions. Any sort of prohibited behaviour, illegal activities or TOS-Breaking actions will bring severe punishments.",
+        "**💡 • Rules are Subject To Common Sense.**",
+        "> All the rules are subject to common sense and are totally comprehendable. Any sort of loopholes for any rules will bring consequences. Also don't be a retard in chat. Thanks :)"
+    ],
+    "roles": {
+        "🔧 • Staff Roles": {
+            "<@&530051644281454616>": "Owner Role, gives all permissions.",
+            "<@&844073248588562432>": "List Editors, have access to the List and have administrator permissions.",
+            "<@&622205286027100172>": "The official server moderators, have perms to moderate the server properly.",
+            "<@&942637624991043637>": "Skilled professionals specialized on finding hacked records on the list and verify new records.",
+            "<@&942637488567119902>": "List helpers chosen to help with records discovery and organization."
+        },
+        "✨ • Special Roles": {
+            "<@&931432673702994012>": "Given when to the person who generates Distraught on <#844088388092428298>. The role is swapped between who did it last. Gives bean perms.",
+            "<@&849750042465402960>": "Current Top 1 Player in the website leaderboards. Gives bean perms.",
+            "<@&904072818961022998>": "Karthik. Made the server avatar and is a god at GFX. Gives bean perms.",
+            "<@&871913804601110618>": "Get a coin in the middle (50.00) using the -flip command in <#904222137034878999>. Gives bean perms.",
+            "<@&816940279923474442>": "Server Boosters. Gives bean perms."
+        },
+        "📲 • World Records Roles": {
+            "<@&904569228277981254>": "Own 10 World Records. (Video)",
+            "<@&693855057606869024>": "Own 5 World Records. (Video)",
+            "<@&904569166080643102>": "Own a World Record."
+        },
+        "📔 • Misc Roles": {
+            "<@&699485527845634060>": "People that are obscessed Sunset Sandstorm. I don't know, this role exists.",
+            "<@&844091867720974336>": "Changelog Ping role. Get it by reacting to this message with \"📰\"!",
+            "<@&904622047492190259>": "Events Ping role. Get it by reacting to this message with \"🎉\"!",
+            "<@&844076861994303538>": "The bots role. Be a bot and you'll get it.",
+            "<@&844086429826940938>": "People who got annihilated by the staff. <a:trollplanet:862576728572035083>",
+            "<@&816339491878731786>": "People who got owned by the staff."
+        }
+    },
+    "set": [
+        {
+            "name": "erebus",
+            "function replacements": [
+                {
+                    "actual": "Erebus",
+                    "name": "Erebus"
+                },
+                {
+                    "actual": "ErebuS",
+                    "name": "ErebuS"
+                }
+            ]
+        },
+        {
+            "name": "azurite",
+            "function replacements": [
+                {
+                    "actual": "Azurite (Sillow)",
+                    "name": "Azurite"
+                },
+                {
+                    "actual": "Azurite (Royen)",
+                    "name": "Azurite"
+                }
+            ]
+        },
+        {
+            "name": "quaoar",
+            "function replacements": [
+                {
+                    "actual": "Quaoar (Flosia)",
+                    "name": "Quaoar"
+                },
+                {
+                    "actual": "Quaoar (Viprin)",
+                    "name": "Quaoar"
+                }
+            ]
+        }
+    ]
+}
