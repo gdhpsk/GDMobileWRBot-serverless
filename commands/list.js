@@ -38,7 +38,17 @@ module.exports = {
       })
     }
     if(interaction.data?.options?.find(e => e?.name == "level")?.value || cache.get(interaction?.message?.interaction?.id)?.choose) {
-
+        var alldata = await levelsSchema.find()
+    alldata.sort((a, b) => a.position - b.position)
+    var alldatalead = await leaderboardSchema.find()
+    var rawdata = alldata.reduce(function(acc, cur, i) {
+            acc[alldata[i].name] = cur;
+              return acc;
+            }, {});
+            let lea = alldatalead.reduce(function(acc, cur, i) {
+                acc[alldatalead[i].name] = cur;
+                  return acc;
+                }, {})
         if(interaction.data.component_type == 2) {
         let {expr, name1, name2, name3, name4, name5, token} = cache.get(interaction.message.interaction.id)
         if(Date.now() > expr) {
@@ -68,17 +78,6 @@ module.exports = {
                 }
                 cache.delete(interaction.message.interaction.id)
         }
-    var alldata = await levelsSchema.find()
-    alldata.sort((a, b) => a.position - b.position)
-    var alldatalead = await leaderboardSchema.find()
-    var rawdata = alldata.reduce(function(acc, cur, i) {
-            acc[alldata[i].name] = cur;
-              return acc;
-            }, {});
-            let lea = alldatalead.reduce(function(acc, cur, i) {
-                acc[alldatalead[i].name] = cur;
-                  return acc;
-                }, {})
     var ok = interaction.data?.options?.find(e => e.name == "level")?.value
     if(ok != null || ok != undefined) {
         ok = interaction.data?.options?.find(e => e.name == "level")?.value.toLowerCase()
