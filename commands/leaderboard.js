@@ -7,7 +7,7 @@ const lowercaseKeys = obj =>
     }, {});
 
 let {leaderboardSchema, levelsSchema} = require("../mongodb")
-
+let cache = new Map()
 
 module.exports = {
     data: {
@@ -394,37 +394,6 @@ module.exports = {
                 }
             }
         } else if (!moreargs) {
-            var fr = ""
-            let page = 10
-            for (let i = 0; i < Math.floor((Object.keys(leaderboard).length / page)); i++) {
-                var addition = 0
-                if (!Number.isInteger(Object.keys(leaderboard).length / page)) {
-                    addition = 1
-                }
-                let txt = ""
-                let number = page * i
-
-                for (let j = number; j < (number + page); j++) {
-                    txt += `${j + 1}. ${rank[j].name} (${rank[j].points} points/${rank[j].records} WRs${rank[j].nation})\n\n`
-                }
-                array10.push({
-                    title: "Mobile World Records List Leaderboard",
-                    description: txt,
-                    footer: { text: `Page ${i + 1} / ${Math.floor((Object.keys(leaderboard).length / page)) + addition}` }
-                })
-                // array10[i].setDescription(txt).setTitle("Mobile World Records List Leaderboard").setFooter({text: `Page ${i+1} / ${Math.floor((Object.keys(leaderboard).length / page))+addition}`})
-            }
-            if ((array10.length * page) != Object.keys(leaderboard).length) {
-                for (let j = (array10.length * page); j < Object.keys(leaderboard).length; j++) {
-                    fr += `${j + 1}. ${rank[j].name} (${rank[j].points} points/${rank[j].records} WRs${rank[j].nation})\n\n`
-                }
-                array10.push({
-                    title: "Mobile World Records List Leaderboard",
-                    description: fr,
-                    footer: { text: `Page ${Math.floor((Object.keys(leaderboard).length / page)) + 1} / ${Math.floor((Object.keys(leaderboard).length / page)) + 1}` }
-                })
-                //array10.push(new EmbedBuilder().setDescription(fr).setTitle("Mobile World Records List Leaderboard").setFooter({text: `Page ${Math.floor((Object.keys(leaderboard).length / page))+1} / ${Math.floor((Object.keys(leaderboard).length / page))+1}`}))
-            }
             const emoji = ["Back", "Next", "Skip Forward", "Skip Back", "🔗", "🛑"]
             var bu = {
                 type: 1,
@@ -434,10 +403,6 @@ module.exports = {
                 type: 1,
                 components: []
             }
-            // new ButtonBuilder()
-            // .setCustomId(i.toString())
-            // .setStyle(ButtonStyle.Primary)
-            // .setLabel(emoji[i])
             for (let i = 0; i < 4; i++) {
                 bu.components.push({
                     type: 2,
@@ -469,6 +434,39 @@ module.exports = {
                     }
                 }
             }
+            if(interaction.data.type == 1) {
+            var fr = ""
+            let page = 10
+            for (let i = 0; i < Math.floor((Object.keys(leaderboard).length / page)); i++) {
+                var addition = 0
+                if (!Number.isInteger(Object.keys(leaderboard).length / page)) {
+                    addition = 1
+                }
+                let txt = ""
+                let number = page * i
+
+                for (let j = number; j < (number + page); j++) {
+                    txt += `${j + 1}. ${rank[j].name} (${rank[j].points} points/${rank[j].records} WRs${rank[j].nation})\n\n`
+                }
+                array10.push({
+                    title: "Mobile World Records List Leaderboard",
+                    description: txt,
+                    footer: { text: `Page ${i + 1} / ${Math.floor((Object.keys(leaderboard).length / page)) + addition}` }
+                })
+                // array10[i].setDescription(txt).setTitle("Mobile World Records List Leaderboard").setFooter({text: `Page ${i+1} / ${Math.floor((Object.keys(leaderboard).length / page))+addition}`})
+            }
+            if ((array10.length * page) != Object.keys(leaderboard).length) {
+                for (let j = (array10.length * page); j < Object.keys(leaderboard).length; j++) {
+                    fr += `${j + 1}. ${rank[j].name} (${rank[j].points} points/${rank[j].records} WRs${rank[j].nation})\n\n`
+                }
+                array10.push({
+                    title: "Mobile World Records List Leaderboard",
+                    description: fr,
+                    footer: { text: `Page ${Math.floor((Object.keys(leaderboard).length / page)) + 1} / ${Math.floor((Object.keys(leaderboard).length / page)) + 1}` }
+                })
+                //array10.push(new EmbedBuilder().setDescription(fr).setTitle("Mobile World Records List Leaderboard").setFooter({text: `Page ${Math.floor((Object.keys(leaderboard).length / page))+1} / ${Math.floor((Object.keys(leaderboard).length / page))+1}`}))
+            }
+            cache.set(interaction.id, {expr: Date.now()+86400000, array10})
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
                         embeds: [
@@ -477,17 +475,19 @@ module.exports = {
                         components: [bu, bu2]
                 }
             })
-
-            //await interaction.reply({embeds: [array10[0]], components: [bu, bu2], fetchReply: true})
-            var whyudo = 0
-
-            events.on("INTERACTION_CREATE", async (buttonclick) => {
-                if (buttonclick.data?.component_type != 2 || buttonclick.message?.interaction?.id != interaction.id) return;
-                switch (buttonclick.data.custom_id) {
+        }
+                if(interaction.data.component_type == 2) {
+                    let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])
+                    if(!cache.has(interaction.message.interaction.id)) return;
+        let {array10, expr} = cache.get(interaction.message.interaction.id)
+        if(Date.now() > expr) {
+            cache.delete(interaction.message.interaction.id)
+        }
+                switch (interaction.data.custom_id) {
                     case "0":
                         whyudo = whyudo > 0 ? --whyudo : array10.length - 1;
                         why(whyudo)
-                        await rest.post(Routes.interactionCallback(buttonclick.id, buttonclick.token), {
+                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                             body: {
                                 type: 7,
                                 data: {
@@ -502,7 +502,7 @@ module.exports = {
                     case "1":
                         whyudo = whyudo + 1 < array10.length ? ++whyudo : 0;
                         why(whyudo)
-                        await rest.post(Routes.interactionCallback(buttonclick.id, buttonclick.token), {
+                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                             body: {
                                 type: 7,
                                 data: {
@@ -517,7 +517,7 @@ module.exports = {
                     case "2":
                         whyudo = array10.length - 1
                         why(whyudo)
-                        await rest.post(Routes.interactionCallback(buttonclick.id, buttonclick.token), {
+                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                             body: {
                                 type: 7,
                                 data: {
@@ -532,7 +532,7 @@ module.exports = {
                     case "3":
                         whyudo = 0
                         why(whyudo)
-                        await rest.post(Routes.interactionCallback(buttonclick.id, buttonclick.token), {
+                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                             body: {
                                 type: 7,
                                 data: {
@@ -545,7 +545,7 @@ module.exports = {
                         })
                         break;
                     case "4":
-                        await rest.post(Routes.interactionCallback(buttonclick.id, buttonclick.token), {
+                        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                             body: {
                                 type: 7,
                                 data: {
@@ -563,7 +563,7 @@ module.exports = {
                         await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
                         break
                 }
-            })
+            }
         }
     }
 }
