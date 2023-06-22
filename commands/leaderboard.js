@@ -493,7 +493,7 @@ module.exports = {
             })
         }
         if(interaction.data.component_type == 2) {
-            let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])
+            let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])-1
             if(!cache.has(interaction.message.interaction.id)) return;
 let {array10, expr} = cache.get(interaction.message.interaction.id)
 if(Date.now() > expr) {
