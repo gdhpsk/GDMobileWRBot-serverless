@@ -98,6 +98,7 @@ module.exports = {
 }
     if(interaction.data.component_type == 2) {
         let whyudo = parseInt(interaction.message.embeds[0].footer.text)
+        if(!cache.has(interaction.message.interaction.id)) return;
         let {embeds, expr} = cache.get(interaction.message.interaction.id)
         let buttons = interaction.message.components
         if(Date.now() > expr) {
