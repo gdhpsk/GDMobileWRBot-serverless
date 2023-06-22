@@ -68,7 +68,6 @@ module.exports = {
                 }
                 cache.delete(interaction.message.interaction.id)
         }
-        if(interaction.data.type == 1) {
     var alldata = await levelsSchema.find()
     alldata.sort((a, b) => a.position - b.position)
     var alldatalead = await leaderboardSchema.find()
@@ -329,7 +328,7 @@ LL.push(jajajaja[j].name)
                     important()
                 }
                 }
-            }
+            
             }
                 if(!interaction.data?.options?.find(e => e.name == "level")?.value) {
                     let hy = []
