@@ -37,6 +37,7 @@ module.exports = {
         }
       })
     }
+    console.log(interaction)
     if(interaction.data?.options?.find(e => e.name == "level")?.value) {
 
         if(interaction.data.component_type == 2) {
