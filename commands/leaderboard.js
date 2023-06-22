@@ -562,6 +562,7 @@ if(Date.now() > expr) {
                 })
                 break;
             case "4":
+                cache.delete(interaction.message.interaction.id)
                 await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                     body: {
                         type: 7,
@@ -577,7 +578,9 @@ if(Date.now() > expr) {
                 })
                 break;
             case "5":
-                await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
+                cache.delete(interaction.message.interaction.id)
+                console.log(interaction)
+                // await rest.delete(Routes.webhookMessage(interaction.application_id, interaction.token))
                 break
         }
     }
