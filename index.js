@@ -3,16 +3,10 @@ const app = express();
 const cors = require("cors")
 const nacl = require('tweetnacl');
 const dotenv = require("dotenv")
+const fs = require("fs")
 if(!process.env.token) {
     dotenv.config()
 }
-
-let commands = fs.readdirSync("./commands").filter(e => e.endsWith(".js"));
-let cmdobject = {}
-for(const file of commands) {
-  let command_file = require(`./commands/${file}`)
-  cmdobject[command_file.data.name] = command_file
-};
 
 const {REST} = require("@discordjs/rest")
 const {Routes} = require("discord-api-types/v10")
@@ -36,6 +30,13 @@ function rawBodySaver(req, res, buf, encoding) {
       req.rawBody = buf.toString(encoding || 'utf8');
     }
   }
+
+  let commands = fs.readdirSync("./commands").filter(e => e.endsWith(".js"));
+let cmdobject = {}
+for(const file of commands) {
+  let command_file = require(`./commands/${file}`)
+  cmdobject[command_file.data.name] = command_file
+};
 
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
