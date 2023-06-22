@@ -69,7 +69,7 @@ switch (interaction.type) {
 });
 
 (async () => {
-    await rest.patch(Routes.applicationCommands(CLIENT_ID), {
+    await rest.put(Routes.applicationCommands(CLIENT_ID), {
         body: Object.values(cmdobject).map(e => e.data)
     })
       console.log("Registered slash commands.");
