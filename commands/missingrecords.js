@@ -97,7 +97,7 @@ module.exports = {
   })
 }
     if(interaction.data.component_type == 2) {
-        let whyudo = parseInt(interaction.data.embeds[0].footer.text)
+        let whyudo = parseInt(interaction.message.embeds[0].footer.text)
         let {embeds, expr} = cache.get(interaction.message.interaction.id)
         if(Date.now() > expr) {
             cache.delete(interaction.message.interaction.id)
