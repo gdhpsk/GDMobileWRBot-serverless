@@ -164,7 +164,7 @@ module.exports = {
                     }
                     array3.push(object)
                 }
-                array3.sort((a, b) => a.name.localeCompare(b.name))
+                // array3.sort((a, b) => a.name.localeCompare(b.name))
 
                 for (let i = 0; i < player.extralist.length; i++) {
                     let extralist = array3[i]
