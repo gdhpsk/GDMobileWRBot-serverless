@@ -48,10 +48,13 @@ module.exports = {
         async function getLevel(name) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name}$`, "i")
             let levelPosition = parseInt(name) > 150 ? "" : parseInt(name)
-            let level = await levelsSchema.aggregate([
-                {$match: {$or: [{name: levelName}, {position: levelPosition}]}},
-                ...(name == "generate" ? {$sample: {size: 1}} : {})
-            ])
+            let aggregation = [
+                {$match: {$or: [{name: levelName}, {position: levelPosition}]}}
+            ]
+            if(name == "generate") {
+                aggregation.push({$sample: {$size:1}})
+            }
+            let level = await levelsSchema.aggregate(aggregation)
             let duplicates = set.find(e => e.name == name.toLowerCase())
             if(!level?.length && !duplicates) {
                 let imgdata = await fs.readFile("./assets/level_not_found.png")
