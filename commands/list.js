@@ -45,8 +45,8 @@ module.exports = {
         if(interaction.data.component_type == 3) {
             await getLevel(interaction.data.values[0])
         }
-        async function getLevel(name) {
-            let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name.replaceAll("(", "\(").replaceAll(")", "\)")}$`, "i")
+        async function getLevel(name, component) {
+            let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name.replaceAll("(", "\\(").replaceAll(")", "\\)")}$`, "i")
             let levelPosition = parseInt(name) || ""
             let aggregation = [
                 {$match: {$or: [{name: levelName}, {position: levelPosition}]}}
@@ -66,10 +66,14 @@ module.exports = {
                                     description:  `Unfortunately, our server could not find the level you were looking for <:sadsphere:839693880370528256>. Please try again.`,
                                     author: {name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`, icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024`}
                                 }
-                                await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-                                    body: {
-                                        embeds: [em]
-                                    },
+                                let data = {
+                                    embeds: [em]
+                                }
+                                await rest.patch(component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
+                                    body: component ? {
+                                        type: 7,
+                                        data
+                                    } : data,
                                     files: [
                                         {
                                             name: "404.png",
@@ -135,11 +139,15 @@ module.exports = {
                 author: {name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`,  icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024`},
                 footer: name == 'generate' ? {text: "This level was generated!"} : ""
             }
-            await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-                body: {
-                    embeds: [embed],
-                    components
-                }
+            let data = {
+                embeds: [embed],
+                components
+            }
+            await rest.patch(component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
+                body: component ? {
+                    type: 7,
+                    data
+                } : data
               })
         }
 
