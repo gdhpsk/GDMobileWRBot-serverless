@@ -33,11 +33,6 @@ module.exports = {
     async execute(interaction, rest, Routes) {
         let moreargs = interaction.data?.options?.find(e => e.name == "profile")?.value
         if(interaction.data.type == 1 && moreargs) {
-        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-            body: {
-                type: 5
-            }
-        })
         let alldatalead = await leaderboardSchema.find()
         let leaderboard = alldatalead.reduce(function (acc, cur, i) {
             acc[alldatalead[i].name] = cur;
@@ -355,11 +350,6 @@ module.exports = {
                 }
             }
             if(interaction.data.type == 1) {
-                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                    body: {
-                        type: 5
-                    }
-                })
                 let alldatalead = await leaderboardSchema.find()
         let leaderboard = alldatalead.reduce(function (acc, cur, i) {
             acc[alldatalead[i].name] = cur;
