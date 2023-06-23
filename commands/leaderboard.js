@@ -270,31 +270,29 @@ module.exports = {
             if (generated_or_nah) {
                 embed.footer = { text: "This profile was generated!" }
             }
-            await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-                body: {
+            return {
                         embeds: [
                             embed
                         ]
                 }
-            })
         }
             moreargs = interaction.data?.options.find(e => e.name == "profile")?.value?.toLowerCase()
             if (moreargs == "generate") {
                 let random = Math.floor(Math.random() * (Object.keys(leaderboard).length - 1))
                 gay = Object.keys(leaderboard)[random]
                 generated_or_nah = true
-                tehe()
+                return await tehe()
             } else if (moreargs == "me") {
                 var array98 = []
                 let exists = Object.values(leaderboard).find(e => e?.socials?.[0]?.discord?.[0] == `${interaction.member.user.username}#${interaction.member.user.discriminator}`)
                 if(exists) {
                     gay = exists
-                    tehe()
+                    return await tehe()
                 }
             } else {
                 if (lowercaseKeys(leaderboard)[moreargs]) {
                     gay =alldatalead[alldatalead.findIndex(e => e.name.toLowerCase() == moreargs)].name
-                    tehe()
+                    return await tehe()
                 } else {
 
                     var fk = moreargs
@@ -306,13 +304,11 @@ module.exports = {
                         description: `Unfortunately, our server could not find the profile you were looking for <:sadsphere:839693880370528256>. Please try again.`,
                         author: { name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`, icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024`}
                     }
-                    await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-                        body: {
+                    return {
                                 embeds: [
                                     em
                                 ]
-                        }
-                    })
+                    }
                 }
             }
         }
@@ -404,14 +400,12 @@ module.exports = {
                 //array10.push(new EmbedBuilder().setDescription(fr).setTitle("Mobile World Records List Leaderboard").setFooter({text: `Page ${Math.floor((Object.keys(leaderboard).length / page))+1} / ${Math.floor((Object.keys(leaderboard).length / page))+1}`}))
             }
             cache.set(interaction.id, {expr: Date.now()+86400000, array10, token: interaction.token})
-            await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-                body: {
+            return {
                         embeds: [
                             array10[0]
                         ],
                         components: [bu, bu2]
                 }
-            })
         }
         if(interaction.data.component_type == 2) {
             let whyudo = parseInt(interaction.message.embeds[0].footer.text.substr(5).split(" / ")[0])-1
@@ -425,8 +419,7 @@ if(Date.now() > expr) {
             case "0":
                 whyudo = whyudo > 0 ? --whyudo : array10.length - 1;
                 why(whyudo)
-                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                    body: {
+                return {
                         type: 7,
                         data: {
                             embeds: [
@@ -435,13 +428,10 @@ if(Date.now() > expr) {
                             components: [bu, bu2]
                         }
                     }
-                })
-                break;
             case "1":
                 whyudo = whyudo + 1 < array10.length ? ++whyudo : 0;
                 why(whyudo)
-                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                    body: {
+               return {
                         type: 7,
                         data: {
                             embeds: [
@@ -450,13 +440,10 @@ if(Date.now() > expr) {
                             components: [bu, bu2]
                         }
                     }
-                })
-                break;
             case "2":
                 whyudo = array10.length - 1
                 why(whyudo)
-                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                    body: {
+                return {
                         type: 7,
                         data: {
                             embeds: [
@@ -465,27 +452,21 @@ if(Date.now() > expr) {
                             components: [bu, bu2]
                         }
                     }
-                })
-                break;
             case "3":
                 whyudo = 0
                 why(whyudo)
-                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                    body: {
-                        type: 7,
-                        data: {
-                            embeds: [
-                                array10[whyudo]
-                            ],
-                            components: [bu, bu2]
-                        }
+                return {
+                    type: 7,
+                    data: {
+                        embeds: [
+                            array10[whyudo]
+                        ],
+                        components: [bu, bu2]
                     }
-                })
-                break;
+                }
             case "4":
                 cache.delete(interaction.message.interaction.id)
-                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
-                    body: {
+                return {
                         type: 7,
                         data: {
                         embeds: [
@@ -496,8 +477,6 @@ if(Date.now() > expr) {
                             components: []
                     }
                 }
-                })
-                break;
             case "5":
                 cache.delete(interaction.message.interaction.id)
                 await rest.delete(Routes.webhookMessage(interaction.application_id, token))
