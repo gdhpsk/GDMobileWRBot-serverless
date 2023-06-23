@@ -5,11 +5,13 @@ module.exports = {
       "description": "Pinger",
   },
     async execute(interaction, rest, Routes) {
-        return {
+        await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+          body: {
             type: 4,
             data: {
               content: "Hello..."
             }
-        }
+          }
+        })
       }
     }

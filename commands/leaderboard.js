@@ -514,6 +514,15 @@ if(Date.now() > expr) {
                 })
                 break;
             case "5":
+                await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
+                    body: {
+                      type: 7,
+                      data: {
+                        embeds: interaction.message.embeds,
+                        components: interaction.message.components
+                      }
+                    }
+                  })
                 cache.delete(interaction.message.interaction.id)
                 await rest.delete(Routes.webhookMessage(interaction.application_id, token))
                 break
