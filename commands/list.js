@@ -46,6 +46,11 @@ module.exports = {
             await getLevel(interaction.data.values[0], true)
         }
         async function getLevel(name, component) {
+            let level;
+            try {
+                level = await levelsSchema.find({_id: name})
+                if(!level.length) throw new Error()
+            } catch(_) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name.replaceAll("(", "\\(").replaceAll(")", "\\)")}$`, "i")
             let levelPosition = parseInt(name) || ""
             let aggregation = [
@@ -54,7 +59,8 @@ module.exports = {
             if(name == "generate") {
                 aggregation.push({$sample: {$size:1}})
             }
-            let level = await levelsSchema.aggregate(aggregation)
+            level = await levelsSchema.aggregate(aggregation)
+        }
             let duplicates = set.find(e => e.name == name.toLowerCase())
             if(!level?.length && !duplicates) {
                 let imgdata = await fs.readFile("./assets/level_not_found.png")
@@ -85,9 +91,9 @@ module.exports = {
             }
             let components = []
             if(duplicates) {
-                level = await levelsSchema.findOne({name: duplicates["function replacements"][0].actual})
             components.push({
                 type: 1,
+                placeholder: `Which ${duplicates.name}?`,
                 components: [
                     {
                         type: 3,
@@ -97,18 +103,17 @@ module.exports = {
                             return {
                                 label: `#${d.position} - ${e.name} by ${d.host}`,
                                 description: `Verified by ${d.verifier}`,
-                                default: duplicates["function replacements"].indexOf(e) ? false : true,
-                                value: d.name                          
+                                value: d._id.toString()                          
                             }
                         }))
                     }
                 ]
             })
         } else {
-            level = level[0]
             if(level.length > 1) {
                 components.push({
                     type: 1,
+                    placeholder: `Which level?`,
                     components: [
                         {
                             type: 3,
@@ -117,14 +122,24 @@ module.exports = {
                                 return {
                                     label: `#${e.position} - ${e.name} by ${e.host}`,
                                     description: `Verified by ${e.verifier}`,
-                                    default: level.indexOf(e) ? false : true,
-                                    value: e.name                          
+                                    value: e._id.toString()                          
                                 }
                             }))
                         }
                     ]
                 })
             } 
+        }
+
+        if(components.length) {
+            await rest.put(Routes.webhookMessage(interaction.application_id, interaction.token), {
+                body: {
+                    components
+                }
+              })
+              return;
+        } else {
+            level = level[0]
         }
 
         if(level) {
@@ -140,8 +155,7 @@ module.exports = {
                 footer: name == 'generate' ? {text: "This level was generated!"} : ""
             }
             let data = {
-                embeds: [embed],
-                components
+                embeds: [embed]
             }
             await rest[component ? "post" : "patch"](component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: component ? {
@@ -150,7 +164,6 @@ module.exports = {
                 } : data
               })
         }
-
         }
   }
 }
