@@ -63,14 +63,7 @@ module.exports = {
         var generated_or_nah = false
 
         async function tehe() {
-            for (let i = 0; i < rank.length; i++) {
-                if (rank[i].name == gay) {
-                    leaderboardrank = i + 1
-                    break;
-                } else {
-                    continue;
-                }
-            }
+            leaderboardrank = rank.findIndex(e => e.name == gay)+1
             let txt1 = `**LEADERBOARD RANK:** ${leaderboardrank}`
             let player = leaderboard[gay]
             if (player.nationality) {
