@@ -93,10 +93,10 @@ module.exports = {
             if(duplicates) {
             components.push({
                 type: 1,
-                placeholder: `Which ${duplicates.name}?`,
                 components: [
                     {
                         type: 3,
+                        placeholder: `Which ${duplicates.name}?`,
                         custom_id: "levels",
                         options: await Promise.all(duplicates["function replacements"].map(async e => {
                             let d = await levelsSchema.findOne({name: e.actual})
@@ -113,11 +113,11 @@ module.exports = {
             if(level.length > 1) {
                 components.push({
                     type: 1,
-                    placeholder: `Which level?`,
                     components: [
                         {
                             type: 3,
                             custom_id: "levels",
+                            placeholder: `Which level?`,
                             options: await Promise.all(level.map(async e => {
                                 return {
                                     label: `#${e.position} - ${e.name} by ${e.host}`,
@@ -155,7 +155,8 @@ module.exports = {
                 footer: name == 'generate' ? {text: "This level was generated!"} : ""
             }
             let data = {
-                embeds: [embed]
+                embeds: [embed],
+                components: []
             }
             await rest[component ? "post" : "patch"](component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: component ? {
