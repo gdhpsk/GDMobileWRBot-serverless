@@ -11,7 +11,7 @@ module.exports = {
         }
       ]
   },
-  execute(interaction, rest, Routes) {
+  async execute(interaction, rest, Routes) {
     var pers = interaction?.data?.options?.find(e => e.name == "person")?.value
    async function smt(person) {
         let that = await fetch(`https://gdbrowser.com/api/profile/${person}`)
@@ -114,9 +114,9 @@ module.exports = {
     }
 
     if(!pers) {
-        smt("Robtop")
+        await smt("Robtop")
     } else if(pers) {
-        smt(pers)
+        await smt(pers)
     }
 }
     }
