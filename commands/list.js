@@ -24,7 +24,7 @@ module.exports = {
           {
               type: 3,
               name: "level",
-              description: 'What level do you want me to display? Can be a placement number',
+              description: 'What level do you want me to display? Can be a placement number / database ID',
               required: false
           }
       ],
