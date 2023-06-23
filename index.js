@@ -68,7 +68,7 @@ switch (interaction.type) {
     }
     let exec = await cmdobject[req.body.data.name ?? req.body.message.interaction.name].execute(req.body, rest, Routes)
     console.log(exec)
-    res.status(200).json(exec);
+    res.status(200).json(exec ?? {type: 1});
       break;
   }
 
