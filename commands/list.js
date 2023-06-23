@@ -67,7 +67,7 @@ module.exports = {
         })
     }
     act.components[0].disabled = true
-    let initial = await levelsSchema.find({position: {$gte: 1, lte: 25}}).sort({position:1})
+    let initial = await levelsSchema.find({position: {$gte: 1, $lte: 25}}).sort({position:1})
     let count = await levelsSchema.find().count()
     await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
         body: {
@@ -106,7 +106,7 @@ module.exports = {
                 case "0":
                     whyudo = whyudo > 0 ? --whyudo : pages - 1;
                     why(whyudo)
-                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), lte: 25+(whyudo*25)}}).sort({position:1})
+                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
                         return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n")
@@ -123,7 +123,7 @@ module.exports = {
                 case "1":
                     whyudo = whyudo + 1 < hy.length ? ++whyudo : 0;
                     why(whyudo)
-                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), lte: 25+(whyudo*25)}}).sort({position:1})
+                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
                         return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n")
@@ -140,7 +140,7 @@ module.exports = {
                 case "2":
                     whyudo = pages-1
                     why(whyudo)
-                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), lte: 25+(whyudo*25)}}).sort({position:1})
+                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
                         return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n")
@@ -157,7 +157,7 @@ module.exports = {
                  case "3":
                     whyudo = 0
                     why(whyudo)
-                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), lte: 25+(whyudo*25)}}).sort({position:1})
+                    initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
                         return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n"),
