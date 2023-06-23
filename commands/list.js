@@ -74,7 +74,7 @@ module.exports = {
             embeds: [{
                 title: "Mobile World Records List Levels",
                 description: initial.map(e => {
-                    return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
+                    return `[${e.position < 151 ? `${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                 }).join("\n"),
                 footer: {
                     text: `Page 1 / ${Math.ceil(count / 25)}`
@@ -104,12 +104,14 @@ module.exports = {
             let initial;
             switch (interaction.data.custom_id) {
                 case "0":
+                    whyudo--;
                     whyudo = whyudo > 0 ? --whyudo : pages - 1;
                     why(whyudo)
                     initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
-                        return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
+                        return `[${e.position < 151 ? `${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n")
+                    interaction.message.embeds[0].footer.text = `Page ${whyudo+1} / ${pages}`
                     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                         body: {
                           type: 7,
@@ -121,12 +123,14 @@ module.exports = {
                       })
                     break;
                 case "1":
+                    whyudo--;
                     whyudo = whyudo + 1 < pages ? ++whyudo : 0;
                     why(whyudo)
                     initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
-                        return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
+                        return `[${e.position < 151 ? `${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n")
+                    interaction.message.embeds[0].footer.text = `Page ${whyudo+1} / ${pages}`
                     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                         body: {
                           type: 7,
@@ -142,8 +146,9 @@ module.exports = {
                     why(whyudo)
                     initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
-                        return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
+                        return `[${e.position < 151 ? `${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
                     }).join("\n")
+                    interaction.message.embeds[0].footer.text = `Page ${whyudo+1} / ${pages}`
                     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                         body: {
                           type: 7,
@@ -159,8 +164,9 @@ module.exports = {
                     why(whyudo)
                     initial = await levelsSchema.find({position: {$gte: 1+(whyudo*25), $lte: 25+(whyudo*25)}}).sort({position:1})
                     interaction.message.embeds[0].description = initial.map(e => {
-                        return `[${e.position < 151 ? `#${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
-                    }).join("\n"),
+                        return `[${e.position < 151 ? `${e.position}. ` : ""}${e.name} by ${e.host} and verified by ${e.verifier}](https://youtube.com/watch?v=${e.ytcode})`
+                    }).join("\n")
+                    interaction.message.embeds[0].footer.text = `Page ${whyudo+1} / ${pages}`
                     await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
                         body: {
                           type: 7,
