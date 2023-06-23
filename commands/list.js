@@ -43,12 +43,11 @@ module.exports = {
             }
         }
         if(interaction.data.component_type == 3) {
-            console.log(interaction)
-            await getLevel(interaction.data.value)
+            await getLevel(interaction.data.values[0])
         }
         async function getLevel(name) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name}$`, "i")
-            let levelPosition = parseInt(name) > 150 ? "" : parseInt(name)
+            let levelPosition = parseInt(name) || ""
             let aggregation = [
                 {$match: {$or: [{name: levelName}, {position: levelPosition}]}}
             ]
