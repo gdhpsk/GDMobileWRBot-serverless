@@ -30,15 +30,18 @@ module.exports = {
       ],
   },
   cooldown: require("../cooldowns.json").list,
-  async execute(interaction, rest, Routes, events) {
+  async execute(interaction, rest, Routes) {
+    let level = interaction.data?.options?.find(e => e.name == "level")?.value
     if(interaction.data.type == 1) {
         await rest.post(Routes.interactionCallback(interaction.id, interaction.token), {
             body: {
               type: 5
             }
           })
+          if(level) {
+            getLevel(level)
         }
-        let level = interaction.data?.options?.find(e => e.name == "level")?.value
+        }
         async function getLevel(name) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name}$`, "i")
             let levelPosition = parseInt(name) > 150 ? "" : parseInt(name)
@@ -114,9 +117,6 @@ module.exports = {
               })
         }
 
-        }
-        if(level) {
-            getLevel(level)
         }
   }
 }
