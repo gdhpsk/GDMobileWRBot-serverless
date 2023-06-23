@@ -147,7 +147,6 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.extralist.length; i++) {
-                    let number = (await levelsSchema.findOne({name: player.extralist[i].name}).select("position"))?.position ?? 0
                     let records = player.extralist[i]
                     let txt = ["", ""]
                     if (records.verification) {
@@ -160,13 +159,12 @@ module.exports = {
                         name: records.name,
                         percent: `${records.percent}%`,
                         hertz: `${records.hertz}hz`,
-                        pos: number,
                         marked: txt[1],
                         verifier: txt[0]
                     }
                     array3.push(object)
                 }
-                array3.sort((a, b) => a.pos - b.pos)
+                array3.sort((a, b) => a.name.localeCompare(b.name))
 
                 for (let i = 0; i < player.extralist.length; i++) {
                     let extralist = array3[i]
