@@ -43,6 +43,7 @@ module.exports = {
             }
         }
         if(interaction.data.component_type == 3) {
+            console.log(interaction)
             await getLevel(interaction.data.value)
         }
         async function getLevel(name) {
