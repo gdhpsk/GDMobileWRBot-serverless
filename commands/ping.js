@@ -6,12 +6,10 @@ module.exports = {
   },
     async execute(interaction, rest, Routes) {
         return {
-          body: {
             type: 4,
             data: {
               content: "Hello..."
             }
-          }
         }
       }
     }
