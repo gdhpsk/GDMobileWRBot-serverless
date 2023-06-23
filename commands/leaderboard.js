@@ -278,7 +278,6 @@ module.exports = {
                 }
             })
         }
-        if (moreargs) {
             moreargs = interaction.data?.options.find(e => e.name == "profile")?.value?.toLowerCase()
             if (moreargs == "generate") {
                 let random = Math.floor(Math.random() * (Object.keys(leaderboard).length - 1))
@@ -316,7 +315,6 @@ module.exports = {
                     })
                 }
             }
-        }
         }
          if (!moreargs) {
             let array10 = []
