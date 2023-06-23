@@ -69,7 +69,7 @@ module.exports = {
                                 let data = {
                                     embeds: [em]
                                 }
-                                await rest.patch(component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
+                                await rest[component ? "post" : "patch"](component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
                                     body: component ? {
                                         type: 7,
                                         data
@@ -143,7 +143,7 @@ module.exports = {
                 embeds: [embed],
                 components
             }
-            await rest.patch(component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
+            await rest[component ? "post" : "patch"](component ? Routes.interactionCallback(interaction.id, interaction.token) : Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: component ? {
                     type: 7,
                     data
