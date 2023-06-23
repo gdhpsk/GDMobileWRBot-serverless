@@ -284,18 +284,31 @@ module.exports = {
                 let random = Math.floor(Math.random() * (Object.keys(leaderboard).length - 1))
                 gay = Object.keys(leaderboard)[random]
                 generated_or_nah = true
-                tehe()
+                await tehe()
             } else if (moreargs == "me") {
                 var array98 = []
                 let exists = Object.values(leaderboard).find(e => e?.socials?.[0]?.discord?.[0] == `${interaction.member.user.username}#${interaction.member.user.discriminator}`)
                 if(exists) {
                     gay = exists
-                    tehe()
+                    await tehe()
+                } else {
+                    var em = {
+                        title: `Your profile (1 pts/1 WR)`,
+                        description: `Unfortunately, our server could not find the profile you were looking for <:sadsphere:839693880370528256>. Please try again.`,
+                        author: { name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`, icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024`}
+                    }
+                    await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
+                        body: {
+                                embeds: [
+                                    em
+                                ]
+                        }
+                    })
                 }
             } else {
                 if (lowercaseKeys(leaderboard)[moreargs]) {
                     gay =alldatalead[alldatalead.findIndex(e => e.name.toLowerCase() == moreargs)].name
-                    tehe()
+                    await tehe()
                 } else {
 
                     var fk = moreargs
