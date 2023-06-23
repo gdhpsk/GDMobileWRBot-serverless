@@ -39,8 +39,6 @@ module.exports = {
             }
         })
         let alldatalead = await leaderboardSchema.find()
-        let alldatalevel = await levelsSchema.find()
-        alldatalevel.sort((a, b) => a.position - b.position)
         let leaderboard = alldatalead.reduce(function (acc, cur, i) {
             acc[alldatalead[i].name] = cur;
             return acc;
@@ -53,10 +51,6 @@ module.exports = {
             }
         }
         let rank = require("../leaderboard_command_placements.js")(leaderboard, interaction.data?.options?.find(e => e.name == "bywrs")?.value)
-        let list = Object.values(alldatalevel.reduce(function (acc, cur, i) {
-            acc[alldatalevel[i].name] = cur;
-            return acc;
-        }, {}))
 
         let gay = ""
         let array = []
@@ -88,21 +82,8 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.records.length; i++) {
-                    let number = 0
+                    let number = (await levelsSchema.findOne({name: player.records[i].name}).select("position"))?.position ?? 0
                     let records = player.records[i]
-                    for (let j = 0; j < list.length; j++) {
-                        if (records.name == list[j].name) {
-                            number = j + 1
-                            break;
-                        } else {
-                            if (j != list.length - 1) {
-                                continue;
-                            } else {
-                                number = 0
-                                break;
-                            }
-                        }
-                    }
                     let txt = ["", ""]
                     if (records.verification) {
                         txt[0] = "[V] "
@@ -134,21 +115,8 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.completions.length; i++) {
-                    let number = 0
+                    let number = (await levelsSchema.findOne({name: player.completions[i].name}).select("position"))?.position ?? 0
                     let records = player.completions[i]
-                    for (let j = 0; j < list.length; j++) {
-                        if (records.name == list[j].name) {
-                            number = j + 1
-                            break;
-                        } else {
-                            if (j != list.length - 1) {
-                                continue;
-                            } else {
-                                number = 0
-                                break;
-                            }
-                        }
-                    }
                     let txt = ["", ""]
                     if (records.verification) {
                         txt[0] = "[V] "
@@ -179,21 +147,8 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.extralist.length; i++) {
-                    let number = 0
+                    let number = (await levelsSchema.findOne({name: player.extralist[i].name}).select("position"))?.position ?? 0
                     let records = player.extralist[i]
-                    for (let j = 0; j < list.length; j++) {
-                        if (records.name == list[j].name) {
-                            number = j + 1
-                            break;
-                        } else {
-                            if (j != list.length - 1) {
-                                continue;
-                            } else {
-                                number = 0
-                                break;
-                            }
-                        }
-                    }
                     let txt = ["", ""]
                     if (records.verification) {
                         txt[0] = "[V] "
@@ -227,21 +182,8 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.screenshot.length; i++) {
-                    let number = 0
+                    let number = (await levelsSchema.findOne({name: player.screenshot[i].name}).select("position"))?.position ?? 0
                     let records = player.screenshot[i]
-                    for (let j = 0; j < list.length; j++) {
-                        if (records.name == list[j].name) {
-                            number = j + 1
-                            break;
-                        } else {
-                            if (j != list.length - 1) {
-                                continue;
-                            } else {
-                                number = 0
-                                break;
-                            }
-                        }
-                    }
                     let txt = ["", ""]
                     if (records.verification) {
                         txt[0] = "[V] "
@@ -354,20 +296,10 @@ module.exports = {
                 tehe()
             } else if (moreargs == "me") {
                 var array98 = []
-                for (let i = 0; i < Object.keys(leaderboard).length; i++) {
-                    if (Object.values(leaderboard)[i].socials) {
-                        if (Object.values(leaderboard)[i].socials[0].discord) {
-                            if (Object.values(leaderboard)[i].socials[0].discord[0] == `${interaction.member.user.username}#${interaction.member.user.discriminator}`) {
-                                gay = Object.keys(leaderboard)[i]
-                                tehe()
-                                break;
-                            } else {
-                                if (i != Object.keys(leaderboard).length - 1) {
-                                    continue;
-                                }
-                            }
-                        }
-                    }
+                let exists = Object.values(leaderboard).find(e => e?.socials?.[0]?.discord?.[0] == `${interaction.member.user.username}#${interaction.member.user.discriminator}`)
+                if(exists) {
+                    gay = exists
+                    tehe()
                 }
             } else {
                 if (lowercaseKeys(leaderboard)[moreargs]) {
