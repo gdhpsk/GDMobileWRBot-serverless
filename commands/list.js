@@ -39,19 +39,21 @@ module.exports = {
             }
           })
           if(level) {
-            getLevel(level)
+                await getLevel(level)
+            }
         }
+        if(interaction.data.component_type == 3) {
+            await getLevel(interaction.data.value)
         }
         async function getLevel(name) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name}$`, "i")
             let levelPosition = parseInt(name) > 150 ? "" : parseInt(name)
-            let level = (await levelsSchema.aggregate([
+            let level = await levelsSchema.aggregate([
                 {$match: {$or: [{name: levelName}, {position: levelPosition}]}},
-                {$sample: {size: 1}},
-                {$limit: 1}
-            ]))[0]
+                ...(name == "generate" ? {$sample: {size: 1}} : {})
+            ])
             let duplicates = set.find(e => e.name == name.toLowerCase())
-            if(!level && !duplicates) {
+            if(!level?.length && !duplicates) {
                 let imgdata = await fs.readFile("./assets/level_not_found.png")
                                 var em = {
                                     title: `${name.slice(0, 20)}${name.length > 20 ? "..." : ""} by ${interaction.member.user.username} and verified by Nontypical`,
@@ -95,6 +97,27 @@ module.exports = {
                     }
                 ]
             })
+        } else {
+            level = level[0]
+            if(level.length > 1) {
+                components.push({
+                    type: 1,
+                    components: [
+                        {
+                            type: 3,
+                            custom_id: "levels",
+                            options: await Promise.all(level.map(async e => {
+                                return {
+                                    label: `#${e.position} - ${e.name} by ${e.host}`,
+                                    description: `Verified by ${e.verifier}`,
+                                    default: level.indexOf(e) ? false : true,
+                                    value: e.name                          
+                                }
+                            }))
+                        }
+                    ]
+                })
+            } 
         }
 
         if(level) {

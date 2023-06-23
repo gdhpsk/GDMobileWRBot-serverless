@@ -74,21 +74,11 @@ switch (interaction.type) {
 
 });
 
-(async () => {
+app.listen(process.env.PORT || 5000, async () => {
     await rest.put(Routes.applicationCommands(CLIENT_ID), {
         body: Object.values(cmdobject).map(e => e.data)
     })
       console.log("Registered slash commands.");
-})()
-
-app.listen(process.env.PORT || 5000, async () => {
-    // mongoose.connect(process.env.MONGODB_URI);
-    // let levs = await levelsSchema.aggregate([
-    //     {$match: {$or: [{name: {$ne: true}}, {position: "0"}]}},
-    //     {$sample: {size: 1}},
-    //     {$limit: 1}
-    // ])
-    // console.log(levs)
 });
 // Export the Express API
 module.exports = app;
