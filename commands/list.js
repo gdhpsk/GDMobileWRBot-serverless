@@ -132,7 +132,7 @@ module.exports = {
         }
 
         if(components.length) {
-            await rest.put(Routes.webhookMessage(interaction.application_id, interaction.token), {
+            await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
                     components
                 }
