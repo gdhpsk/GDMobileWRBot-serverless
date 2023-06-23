@@ -43,7 +43,7 @@ module.exports = {
             }
         }
         if(interaction.data.component_type == 3) {
-            await getLevel(interaction.data.values[0])
+            await getLevel(interaction.data.values[0], true)
         }
         async function getLevel(name, component) {
             let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name.replaceAll("(", "\\(").replaceAll(")", "\\)")}$`, "i")
