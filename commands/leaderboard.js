@@ -286,10 +286,9 @@ module.exports = {
                 generated_or_nah = true
                 await tehe()
             } else if (moreargs == "me") {
-                var array98 = []
                 let exists = Object.values(leaderboard).find(e => e?.socials?.[0]?.discord?.[0] == `${interaction.member.user.username}#${interaction.member.user.discriminator}`)
                 if(exists) {
-                    gay = exists
+                    gay = exists.name
                     await tehe()
                 } else {
                     var em = {
