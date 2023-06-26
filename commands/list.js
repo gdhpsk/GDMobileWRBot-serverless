@@ -249,8 +249,7 @@ module.exports = {
             }
             level = await levelsSchema.aggregate(aggregation)
         }
-            let duplicates = set.find(e => e.name == name.toLowerCase())
-            if(!level?.length && !duplicates) {
+            if(!level?.length) {
                 let imgdata = await fs.readFile("./assets/level_not_found.png")
                                 var em = {
                                     title: `${name.slice(0, 20)}${name.length > 20 ? "..." : ""} by ${interaction.member.user.username} and verified by Nontypical`,
@@ -278,26 +277,6 @@ module.exports = {
                                   return
             }
             let components = []
-            if(duplicates) {
-            components.push({
-                type: 1,
-                components: [
-                    {
-                        type: 3,
-                        placeholder: `Which ${duplicates.name}?`,
-                        custom_id: "levels",
-                        options: await Promise.all(duplicates["function replacements"].map(async e => {
-                            let d = await levelsSchema.findOne({name: e.actual})
-                            return {
-                                label: `#${d.position} - ${e.name} by ${d.host}`,
-                                description: `Verified by ${d.verifier}`,
-                                value: d._id.toString()                          
-                            }
-                        }))
-                    }
-                ]
-            })
-        } else {
             if(level.length > 1) {
                 components.push({
                     type: 1,
@@ -316,7 +295,6 @@ module.exports = {
                         }
                     ]
                 })
-            } 
         }
 
         if(components.length) {

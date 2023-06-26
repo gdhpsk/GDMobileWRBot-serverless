@@ -1,3 +1,4 @@
+const { ObjectId } = require("bson");
 const country_code = require("../JSON/country_codes.json")
 
 const lowercaseKeys = obj =>
@@ -5,10 +6,8 @@ const lowercaseKeys = obj =>
         acc[key.toLowerCase()] = obj[key];
         return acc;
     }, {});
-
 let {leaderboardSchema, levelsSchema} = require("../mongodb")
 let cache = new Map()
-
 module.exports = {
     data: {
         "name": "leaderboard",
@@ -75,7 +74,7 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.records.length; i++) {
-                    let number = (await levelsSchema.findOne({name: player.records[i].name}).select("position"))?.position ?? 0
+                    let number = (await levelsSchema.findOne({"list._id": new ObjectId(player.records[i].id)}).select("position"))?.position ?? 0
                     let records = player.records[i]
                     let txt = ["", ""]
                     if (records.verification) {
@@ -108,7 +107,7 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.completions.length; i++) {
-                    let number = (await levelsSchema.findOne({name: player.completions[i].name}).select("position"))?.position ?? 0
+                    let number = (await levelsSchema.findOne({"list._id": new ObjectId(player.completions[i].id)}).select("position"))?.position ?? 0
                     let records = player.completions[i]
                     let txt = ["", ""]
                     if (records.verification) {
@@ -173,7 +172,7 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.screenshot.length; i++) {
-                    let number = (await levelsSchema.findOne({name: player.screenshot[i].name}).select("position"))?.position ?? 0
+                    let number = (await levelsSchema.findOne({"list._id": new ObjectId(player.screenshot[i].id)}).select("position"))?.position ?? 0
                     let records = player.screenshot[i]
                     let txt = ["", ""]
                     if (records.verification) {
