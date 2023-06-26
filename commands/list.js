@@ -1,6 +1,5 @@
 const {levelsSchema, leaderboardSchema} = require("../mongodb")
 const country_code = require("../JSON/country_codes.json")
-let {set} = require("../JSON/serverstuff.json")
 const fs = require("fs/promises")
 const lowercaseKeys = obj =>
   Object.keys(obj).reduce((acc, key) => {
@@ -284,7 +283,7 @@ module.exports = {
                         {
                             type: 3,
                             custom_id: "levels",
-                            placeholder: `Which level?`,
+                            placeholder: `Choose a level to display:`,
                             options: await Promise.all(level.map(async e => {
                                 return {
                                     label: `#${e.position} - ${e.name} by ${e.host}`,
