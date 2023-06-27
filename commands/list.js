@@ -254,7 +254,7 @@ module.exports = {
             level = await levelsSchema.aggregate(aggregation).sort({position:1})
         }
             if(!level?.length) {
-                let imgdata = await fs.readFile(path.resolve(__dirname, "assets/level_not_found.png"))
+                let imgdata = await fs.readFile(path.resolve("../assets/level_not_found.png"))
                                 var em = {
                                     title: `${name.slice(0, 20)}${name.length > 20 ? "..." : ""} by ${interaction.member.user.username} and verified by Nontypical`,
                                     color: random_hex_color_code(),
