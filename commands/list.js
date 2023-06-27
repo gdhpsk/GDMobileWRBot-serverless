@@ -1,6 +1,7 @@
 const {levelsSchema, leaderboardSchema} = require("../mongodb")
 const country_code = require("../JSON/country_codes.json")
-const fs = require("fs/promises")
+const fs = require("fs/promises");
+const path = require("path");
 const lowercaseKeys = obj =>
   Object.keys(obj).reduce((acc, key) => {
     acc[key.toLowerCase()] = obj[key];
@@ -253,7 +254,7 @@ module.exports = {
             level = await levelsSchema.aggregate(aggregation).sort({position:1})
         }
             if(!level?.length) {
-                let imgdata = await fs.readFile("./assets/level_not_found.png")
+                let imgdata = await fs.readFile(path.resolve(__dirname, "assets/level_not_found.png"))
                                 var em = {
                                     title: `${name.slice(0, 20)}${name.length > 20 ? "..." : ""} by ${interaction.member.user.username} and verified by Nontypical`,
                                     color: random_hex_color_code(),
