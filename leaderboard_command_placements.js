@@ -45,18 +45,11 @@ for(const key in leaderboard) {
             return person.completions.length * 2
         }
     }
-    function sure(j) {
+    function sure() {
         if(person.extralist[0] == "none") {
             return 0
-          }
-          if(!person.extralist[j]) {
-            return 0
           } else {
-          if(person.extralist[j].percent != 100) {
-            return 0
-          } else if(person.extralist[j].percent == 100) {
-            return 1
-          }
+            return person.extralist.filter(e => e?.percent == 100).length
           }
     }
     function LK4() {
@@ -66,20 +59,7 @@ for(const key in leaderboard) {
           return person.minus
         }
       }
-      let point = (kk() + kk2() + sure(0) + sure(1) + sure(2) + sure(3) + sure(4) + sure(5) + sure(6) + sure(7) + sure(8) + sure(9) + sure(10) + sure(11) + sure(12) + sure(13) + sure(14) + sure(15) + sure(16) + sure(17) + sure(18) + sure(19) + sure(20) + sure(21) + sure(22) + sure(23) + sure(24) + sure(25) + sure(26) + sure(27) + sure(28) + sure(29) + sure(30) + sure(31) + sure(32) + sure(33) + sure(34) + sure(35) + sure(36) + sure(37) + sure(38) + sure(39) + sure(40) + sure(41) + sure(42) + sure(43) + sure(44) + sure(45) + sure(46) + sure(47) + sure(48) + sure(49) + sure(50)) - LK4()
-      for(const thing in person) {
-        if(typeof person[thing] == "object") {
-            if(thing == "extralist") { 
-                point -= person[thing].filter(e => e.deleted && e.percent == 100).length
-            }
-            if(thing == "records") {
-                point -= person[thing].filter(e => e.deleted).length
-            }
-            if(thing == "completions") {
-                point -= person[thing].filter(e => e.deleted).length*2
-            }
-        }
-    }
+      let point = kk() + kk2() + sure() - LK4()
 let hg = ""
 let totalrecords = kk() + kk22() + kk23() + kk24()
 if(person.nationality) {
