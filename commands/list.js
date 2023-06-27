@@ -250,7 +250,7 @@ module.exports = {
             if(name == "generate") {
                 aggregation.push({$sample: {$size:1}})
             }
-            level = await levelsSchema.aggregate(aggregation)
+            level = await levelsSchema.aggregate(aggregation).sort({position:1})
         }
             if(!level?.length) {
                 let imgdata = await fs.readFile("./assets/level_not_found.png")
