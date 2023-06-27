@@ -6,6 +6,10 @@ const lowercaseKeys = obj =>
         acc[key.toLowerCase()] = obj[key];
         return acc;
     }, {});
+
+    function escapeRegExp(text) {
+        return text.replaceAll(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+      }
 let {leaderboardSchema, levelsSchema} = require("../mongodb")
 let cache = new Map()
 module.exports = {
@@ -37,11 +41,6 @@ module.exports = {
                 type: 5
             }
         })
-        let alldatalead = await leaderboardSchema.find()
-        let leaderboard = alldatalead.reduce(function (acc, cur, i) {
-            acc[alldatalead[i].name] = cur;
-            return acc;
-        }, {})
         function check_if_marked(type) {
             if (type.deleted) {
                 return true
@@ -49,22 +48,19 @@ module.exports = {
                 return false
             }
         }
-        let rank = require("../leaderboard_command_placements.js")(leaderboard, interaction.data?.options?.find(e => e.name == "bywrs")?.value)
 
-        let gay = ""
+        let gay = {}
         let array = []
         let array2 = []
         let array3 = []
         let array4 = []
-        let leaderboardrank = 0
         let points = 0
         let recordcount = 0
         var generated_or_nah = false
 
         async function tehe() {
-            leaderboardrank = rank.findIndex(e => e.name == gay)+1
-            let txt1 = `**LEADERBOARD RANK:** ${leaderboardrank}`
-            let player = leaderboard[gay]
+            let txt1 = ``
+            let player = gay
             if (player.nationality) {
                 let nation = player.nationality.replace(/_/g, " ")
                 txt1 += `\n\n**NATIONALITY:** ${nation} :flag_${lowercaseKeys(country_code)[player.nationality.toLowerCase()]}:`
@@ -259,7 +255,7 @@ module.exports = {
                 jkss = ""
             }
             let embed = {
-                title: `${gay}'s profile (${points} pts/${recordcount} WR${jkss})`,
+                title: `${gay.name}'s profile (${points} pts/${recordcount} WR${jkss})`,
                 description: `${txt1}`,
                 author: { name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`, icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024` }
             }
@@ -280,14 +276,16 @@ module.exports = {
         if (moreargs) {
             moreargs = interaction.data?.options.find(e => e.name == "profile")?.value?.toLowerCase()
             if (moreargs == "generate") {
-                let random = Math.floor(Math.random() * (Object.keys(leaderboard).length - 1))
-                gay = Object.keys(leaderboard)[random]
+                gay = (await leaderboardSchema.aggregate([
+                    {$match: {}},
+                    {$sample: {$size:1}}
+                ]))[0]
                 generated_or_nah = true
                 await tehe()
             } else if (moreargs == "me") {
-                let exists = Object.values(leaderboard).find(e => e?.socials?.[0]?.discord?.[0] == `${interaction.member.user.username}#${interaction.member.user.discriminator}`)
+                let exists = await leaderboardSchema.findOne({"socials.discord.0": `${interaction.member.user.username}#${interaction.member.user.discriminator}`})
                 if(exists) {
-                    gay = exists.name
+                    gay = exists
                     await tehe()
                 } else {
                     var em = {
@@ -304,8 +302,9 @@ module.exports = {
                     })
                 }
             } else {
-                if (lowercaseKeys(leaderboard)[moreargs]) {
-                    gay =alldatalead[alldatalead.findIndex(e => e.name.toLowerCase() == moreargs)].name
+                let exists = await leaderboardSchema.findOne({name: new RegExp(`^${escapeRegExp(moreargs)}$`, "i")})
+                if (exists) {
+                    gay = exists
                     await tehe()
                 } else {
 

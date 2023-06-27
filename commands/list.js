@@ -7,6 +7,10 @@ const lowercaseKeys = obj =>
     return acc;
   }, {});
 
+  function escapeRegExp(text) {
+    return text.replaceAll(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+  }
+
   const random_hex_color_code = () => {
     let n = (Math.random() * 0xfffff * 1000000).toString(16);
     return parseInt("0x" + n.slice(0, 6))
@@ -238,7 +242,7 @@ module.exports = {
                 level = await levelsSchema.find({_id: name})
                 if(!level.length) throw new Error()
             } catch(_) {
-            let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${name.replaceAll("(", "\\(").replaceAll(")", "\\)")}$`, "i")
+            let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${escapeRegExp(name)}$`, "i")
             let levelPosition = parseInt(name) || ""
             let aggregation = [
                 {$match: {$or: [{name: levelName}, {position: levelPosition}]}}
