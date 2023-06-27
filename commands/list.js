@@ -242,7 +242,7 @@ module.exports = {
                 level = await levelsSchema.find({_id: name})
                 if(!level.length) throw new Error()
             } catch(_) {
-            let levelName = name == "generate" ? {$ne: true} : new RegExp(`^${escapeRegExp(name)}$`, "i")
+            let levelName = name == "generate" ? {$ne: true} : new RegExp(escapeRegExp(name), "i")
             let levelPosition = parseInt(name) || ""
             let aggregation = [
                 {$match: {$or: [{name: levelName}, {position: levelPosition}]}}
@@ -279,6 +279,7 @@ module.exports = {
                                   })
                                   return
             }
+            level.splice(25)
             let components = []
             if(level.length > 1) {
                 components.push({
