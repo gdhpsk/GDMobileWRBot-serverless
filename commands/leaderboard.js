@@ -70,8 +70,8 @@ module.exports = {
                 txt1 += "none\n"
             } else {
                 for (let i = 0; i < player.records.length; i++) {
-                    let lev = await levelsSchema.findOne({"list._id": new ObjectId(player.records[i].id)}).select("position host")
-                    let number = lev?.position ?? 0
+                    let level = await levelsSchema.findOne({"list._id": new ObjectId(player.records[i].id)}).select("position")
+                    let number = level?.position ?? 0
                     let records = player.records[i]
                     let txt = ["", ""]
                     if (records.verification) {
@@ -81,7 +81,7 @@ module.exports = {
                         txt[1] = " (deleted)"
                     }
                     let object = {
-                        name: `${records.name} by ${lev?.host ?? ""}`,
+                        name: `${records.name}`,
                         percent: `${records.percent}%`,
                         hertz: `${records.hertz}hz`,
                         pos: number,
