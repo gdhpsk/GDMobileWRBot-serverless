@@ -251,6 +251,7 @@ module.exports = {
             if(name == "generate") {
                 aggregation.push({$sample: {$size:1}})
             }
+            aggregation.push({$limit: 25})
             level = await levelsSchema.aggregate(aggregation).sort({position:1})
         }
             if(!level?.length) {
@@ -280,7 +281,6 @@ module.exports = {
                                   })
                                   return
             }
-            level.splice(25)
             let components = []
             if(level.length > 1) {
                 components.push({
