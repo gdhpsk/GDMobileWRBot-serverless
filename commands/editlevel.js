@@ -85,7 +85,6 @@ module.exports = {
           })
         try {
             let level = await levelsSchema.findById(getOption("level"))
-            console.log(getOption("level"))
             if(!level) throw new Error()
         } catch(_) {
     console.log(_)
