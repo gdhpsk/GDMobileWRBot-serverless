@@ -41,7 +41,7 @@ module.exports = {
               })
               return
         }
-        let original = await levelsSchema.findById(getOption("level")).lean()
+        let original = await levelsSchema[getOption("position") ? "findOne" : "findById"](getOption("level") || {position: getOption("position")}).lean()
         let message = ""
         Object.entries(original).filter(e => e[0] != "list").forEach(e => {
             message += `${e[0]}: ${e[1]}\n`
