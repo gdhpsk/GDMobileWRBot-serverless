@@ -42,13 +42,14 @@ module.exports = {
         })
         message += "Records: \n"
         original.list.forEach(e => {
+            message += "\n"
             Object.entries(e).forEach(e => {
-                message += `\r${e[0]}: ${e[1]}\n`
+                message += `${e[0]}: ${e[1]}\n`
             })
         })
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
-                    content: message
+                    content: `\`\`\`txt\n${message}\`\`\``
                 }
               })
               return
