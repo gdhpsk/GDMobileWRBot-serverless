@@ -90,6 +90,7 @@ module.exports = {
               return
         }
         let original = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}}).lean()
+        console.log(original.list.map(e => e._id = {$oid: e._id.toString()}))
         let rec = structuredClone(original.list.map(e => e._id = {$oid: e._id.toString()}).find(e => e._id.$oid == getOption("record")))
         for(let item of interaction.data?.options) {
             if(item.name == "record" || item.name == "position") continue;
