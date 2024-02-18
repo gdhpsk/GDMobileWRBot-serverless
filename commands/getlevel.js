@@ -12,7 +12,13 @@ module.exports = {
                 type: 3,
                 name: "level",
                 description: "The level's Object ID",
-                required: true
+                required: false
+            },
+            {
+                type: 4,
+                name: "position",
+                description: "The level's position",
+                required: false
             }
           ]
     },
@@ -24,7 +30,7 @@ module.exports = {
             }
           })
         try {
-            let level = await levelsSchema.findById(getOption("level"))
+            let level = await levelsSchema[getOption("position") ? "findOne" : "findById"](getOption("level") || {position: getOption("position")})
             if(!level) throw new Error()
         } catch(_) {
     console.log(_)
