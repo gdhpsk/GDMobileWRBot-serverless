@@ -14,6 +14,54 @@ module.exports = {
                 description: "The record's Object ID",
                 required: true
             },
+            {
+                type: 4,
+                name: "percent1",
+                description: "The edited video %",
+                required: false
+            },
+            {
+                type: 4,
+                name: "percent2",
+                description: "The edited screenshot / clip %",
+                required: false
+            },
+            {
+                type: 5,
+                name: "listpercent",
+                description: "is the record list %?",
+                required: false
+            },
+            {
+                type: 5,
+                name: "deleted",
+                description: "has the record since been deleted?",
+                required: false
+            },
+            {
+                type: 5,
+                name: "verification",
+                description: "is the record a verification?",
+                required: false
+            },
+            {
+                type: 5,
+                name: "screenshot",
+                description: "is the record a screenshot?",
+                required: false
+            },
+            {
+                type: 3,
+                name: "link",
+                description: "The edited youtube link",
+                required: false
+            },
+            {
+                type: 4,
+                name: "hertz",
+                description: "The edited hertz",
+                required: false
+            },
           ]
     },
     async execute(interaction, rest, Routes) {
