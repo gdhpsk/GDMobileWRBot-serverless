@@ -85,8 +85,10 @@ module.exports = {
           })
         try {
             let level = await levelsSchema.exists(getOption("level"))
+            console.log(getOption("level"))
             if(!level) throw new Error()
         } catch(_) {
+    console.log(_)
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
                     content: "Could not find the specified level ID!"
