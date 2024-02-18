@@ -84,7 +84,7 @@ module.exports = {
             }
           })
         try {
-            let level = await levelsSchema.exists(getOption("level"))
+            let level = await levelsSchema.findById(getOption("level"))
             console.log(getOption("level"))
             if(!level) throw new Error()
         } catch(_) {
