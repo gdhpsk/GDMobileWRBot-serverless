@@ -35,14 +35,16 @@ module.exports = {
               })
               return
         }
-        let original = await levelsSchema.findById(getOption("level"))
+        let original = await levelsSchema.findById(getOption("level")).lean()
         let message = ""
         Object.entries(original).filter(e => e[0] != "list").forEach(e => {
             message += `${e[0]}: ${e[1]}\n`
         })
         message += "Records: \n"
-        Object.entries(original.list).filter(e => e[0] != "list").forEach(e => {
-            message += `\r${e[0]}: ${e[1]}\n`
+        Object.entries(original.list).forEach(e => {
+            e[1].forEach(e => {
+                message += `\r${e[0]}: ${e[1]}\n`
+            })
         })
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
