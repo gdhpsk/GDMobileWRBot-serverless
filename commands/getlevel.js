@@ -41,8 +41,8 @@ module.exports = {
             message += `${e[0]}: ${e[1]}\n`
         })
         message += "Records: \n"
-        Object.entries(original.list).forEach(e => {
-            e[1].forEach(e => {
+        original.list.forEach(e => {
+            Object.entries(e).forEach(e => {
                 message += `\r${e[0]}: ${e[1]}\n`
             })
         })
