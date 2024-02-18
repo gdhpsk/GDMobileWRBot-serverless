@@ -19,6 +19,12 @@ module.exports = {
                 name: "position",
                 description: "The level's position",
                 required: false
+            },
+            {
+                type: 3,
+                name: "name",
+                description: "The level's name",
+                required: false
             }
           ]
     },
@@ -30,7 +36,7 @@ module.exports = {
             }
           })
         try {
-            let level = await levelsSchema[getOption("position") ? "findOne" : "findById"](getOption("level") || {position: getOption("position")})
+            let level = await levelsSchema[getOption("level") ? "findById" : "findOne"](getOption("level") || {$expr: [{$eq: [getOption("position") ? "$position" : {$toLower: "$name"}]}, getOption("position") || {$toLower: getOption(getOption("name"))}]})
             if(!level) throw new Error()
         } catch(_) {
     console.log(_)
@@ -41,7 +47,7 @@ module.exports = {
               })
               return
         }
-        let original = await levelsSchema[getOption("position") ? "findOne" : "findById"](getOption("level") || {position: getOption("position")}).lean()
+        let original = await levelsSchema[getOption("level") ? "findById" : "findOne"](getOption("level") || {$expr: [{$eq: [getOption("position") ? "$position" : {$toLower: "$name"}]}, getOption("position") || {$toLower: getOption(getOption("name"))}]}).lean()
         let message = ""
         Object.entries(original).filter(e => e[0] != "list").forEach(e => {
             message += `${e[0]}: ${e[1]}\n`
