@@ -92,6 +92,7 @@ module.exports = {
                     content: "Could not find the specified level ID!"
                 }
               })
+              return
         }
         let original = await levelsSchema.findById(getOption("level"))
         let obj = {
@@ -128,12 +129,14 @@ module.exports = {
                 content: err.message
             }
           })
+          return
         } catch(_) {
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
                     content: "Success!"
                 }
               })
+              return
         }
     }
 }
