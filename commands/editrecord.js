@@ -90,7 +90,7 @@ module.exports = {
               return
         }
         let original = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}}).lean()
-        let rec = structuredClone(original.list.find(e => e._id.toString() == getOption("record")))
+        let rec = structuredClone(original.list.map(e => e._id = {$oid: e._id.toString()}).find(e => e._id.$oid == getOption("record")))
         for(let item of interaction.data?.options) {
             if(item.name == "record" || item.name == "position") continue;
             if(item.name == "percent1") {
@@ -103,7 +103,7 @@ module.exports = {
             }
             rec[item.name] = item.value
         }
-        let list = structuredClone(original.list.filter(e => e._id.toString() !== getOption("record")))
+        let list = structuredClone(original.list.map(e => e._id = {$oid: e._id.toString()}).filter(e => e._id.$oid !== getOption("record")))
         list.splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
         console.log(original.list, list)
         let obj = {
