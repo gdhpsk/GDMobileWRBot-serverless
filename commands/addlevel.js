@@ -78,8 +78,6 @@ module.exports = {
             }
           })
         let obj = {
-            _id: "",
-            list: [],
                 position: getOption("position"),
                 name: getOption("name"),
                 host: getOption("host"),
