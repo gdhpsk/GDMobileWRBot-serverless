@@ -112,9 +112,7 @@ module.exports = {
             rec[item.name] = item.value
         }
         let edited = list.filter(e => e._id.$oid !== getOption("record"))
-        console.log(edited)
-        list.splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
-        console.log(list)
+        edited.splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
         let obj = {
             original,
             changes: {
