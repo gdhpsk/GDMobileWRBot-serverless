@@ -105,6 +105,7 @@ module.exports = {
         }
         let list = original.list.filter(e => e._id.toString() !== getOption("record"))
         list.splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
+        console.log(original.list, list)
         let obj = {
             original,
             changes: {
