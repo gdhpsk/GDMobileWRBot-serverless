@@ -89,7 +89,7 @@ module.exports = {
         } catch(_) {
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
-                    message: "Could not find the specified level ID!"
+                    content: "Could not find the specified level ID!"
                 }
               })
         }
@@ -125,13 +125,13 @@ module.exports = {
         let err = await req.json()
         await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
             body: {
-                message: err.message
+                content: err.message
             }
           })
         } catch(_) {
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
-                    message: "Success!"
+                    content: "Success!"
                 }
               })
         }
