@@ -8,7 +8,7 @@ var records = new mongoose.Schema({
     percent: {
        type: [String],
        validate: {
-           validator: v => v.length == 2,
+           validator: (v) => v.length == 2,
            message: () => console.log("Please only add 2 values for the percentage!")
        },
        required: true
@@ -32,6 +32,9 @@ var records = new mongoose.Schema({
 
 var levelsSchema = new mongoose.Schema({
     position: Number,
+    unrated: Boolean,
+    levelID: String,
+    thumbnail: Object,
     name: {
         type: String,
         required: true

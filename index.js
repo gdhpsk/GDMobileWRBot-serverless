@@ -62,7 +62,13 @@ switch (interaction.type) {
       res.json({ type: 1 });
       break;
     default: 
-    mongoose.connect(process.env.MONGODB_URI);
+    mongoose.connect(process.env.MONGODB_URI, {
+      dbName: "MobileWRList",
+      readPreference: "primaryPreferred",
+      authSource: "$external",
+      authMechanism: "MONGODB-X509",
+      tlsCertificateKeyFile: process.env.keyPath
+  });
     req.body.member = {
         user: req.body.member?.user ?? req.body.user
     }
