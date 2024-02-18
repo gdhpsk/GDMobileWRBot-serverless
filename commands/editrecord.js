@@ -98,7 +98,6 @@ module.exports = {
                 }
             }
         }))
-        console.log(list)
         let rec = list.find(e => e._id.$oid == getOption("record"))
         for(let item of interaction.data?.options) {
             if(item.name == "record" || item.name == "position") continue;
@@ -113,8 +112,9 @@ module.exports = {
             rec[item.name] = item.value
         }
         let edited = list.filter(e => e._id.$oid !== getOption("record"))
+        console.log(edited)
         list.splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
-        console.log(original.list, list)
+        console.log(list)
         let obj = {
             original,
             changes: {
