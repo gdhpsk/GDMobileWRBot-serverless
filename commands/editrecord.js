@@ -84,7 +84,7 @@ module.exports = {
               return
         }
         let original = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}})
-        let rec = original.find(e => e._id.toString() == getOption("record"))
+        let rec = original.list.find(e => e._id.toString() == getOption("record"))
         console.log(interaction.data?.options)
         // let obj = {
         //     original,
