@@ -67,6 +67,12 @@ module.exports = {
                 name: "thumbnail_code",
                 description: "The edited thumbnail code",
                 required: false
+            },
+            {
+                type: 3,
+                name: "move150below",
+                description: "Move #150 level below? Object ID",
+                required: false
             }
           ]
     },
@@ -98,7 +104,8 @@ module.exports = {
             },
             body: JSON.stringify({
                 token: process.env.API_TOKEN,
-                level: obj
+                level: obj,
+                move150below: getOption("move150below")
             })
         })
         if(req.ok) throw new Error()

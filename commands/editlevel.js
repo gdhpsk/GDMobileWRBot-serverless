@@ -73,6 +73,18 @@ module.exports = {
                 name: "thumbnail_code",
                 description: "The edited thumbnail code",
                 required: false
+            },
+            {
+                type: 3,
+                name: "move150below",
+                description: "Move #150 level below? Object ID",
+                required: false
+            },
+            {
+                type: 3,
+                name: "new150",
+                description: "New #150 level? Object ID",
+                required: false
             }
           ]
     },
@@ -110,7 +122,9 @@ module.exports = {
                     type: getOption("thumbnail_type"),
                     value: getOption("thumbnail_code")
                 } : undefined
-            }
+            },
+            move150below: getOption("move150below"),
+            new150: getOption("new150")
         }
         try {
             let req = await fetch("https://gdmobilewrlist.com/api/levels/edit", {
