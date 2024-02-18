@@ -92,7 +92,7 @@ module.exports = {
         }
         try {
             let req = await fetch("https://gdmobilewrlist.com/api/levels/add", {
-            method: "PATCH",
+            method: "POST",
             headers: {
                 'content-type': "application/json"
             },
