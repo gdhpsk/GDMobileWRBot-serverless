@@ -47,7 +47,7 @@ module.exports = {
             },
             body: JSON.stringify({
                 token: process.env.API_TOKEN,
-                ...obj
+                level: obj
             })
         })
         if(req.ok) throw new Error()
