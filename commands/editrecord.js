@@ -62,6 +62,12 @@ module.exports = {
                 description: "The edited hertz",
                 required: false
             },
+            {
+                type: 4,
+                name: "position",
+                description: "The edited record position",
+                required: false
+            }
           ]
     },
     async execute(interaction, rest, Routes) {
@@ -85,41 +91,50 @@ module.exports = {
         }
         let original = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}})
         let rec = original.list.find(e => e._id.toString() == getOption("record"))
-        console.log(interaction.data?.options)
-        // let obj = {
-        //     original,
-        //     changes: {
-        //         list: [
-
-        //         ]
-        //     }
-        // }
-        // try {
-        //     let req = await fetch("https://gdmobilewrlist.com/api/levels/edit", {
-        //     method: "PATCH",
-        //     headers: {
-        //         'content-type': "application/json"
-        //     },
-        //     body: JSON.stringify({
-        //         token: process.env.API_TOKEN,
-        //         ...obj
-        //     })
-        // })
-        // if(req.ok) throw new Error()
-        // let err = await req.json()
-        // await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-        //     body: {
-        //         content: err.message
-        //     }
-        //   })
-        //   return
-        // } catch(_) {
-        //     await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
-        //         body: {
-        //             content: "Success!"
-        //         }
-        //       })
-        //       return
-        // }
+        for(let item of interaction.data?.options) {
+            if(item.name == "record" || item.name == "position") continue;
+            if(item.name == "percent1") {
+                rec.percent[0] = item.value.toString()
+                continue
+            }
+            if(item.name == "percent2") {
+                rec.percent[1] = item.value.toString()
+                continue
+            }
+            rec[item.name] = item.value
+        }
+        let obj = {
+            original,
+            changes: {
+                list: original.list.filter(e => e._id.toString() !== getOption("record")).splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
+            }
+        }
+        try {
+            let req = await fetch("https://gdmobilewrlist.com/api/levels/edit", {
+            method: "PATCH",
+            headers: {
+                'content-type': "application/json"
+            },
+            body: JSON.stringify({
+                token: process.env.API_TOKEN,
+                ...obj
+            })
+        })
+        if(req.ok) throw new Error()
+        let err = await req.json()
+        await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
+            body: {
+                content: err.message
+            }
+          })
+          return
+        } catch(_) {
+            await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
+                body: {
+                    content: "Success!"
+                }
+              })
+              return
+        }
     }
 }
