@@ -12,7 +12,7 @@ module.exports = {
                 type: 3,
                 name: "name",
                 description: "The player's name",
-                required: false
+                required: true
             }
           ]
     },
