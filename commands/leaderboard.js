@@ -63,7 +63,7 @@ module.exports = {
             let player = gay
             if (player.nationality) {
                 let nation = player.nationality.replace(/_/g, " ")
-                txt1 += `\n\n**NATIONALITY:** ${nation} :flag_${lowercaseKeys(country_code)[player.nationality.toLowerCase()]}:`
+                txt1 += `\n\n**NATIONALITY:** ${nation} :flag_${lowercaseKeys(country_code)[player.nationality.replaceAll(" ", "_").toLowerCase()]}:`
             }
             txt1 += `\n\n**RECORDS**\n\n`
             if (player.records[0] == "none") {
