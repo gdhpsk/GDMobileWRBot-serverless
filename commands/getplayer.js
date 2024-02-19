@@ -37,7 +37,7 @@ module.exports = {
         }
         let original = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("name")]}}).lean()
         let message = ""
-        Object.entries(original).filter(e => !Array.isArray(e[1]) && e[0] != 'socials').forEach(e => {
+        Object.entries(original).filter(e => !Array.isArray(e[1]) || e[0] == 'socials').forEach(e => {
             if(e[0] == "socials") {
                 message += "socials:"
                 Object.entries(e[1][0]).forEach(e => {
