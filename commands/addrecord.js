@@ -110,8 +110,8 @@ module.exports = {
             record: rec
         }
         try {
-            let req = await fetch("https://gdmobilewrlist.com/api/levels/edit", {
-            method: "PATCH",
+            let req = await fetch("https://gdmobilewrlist.com/api/records/add", {
+            method: "POST",
             headers: {
                 'content-type': "application/json"
             },
