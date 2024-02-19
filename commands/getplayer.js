@@ -43,6 +43,8 @@ module.exports = {
                 Object.entries(e[1][0]).forEach(e => {
                     message += `\n${e[0]}: ${e[1]}`
                 })
+                message += "\n"
+                return;
             }
             message += `${e[0]}: ${e[1]}\n`
         })
