@@ -2,34 +2,34 @@ let levelsSchema = require("../schemas/levels")
 
 module.exports = {
     data: {
-        name: "editrecord",
-        description: "This is the editrecord command.",
+        name: "addrecord",
+        description: "This is the addrecord command.",
         type: 1,
         dm_permission: false,
         default_member_permissions: 8,
         options: [
             {
                 type: 3,
-                name: "record",
-                description: "The record's Object ID",
+                name: "level",
+                description: "The level's Object ID",
                 required: true
             },
             {
                 type: 3,
                 name: "name",
-                description: "The edited name",
-                required: false
+                description: "The record holder's name",
+                required: true
             },
             {
                 type: 4,
                 name: "percent1",
-                description: "The edited video %",
-                required: false
+                description: "The main %",
+                required: true
             },
             {
                 type: 4,
                 name: "percent2",
-                description: "The edited screenshot / clip %",
+                description: "The screenshot / clip %",
                 required: false
             },
             {
@@ -54,26 +54,20 @@ module.exports = {
                 type: 5,
                 name: "screenshot",
                 description: "is the record a screenshot?",
-                required: false
+                required: true
             },
             {
                 type: 3,
                 name: "link",
                 description: "The edited youtube link",
-                required: false
+                required: true
             },
             {
                 type: 4,
                 name: "hertz",
                 description: "The edited hertz",
-                required: false
+                required: true
             },
-            {
-                type: 4,
-                name: "position",
-                description: "The edited record position",
-                required: false
-            }
           ]
     },
     async execute(interaction, rest, Routes) {
@@ -84,7 +78,7 @@ module.exports = {
             }
           })
         try {
-            let level = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}})
+            let level = await await levelsSchema.findById(getOption("level"))
             if(!level) throw new Error()
         } catch(_) {
     console.log(_)
@@ -95,16 +89,12 @@ module.exports = {
               })
               return
         }
-        let original = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}}).lean()
-        let list = structuredClone(original.list.map(e => {
-            return {
-                ...e,
-                _id: e._id.toString()
-            }
-        }))
-        let rec = list.find(e => e._id == getOption("record"))
+        let original = await levelsSchema.findById(getOption("level")).lean()
+        let rec = {
+
+        }
         for(let item of interaction.data?.options) {
-            if(item.name == "record" || item.name == "position") continue;
+            if(item.name == "record") continue;
             if(item.name == "percent1") {
                 rec.percent[0] = item.value.toString()
                 continue
@@ -115,13 +105,9 @@ module.exports = {
             }
             rec[item.name] = item.value
         }
-        let edited = list.filter(e => e._id !== getOption("record"))
-        edited.splice(getOption("position") ? getOption("position")-1 : original.list.findIndex(e => e._id.toString() == getOption("record")), 0, rec)
         let obj = {
-            original,
-            changes: {
-                list: edited
-            }
+            level: original,
+            record: rec
         }
         try {
             let req = await fetch("https://gdmobilewrlist.com/api/levels/edit", {
