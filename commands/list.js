@@ -324,7 +324,7 @@ module.exports = {
                     return `${e.name} ${e.verification ? "verified" : `got [${e.percent[0]}% ${e.percent[1] ? `(${e.percent[1]}% with screenshot) on` : "on"}`} ${level.name}](${e.link}) on ${e.hertz}hz. This record${level.position < 76 && e.listpercent ? " is list% and" : " is not list% and"} ${e.screenshot ? "is a screenshot" : "is not a screenshot"}. ${e.deleted ? "(deleted)" : ""}`
                 }).join("\n\n"),
                 author: {name: `${interaction.member.user.username}#${interaction.member.user.discriminator}`,  icon_url: `https://cdn.discordapp.com/avatars/${interaction.member.user.avatar ? `${interaction.member.user.id}/${interaction.member.user.avatar}${interaction.member.user.avatar.startsWith("a_") ? ".gif" : ".png"}` : `${parseInt(interaction.member.user.discriminator) % 5}.png`}?size=1024`},
-                footer: name == 'generate' ? {text: "This level was generated!"} : ""
+                footer: {text: name == 'generate' ? {text: "This level was generated!"} : ""}
             }
             let data = {
                 embeds: [embed],
