@@ -27,6 +27,24 @@ module.exports = {
                 required: true
             },
             {
+                type: 5,
+                name: "screenshot",
+                description: "is the record a screenshot?",
+                required: true
+            },
+            {
+                type: 3,
+                name: "link",
+                description: "The edited youtube link",
+                required: true
+            },
+            {
+                type: 4,
+                name: "hertz",
+                description: "The edited hertz",
+                required: true
+            },
+            {
                 type: 4,
                 name: "percent2",
                 description: "The screenshot / clip %",
@@ -49,24 +67,6 @@ module.exports = {
                 name: "verification",
                 description: "is the record a verification?",
                 required: false
-            },
-            {
-                type: 5,
-                name: "screenshot",
-                description: "is the record a screenshot?",
-                required: true
-            },
-            {
-                type: 3,
-                name: "link",
-                description: "The edited youtube link",
-                required: true
-            },
-            {
-                type: 4,
-                name: "hertz",
-                description: "The edited hertz",
-                required: true
             },
           ]
     },
