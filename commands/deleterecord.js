@@ -36,7 +36,7 @@ module.exports = {
               return
         }
         let level = await levelsSchema.findOne({$expr: {$in: [getOption("record"), {$map: {input: "$list", in: {$toString: "$$this._id"}}}]}}).lean()
-        let record = original.list.find(e => e._id == getOption("record"))
+        let record = level.list.find(e => e._id == getOption("record"))
         let obj = {
             level,
             record
