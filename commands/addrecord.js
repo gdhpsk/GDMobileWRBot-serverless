@@ -91,7 +91,7 @@ module.exports = {
         }
         let original = await levelsSchema.findById(getOption("level")).lean()
         let rec = {
-
+            percent: ["", ""]
         }
         for(let item of interaction.data?.options) {
             if(item.name == "record") continue;
