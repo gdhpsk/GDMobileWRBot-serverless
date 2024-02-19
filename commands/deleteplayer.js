@@ -2,15 +2,15 @@ let leaderboardSchema = require("../schemas/leaderboard")
 
 module.exports = {
     data: {
-        name: "getplayer",
-        description: "This is the getplayer command.",
+        name: "deleteplayer",
+        description: "This is the deleteplayer command.",
         type: 1,
         dm_permission: false,
         default_member_permissions: 8,
         options: [
             {
                 type: 3,
-                name: "name",
+                name: "player",
                 description: "The player's name",
                 required: true
             }
@@ -24,7 +24,7 @@ module.exports = {
             }
           })
         try {
-            let profile = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("name").toLowerCase()]}})
+            let profile = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("player").toLowerCase()]}})
             if(!profile) throw new Error()
         } catch(_) {
     console.log(_)
@@ -35,24 +35,36 @@ module.exports = {
               })
               return
         }
-        let original = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("name").toLowerCase()]}}).lean()
-        let message = ""
-        Object.entries(original).filter(e => !Array.isArray(e[1]) || e[0] == 'socials').forEach(e => {
-            if(e[0] == "socials") {
-                message += "socials:"
-                Object.entries(e[1][0]).forEach(e => {
-                    message += `\n${e[0]}: ${e[1]}`
-                })
-                message += "\n"
-                return;
-            }
-            message += `${e[0]}: ${e[1]}\n`
+        let profile = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("player").toLowerCase()]}})
+        let obj = {
+            profile
+        }
+        try {
+            let req = await fetch("https://gdmobilewrlist.com/api/leaderboard/delete", {
+            method: "DELETE",
+            headers: {
+                'content-type': "application/json"
+            },
+            body: JSON.stringify({
+                token: process.env.API_TOKEN,
+                ...obj
+            })
         })
+        if(req.ok) throw new Error()
+        let err = await req.json()
+        await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
+            body: {
+                content: err.message
+            }
+          })
+          return
+        } catch(_) {
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
-                    content: `\`\`\`txt\n${message}\`\`\``
+                    content: "Success!"
                 }
               })
               return
+        }
     }
 }

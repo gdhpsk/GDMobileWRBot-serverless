@@ -72,18 +72,18 @@ module.exports = {
             }
           })
         try {
-            let profile = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("player")]}})
+            let profile = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("player").toLowerCase()]}})
             if(!profile) throw new Error()
         } catch(_) {
     console.log(_)
             await rest.patch(Routes.webhookMessage(interaction.application_id, interaction.token), {
                 body: {
-                    content: "Could not find the specified level ID!"
+                    content: "Could not find the specified player!"
                 }
               })
               return
         }
-        let original = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("player")]}})
+        let original = await leaderboardSchema.findOne({$expr: {$eq: [{$toLower: "$name"}, getOption("player").toLowerCase()]}})
         let obj = {
             original,
             changes: {
