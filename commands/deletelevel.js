@@ -18,7 +18,7 @@ module.exports = {
                 type: 3,
                 name: "new150",
                 description: "New 150 level's Object ID",
-                required: true
+                required: false
             }
           ]
     },
