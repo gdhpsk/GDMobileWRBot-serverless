@@ -13,6 +13,12 @@ module.exports = {
                 name: "level",
                 description: "The level's Object ID",
                 required: true
+            },
+            {
+                type: 3,
+                name: "new150",
+                description: "New 150 level's Object ID",
+                required: true
             }
           ]
     },
@@ -37,7 +43,8 @@ module.exports = {
         }
         let original = await levelsSchema.findById(getOption("level"))
         let obj = {
-            level: original
+            level: original,
+            new150: getOption("new150")
         }
         try {
             let req = await fetch("https://gdmobilewrlist.com/api/levels/delete", {
